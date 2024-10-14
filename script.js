@@ -606,6 +606,10 @@ function addVerseContent(verseElement, verseWords) {
             showTooltip(event, wordInfo);
         });
 
+        wordSpan.addEventListener('touchstart', (event) => {
+            event.stopPropagation(); // Prevent event bubbling on touch
+            showTooltip(event, wordInfo);
+        });
         verseElement.appendChild(wordSpan);
     });
 }
@@ -703,6 +707,7 @@ function hideTooltip(event) {
     }
     const tooltip = document.getElementById('tooltip');
     tooltip.classList.remove('visible');
+    tooltip.innerHTML = '';
 }
 
 function interpretPosTag(posTag) {
@@ -968,10 +973,10 @@ function setupEventListeners() {
             settingsModal.classList.add('hidden');
             console.log('Settings Modal Closed when Side Navigation Opened');
         }
+        hideTooltip();
 
         // Toggle side navigation
         sideNav.classList.toggle('open');
-        hideTooltip();
         console.log('Side Navigation Toggled');
     });
 
