@@ -599,17 +599,48 @@ function addVerseContent(verseElement, verseWords) {
         } else {
             wordSpan.classList.add('bold-word');
         }
+        // Variables to track touch position and movement
+        let touchStartX = 0;
+        let touchStartY = 0;
+        let isScrolling = false;
 
-        // Add event listener for click
+        // Touchstart event to record initial touch position
+        wordSpan.addEventListener('touchstart', (event) => {
+            touchStartX = event.touches[0].clientX;
+            touchStartY = event.touches[0].clientY;
+            isScrolling = false; // Reset scroll detection
+        });
+
+        // Touchmove event to detect if the user is scrolling
+        wordSpan.addEventListener('touchmove', (event) => {
+            const touchEndX = event.touches[0].clientX;
+            const touchEndY = event.touches[0].clientY;
+
+            // Calculate the distance moved
+            const deltaX = Math.abs(touchEndX - touchStartX);
+            const deltaY = Math.abs(touchEndY - touchStartY);
+
+            // If the movement is significant, consider it scrolling, not tapping
+            if (deltaX > 10 || deltaY > 10) {
+                isScrolling = true; // User is scrolling
+            }
+        });
+
+        // Touchend event to determine if it's a tap or scroll
+        wordSpan.addEventListener('touchend', (event) => {
+            if (!isScrolling) {
+                // If it's not scrolling, consider it a tap
+                event.stopPropagation(); // Prevent event bubbling
+                showTooltip(event, wordInfo); // Show tooltip
+            }
+        });
+
+        // For desktop clicks
         wordSpan.addEventListener('click', (event) => {
             event.stopPropagation(); // Prevent event bubbling
-            showTooltip(event, wordInfo);
+            showTooltip(event, wordInfo); // Show tooltip
         });
 
-        wordSpan.addEventListener('touchstart', (event) => {
-            event.stopPropagation(); // Prevent event bubbling on touch
-            showTooltip(event, wordInfo);
-        });
         verseElement.appendChild(wordSpan);
     });
 }

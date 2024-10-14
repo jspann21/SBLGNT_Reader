@@ -167,6 +167,7 @@ header {
         transition: transform 0.3s ease-in-out;
         top: 50px;
         height: calc(100% - 50px);
+        z-index: 10000;
     }
 
     .side-nav.open {
