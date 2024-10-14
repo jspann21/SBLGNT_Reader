@@ -947,6 +947,7 @@ function setupEventListeners() {
         // Close side navigation if it's open
         if (sideNav.classList.contains('open')) {
             sideNav.classList.remove('open');
+            document.body.classList.remove('no-scroll');
             console.log('Side Navigation Closed when Settings Modal Opened');
         }
 
@@ -1023,17 +1024,6 @@ function setupEventListeners() {
         console.log('Side Navigation Toggled');
     });
 
-    // Ensure touch events also toggle the menu correctly on mobile
-    hamburgerButton.addEventListener('touchend', (event) => {
-        event.preventDefault(); // Prevent default touch behavior
-        hideTooltip(); // Hide any open tooltips
-
-        // Toggle side navigation
-        sideNav.classList.toggle('open');
-        document.body.classList.toggle('no-scroll'); // Prevent background scrolling when menu is open
-        console.log('Side Navigation Toggled on Touch');
-    });
-
     // Book Item Click - Toggle Chapter Grid and Load Book Data
     bookListElement.addEventListener('click', async (event) => {
         const bookTitle = event.target.closest('.book-title');
@@ -1098,6 +1088,7 @@ function setupEventListeners() {
                 // Close side nav on mobile after selection
                 if (window.innerWidth <= 768) {
                     sideNav.classList.remove('open');
+                    document.body.classList.remove('no-scroll');
                 }
             }
         }
@@ -1147,6 +1138,7 @@ function setupEventListeners() {
         if (window.innerWidth > 768) {
             sideNav.classList.remove('hidden');
             sideNav.classList.remove('open');
+            document.body.classList.remove('no-scroll');
         } else {
             sideNav.classList.add('hidden');
         }

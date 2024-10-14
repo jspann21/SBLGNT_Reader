@@ -143,7 +143,6 @@ header {
     overflow-y: auto;
     padding: 10px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
     z-index: 10000;
 }
 
@@ -163,15 +162,18 @@ header {
     }
 
     .side-nav {
-        transform: translateX(-100%); /* Hidden by default on mobile */
-        transition: transform 0.3s ease-in-out;
+        transition: left 0.3s ease-in-out; /* Use 'left' instead of 'transform' */
+        left: -250px; /* Hidden by default */
+        width: 250px;
         top: 50px;
         height: calc(100% - 50px);
+        box-sizing: border-box; /* Include padding and border in width */
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
         z-index: 10000;
     }
 
     .side-nav.open {
-        transform: translateX(0); /* Show when open */
+        left: 0;
         z-index: 10000; /* Ensure it's on top when opened */
     }
 
