@@ -1,0 +1,3952 @@
+{
+    "2John": {
+        "1": {
+            "1": [
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "RA",
+                    "pos_tag": "DNSM",
+                    "word_forms": [
+                        "Ὁ",
+                        "Ὁ",
+                        "ὁ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "A-",
+                    "pos_tag": "JNSM",
+                    "word_forms": [
+                        "πρεσβύτερος",
+                        "πρεσβύτερος",
+                        "πρεσβύτερος",
+                        "πρεσβύτερος"
+                    ],
+                    "mounce_chapter": 30,
+                    "gloss": "elder, presbyter",
+                    "literal": "elder",
+                    "louw": "53.77",
+                    "strong": 4245
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "A-",
+                    "pos_tag": "JDSF",
+                    "word_forms": [
+                        "ἐκλεκτῇ",
+                        "ἐκλεκτῇ",
+                        "ἐκλεκτῇ",
+                        "ἐκλεκτός"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "elect, chosen",
+                    "literal": "to the elect",
+                    "louw": "30.93",
+                    "strong": 1588
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "N-",
+                    "pos_tag": "NDSF",
+                    "word_forms": [
+                        "κυρίᾳ",
+                        "κυρίᾳ",
+                        "κυρίᾳ",
+                        "κυρία"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "lady",
+                    "literal": "lady",
+                    "louw": "87.54",
+                    "strong": 2959
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "C-",
+                    "pos_tag": "CLN",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "and",
+                    "literal": "and",
+                    "louw": "89.92",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "RA",
+                    "pos_tag": "DDPN",
+                    "word_forms": [
+                        "τοῖς",
+                        "τοῖς",
+                        "τοῖς",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "—",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "N-",
+                    "pos_tag": "NDPN",
+                    "word_forms": [
+                        "τέκνοις",
+                        "τέκνοις",
+                        "τέκνοις",
+                        "τέκνον"
+                    ],
+                    "mounce_chapter": 10,
+                    "gloss": "child",
+                    "literal": "children",
+                    "louw": "10.36",
+                    "strong": 5043
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "RP",
+                    "pos_tag": "RP3GSF",
+                    "word_forms": [
+                        "αὐτῆς,",
+                        "αὐτῆς",
+                        "αὐτῆς",
+                        "αὐτός"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "he",
+                    "literal": "her",
+                    "louw": "92.11",
+                    "strong": 846
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "RR",
+                    "pos_tag": "RR-APM",
+                    "word_forms": [
+                        "οὓς",
+                        "οὓς",
+                        "οὕς",
+                        "ὅς"
+                    ],
+                    "mounce_chapter": 14,
+                    "gloss": "rel. who",
+                    "literal": "whom",
+                    "louw": "92.27",
+                    "strong": 3739
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "RP",
+                    "pos_tag": "RP1NS",
+                    "word_forms": [
+                        "ἐγὼ",
+                        "ἐγὼ",
+                        "ἐγώ",
+                        "ἐγώ"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "I",
+                    "literal": "I",
+                    "louw": "92.1",
+                    "strong": 1473
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "V-",
+                    "pos_tag": "VPAI1S",
+                    "word_forms": [
+                        "ἀγαπῶ",
+                        "ἀγαπῶ",
+                        "ἀγαπῶ",
+                        "ἀγαπάω"
+                    ],
+                    "mounce_chapter": 17,
+                    "gloss": "to love",
+                    "literal": "love",
+                    "louw": "25.43",
+                    "strong": 25
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "ἐν",
+                        "ἐν",
+                        "ἐν",
+                        "ἐν"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "in",
+                    "literal": "in",
+                    "louw": "70.4",
+                    "strong": 1722
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "N-",
+                    "pos_tag": "NDSF",
+                    "word_forms": [
+                        "ἀληθείᾳ,",
+                        "ἀληθείᾳ",
+                        "ἀληθείᾳ",
+                        "ἀλήθεια"
+                    ],
+                    "mounce_chapter": 14,
+                    "gloss": "truth",
+                    "literal": "truth",
+                    "louw": "70.4",
+                    "strong": 225
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "C-",
+                    "pos_tag": "CLN",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "and",
+                    "literal": "and",
+                    "louw": "89.92",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "D-",
+                    "pos_tag": "BN, TN",
+                    "word_forms": [
+                        "οὐκ",
+                        "οὐκ",
+                        "οὐ",
+                        "οὐ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "not",
+                    "literal": "not",
+                    "louw": "69.3",
+                    "strong": 3756
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "RP",
+                    "pos_tag": "RP1NS",
+                    "word_forms": [
+                        "ἐγὼ",
+                        "ἐγὼ",
+                        "ἐγώ",
+                        "ἐγώ"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "I",
+                    "literal": "I",
+                    "louw": "92.1",
+                    "strong": 1473
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "A-",
+                    "pos_tag": "JNSM",
+                    "word_forms": [
+                        "μόνος",
+                        "μόνος",
+                        "μόνος",
+                        "μόνος"
+                    ],
+                    "mounce_chapter": 12,
+                    "gloss": "alone, only",
+                    "literal": "alone",
+                    "louw": "58.51",
+                    "strong": 3441
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "C-",
+                    "pos_tag": "CLC",
+                    "word_forms": [
+                        "ἀλλὰ",
+                        "ἀλλὰ",
+                        "ἀλλά",
+                        "ἀλλά"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "but",
+                    "literal": "but",
+                    "louw": "89.125",
+                    "strong": 235
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "D-",
+                    "pos_tag": "BE, TE",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "also",
+                    "literal": "also",
+                    "louw": "89.93",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "A-",
+                    "pos_tag": "JNPM",
+                    "word_forms": [
+                        "πάντες",
+                        "πάντες",
+                        "πάντες",
+                        "πᾶς"
+                    ],
+                    "mounce_chapter": 10,
+                    "gloss": "all",
+                    "literal": "all",
+                    "louw": "59.23",
+                    "strong": 3956
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "RA",
+                    "pos_tag": "DNPM",
+                    "word_forms": [
+                        "οἱ",
+                        "οἱ",
+                        "οἱ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "those",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "V-",
+                    "pos_tag": "VRAP-PNM",
+                    "word_forms": [
+                        "ἐγνωκότες",
+                        "ἐγνωκότες",
+                        "ἐγνωκότες",
+                        "γινώσκω"
+                    ],
+                    "mounce_chapter": 20,
+                    "gloss": "to know",
+                    "literal": "who know",
+                    "louw": "28.1",
+                    "strong": 1097
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "RA",
+                    "pos_tag": "DASF",
+                    "word_forms": [
+                        "τὴν",
+                        "τὴν",
+                        "τήν",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240101",
+                    "metadata": "N-",
+                    "pos_tag": "NASF",
+                    "word_forms": [
+                        "ἀλήθειαν,",
+                        "ἀλήθειαν",
+                        "ἀλήθειαν",
+                        "ἀλήθεια"
+                    ],
+                    "mounce_chapter": 14,
+                    "gloss": "truth",
+                    "literal": "truth",
+                    "louw": "72.2",
+                    "strong": 225
+                }
+            ],
+            "2": [
+                {
+                    "book_chapter_verse": "240102",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "διὰ",
+                        "διὰ",
+                        "διά",
+                        "διά"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "because of, for the sake of",
+                    "literal": "because of",
+                    "louw": "90.44",
+                    "strong": 1223
+                },
+                {
+                    "book_chapter_verse": "240102",
+                    "metadata": "RA",
+                    "pos_tag": "DASF",
+                    "word_forms": [
+                        "τὴν",
+                        "τὴν",
+                        "τήν",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240102",
+                    "metadata": "N-",
+                    "pos_tag": "NASF",
+                    "word_forms": [
+                        "ἀλήθειαν",
+                        "ἀλήθειαν",
+                        "ἀλήθειαν",
+                        "ἀλήθεια"
+                    ],
+                    "mounce_chapter": 14,
+                    "gloss": "truth",
+                    "literal": "truth",
+                    "louw": "72.2",
+                    "strong": 225
+                },
+                {
+                    "book_chapter_verse": "240102",
+                    "metadata": "RA",
+                    "pos_tag": "DASF",
+                    "word_forms": [
+                        "τὴν",
+                        "τὴν",
+                        "τήν",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "that",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240102",
+                    "metadata": "V-",
+                    "pos_tag": "VPAP-SAF",
+                    "word_forms": [
+                        "μένουσαν",
+                        "μένουσαν",
+                        "μένουσαν",
+                        "μένω"
+                    ],
+                    "mounce_chapter": 20,
+                    "gloss": "to reside, to remain",
+                    "literal": "resides",
+                    "louw": "85.55",
+                    "strong": 3306
+                },
+                {
+                    "book_chapter_verse": "240102",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "ἐν",
+                        "ἐν",
+                        "ἐν",
+                        "ἐν"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "in",
+                    "literal": "in",
+                    "louw": "83.13",
+                    "strong": 1722
+                },
+                {
+                    "book_chapter_verse": "240102",
+                    "metadata": "RP",
+                    "pos_tag": "RP1DP",
+                    "word_forms": [
+                        "ἡμῖν,",
+                        "ἡμῖν",
+                        "ἡμῖν",
+                        "ἐγώ"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "we",
+                    "literal": "us",
+                    "louw": "92.1",
+                    "strong": 2254
+                },
+                {
+                    "book_chapter_verse": "240102",
+                    "metadata": "C-",
+                    "pos_tag": "CLN",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "and",
+                    "literal": "and",
+                    "louw": "89.92",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240102",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "μεθ’",
+                        "μεθ’",
+                        "μετά",
+                        "μετά"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "with",
+                    "literal": "with",
+                    "louw": "89.108",
+                    "strong": 3326
+                },
+                {
+                    "book_chapter_verse": "240102",
+                    "metadata": "RP",
+                    "pos_tag": "RP1GP",
+                    "word_forms": [
+                        "ἡμῶν",
+                        "ἡμῶν",
+                        "ἡμῶν",
+                        "ἐγώ"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "we",
+                    "literal": "us",
+                    "louw": "92.1",
+                    "strong": 2257
+                },
+                {
+                    "book_chapter_verse": "240102",
+                    "metadata": "V-",
+                    "pos_tag": "VFMI3S",
+                    "word_forms": [
+                        "ἔσται",
+                        "ἔσται",
+                        "ἔσται",
+                        "εἰμί"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "to be",
+                    "literal": "will be",
+                    "louw": "13.1",
+                    "strong": 2071
+                },
+                {
+                    "book_chapter_verse": "240102",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "εἰς",
+                        "εἰς",
+                        "εἰς",
+                        "εἰς"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "to, for",
+                    "literal": "for",
+                    "louw": "67.95",
+                    "strong": 1519
+                },
+                {
+                    "book_chapter_verse": "240102",
+                    "metadata": "RA",
+                    "pos_tag": "DASM",
+                    "word_forms": [
+                        "τὸν",
+                        "τὸν",
+                        "τόν",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240102",
+                    "metadata": "N-",
+                    "pos_tag": "NASM",
+                    "word_forms": [
+                        "αἰῶνα·",
+                        "αἰῶνα",
+                        "αἰῶνα",
+                        "αἰών"
+                    ],
+                    "mounce_chapter": 12,
+                    "gloss": "age",
+                    "literal": "age",
+                    "louw": "67.95",
+                    "strong": 165
+                }
+            ],
+            "3": [
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "V-",
+                    "pos_tag": "VFMI3S",
+                    "word_forms": [
+                        "ἔσται",
+                        "ἔσται",
+                        "ἔσται",
+                        "εἰμί"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "to be",
+                    "literal": "will be",
+                    "louw": "85.1",
+                    "strong": 2071
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "μεθ’",
+                        "μεθ’",
+                        "μετά",
+                        "μετά"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "with",
+                    "literal": "with",
+                    "louw": "90.60",
+                    "strong": 3326
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "RP",
+                    "pos_tag": "RP1GP",
+                    "word_forms": [
+                        "ἡμῶν",
+                        "ἡμῶν",
+                        "ἡμῶν",
+                        "ἐγώ"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "we",
+                    "literal": "us",
+                    "louw": "92.1",
+                    "strong": 2257
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "N-",
+                    "pos_tag": "NNSF",
+                    "word_forms": [
+                        "χάρις",
+                        "χάρις",
+                        "χάρις",
+                        "χάρις"
+                    ],
+                    "mounce_chapter": 11,
+                    "gloss": "grace, kindness",
+                    "literal": "grace",
+                    "louw": "88.66",
+                    "strong": 5485
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "N-",
+                    "pos_tag": "NNSN, NNSM",
+                    "word_forms": [
+                        "ἔλεος",
+                        "ἔλεος",
+                        "ἔλεος",
+                        "ἔλεος"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "mercy",
+                    "literal": "mercy",
+                    "louw": "88.76",
+                    "strong": 1656
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "N-",
+                    "pos_tag": "NNSF",
+                    "word_forms": [
+                        "εἰρήνη",
+                        "εἰρήνη",
+                        "εἰρήνη",
+                        "εἰρήνη"
+                    ],
+                    "mounce_chapter": 14,
+                    "gloss": "peace",
+                    "literal": "peace",
+                    "louw": "22.42",
+                    "strong": 1515
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "παρὰ",
+                        "παρὰ",
+                        "παρά",
+                        "παρά"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "from",
+                    "literal": "from",
+                    "louw": "90.14",
+                    "strong": 3844
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "N-",
+                    "pos_tag": "NGSM",
+                    "word_forms": [
+                        "θεοῦ",
+                        "θεοῦ",
+                        "θεοῦ",
+                        "θεός"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "God",
+                    "literal": "God",
+                    "louw": "12.1",
+                    "strong": 2316
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "N-",
+                    "pos_tag": "NGSM",
+                    "word_forms": [
+                        "πατρός,",
+                        "πατρός",
+                        "πατρός",
+                        "πατήρ"
+                    ],
+                    "mounce_chapter": 11,
+                    "gloss": "Father",
+                    "literal": "the Father",
+                    "louw": "12.12",
+                    "strong": 3962
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "C-",
+                    "pos_tag": "CLN",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "and",
+                    "literal": "and",
+                    "louw": "89.92",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "⸀παρὰ",
+                        "παρὰ",
+                        "παρά",
+                        "παρά"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "from",
+                    "literal": "from",
+                    "louw": "90.14",
+                    "strong": 3844
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "N-",
+                    "pos_tag": "NGSM",
+                    "word_forms": [
+                        "Ἰησοῦ",
+                        "Ἰησοῦ",
+                        "Ἰησοῦ",
+                        "Ἰησοῦς"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "Jesus",
+                    "literal": "Jesus",
+                    "louw": "93.169",
+                    "strong": 2424
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "N-",
+                    "pos_tag": "NGSM",
+                    "word_forms": [
+                        "Χριστοῦ",
+                        "Χριστοῦ",
+                        "Χριστοῦ",
+                        "Χριστός"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "Christ",
+                    "literal": "Christ",
+                    "louw": "93.387",
+                    "strong": 5547
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "RA",
+                    "pos_tag": "DGSM",
+                    "word_forms": [
+                        "τοῦ",
+                        "τοῦ",
+                        "τοῦ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "N-",
+                    "pos_tag": "NGSM",
+                    "word_forms": [
+                        "υἱοῦ",
+                        "υἱοῦ",
+                        "υἱοῦ",
+                        "υἱός"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "son",
+                    "literal": "Son",
+                    "louw": "12.15",
+                    "strong": 5207
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "RA",
+                    "pos_tag": "DGSM",
+                    "word_forms": [
+                        "τοῦ",
+                        "τοῦ",
+                        "τοῦ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "of the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "N-",
+                    "pos_tag": "NGSM",
+                    "word_forms": [
+                        "πατρός,",
+                        "πατρός",
+                        "πατρός",
+                        "πατήρ"
+                    ],
+                    "mounce_chapter": 11,
+                    "gloss": "Father",
+                    "literal": "Father",
+                    "louw": "12.12",
+                    "strong": 3962
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "ἐν",
+                        "ἐν",
+                        "ἐν",
+                        "ἐν"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "in",
+                    "literal": "in",
+                    "louw": "13.8",
+                    "strong": 1722
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "N-",
+                    "pos_tag": "NDSF",
+                    "word_forms": [
+                        "ἀληθείᾳ",
+                        "ἀληθείᾳ",
+                        "ἀληθείᾳ",
+                        "ἀλήθεια"
+                    ],
+                    "mounce_chapter": 14,
+                    "gloss": "truth",
+                    "literal": "truth",
+                    "louw": "72.2",
+                    "strong": 225
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "C-",
+                    "pos_tag": "CLN",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "and",
+                    "literal": "and",
+                    "louw": "89.92",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240103",
+                    "metadata": "N-",
+                    "pos_tag": "NDSF",
+                    "word_forms": [
+                        "ἀγάπῃ.",
+                        "ἀγάπῃ",
+                        "ἀγάπῃ",
+                        "ἀγάπη"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "love",
+                    "literal": "love",
+                    "louw": "25.43",
+                    "strong": 26
+                }
+            ],
+            "4": [
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "V-",
+                    "pos_tag": "VAPI1S",
+                    "word_forms": [
+                        "Ἐχάρην",
+                        "Ἐχάρην",
+                        "ἐχάρην",
+                        "χαίρω"
+                    ],
+                    "mounce_chapter": 24,
+                    "gloss": "to rejoice",
+                    "literal": "I rejoiced",
+                    "louw": "25.125",
+                    "strong": 5463
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "D-",
+                    "pos_tag": "BE",
+                    "word_forms": [
+                        "λίαν",
+                        "λίαν",
+                        "λίαν",
+                        "λίαν"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "very (much), exceedingly",
+                    "literal": "exceedingly",
+                    "louw": "78.1",
+                    "strong": 3029
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "C-",
+                    "pos_tag": "CAZ",
+                    "word_forms": [
+                        "ὅτι",
+                        "ὅτι",
+                        "ὅτι",
+                        "ὅτι"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "because",
+                    "literal": "because",
+                    "louw": "90.21",
+                    "strong": 3754
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "V-",
+                    "pos_tag": "VRAI1S",
+                    "word_forms": [
+                        "εὕρηκα",
+                        "εὕρηκα",
+                        "εὕρηκα",
+                        "εὑρίσκω"
+                    ],
+                    "mounce_chapter": 22,
+                    "gloss": "to find",
+                    "literal": "I found",
+                    "louw": "27.1",
+                    "strong": 2147
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "ἐκ",
+                        "ἐκ",
+                        "ἐκ",
+                        "ἐκ"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "from, of",
+                    "literal": "[some] of",
+                    "louw": "63.20",
+                    "strong": 1537
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "RA",
+                    "pos_tag": "DGPN",
+                    "word_forms": [
+                        "τῶν",
+                        "τῶν",
+                        "τῶν",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "—",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "N-",
+                    "pos_tag": "NGPN",
+                    "word_forms": [
+                        "τέκνων",
+                        "τέκνων",
+                        "τέκνων",
+                        "τέκνον"
+                    ],
+                    "mounce_chapter": 10,
+                    "gloss": "child",
+                    "literal": "children",
+                    "louw": "9.46",
+                    "strong": 5043
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "RP",
+                    "pos_tag": "RP2GS",
+                    "word_forms": [
+                        "σου",
+                        "σου",
+                        "σου",
+                        "σύ"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "you (singular)",
+                    "literal": "your",
+                    "louw": "92.6",
+                    "strong": 4675
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "V-",
+                    "pos_tag": "VPAP-PAM",
+                    "word_forms": [
+                        "περιπατοῦντας",
+                        "περιπατοῦντας",
+                        "περιπατοῦντας",
+                        "περιπατέω"
+                    ],
+                    "mounce_chapter": 21,
+                    "gloss": "to walk",
+                    "literal": "walking",
+                    "louw": "41.11",
+                    "strong": 4043
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "ἐν",
+                        "ἐν",
+                        "ἐν",
+                        "ἐν"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "in",
+                    "literal": "in",
+                    "louw": "83.13",
+                    "strong": 1722
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "N-",
+                    "pos_tag": "NDSF",
+                    "word_forms": [
+                        "ἀληθείᾳ,",
+                        "ἀληθείᾳ",
+                        "ἀληθείᾳ",
+                        "ἀλήθεια"
+                    ],
+                    "mounce_chapter": 14,
+                    "gloss": "truth",
+                    "literal": "[the] truth",
+                    "louw": "72.2",
+                    "strong": 225
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "C-",
+                    "pos_tag": "CAM",
+                    "word_forms": [
+                        "καθὼς",
+                        "καθὼς",
+                        "καθώς",
+                        "καθώς"
+                    ],
+                    "mounce_chapter": 9,
+                    "gloss": "as, just as",
+                    "literal": "just as",
+                    "louw": "64.14",
+                    "strong": 2531
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "N-",
+                    "pos_tag": "NASF",
+                    "word_forms": [
+                        "ἐντολὴν",
+                        "ἐντολὴν",
+                        "ἐντολήν",
+                        "ἐντολή"
+                    ],
+                    "mounce_chapter": 9,
+                    "gloss": "commandment",
+                    "literal": "commandment",
+                    "louw": "33.330",
+                    "strong": 1785
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "V-",
+                    "pos_tag": "VAAI1P",
+                    "word_forms": [
+                        "ἐλάβομεν",
+                        "ἐλάβομεν",
+                        "ἐλάβομεν",
+                        "λαμβάνω"
+                    ],
+                    "mounce_chapter": 22,
+                    "gloss": "to receive",
+                    "literal": "we received",
+                    "louw": "57.125",
+                    "strong": 2983
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "παρὰ",
+                        "παρὰ",
+                        "παρά",
+                        "παρά"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "from",
+                    "literal": "from",
+                    "louw": "90.14",
+                    "strong": 3844
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "RA",
+                    "pos_tag": "DGSM",
+                    "word_forms": [
+                        "τοῦ",
+                        "τοῦ",
+                        "τοῦ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240104",
+                    "metadata": "N-",
+                    "pos_tag": "NGSM",
+                    "word_forms": [
+                        "πατρός.",
+                        "πατρός",
+                        "πατρός",
+                        "πατήρ"
+                    ],
+                    "mounce_chapter": 11,
+                    "gloss": "Father",
+                    "literal": "Father",
+                    "louw": "12.12",
+                    "strong": 3962
+                }
+            ],
+            "5": [
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "C-",
+                    "pos_tag": "CLN",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "and",
+                    "literal": "and",
+                    "louw": "89.87",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "D-",
+                    "pos_tag": "B",
+                    "word_forms": [
+                        "νῦν",
+                        "νῦν",
+                        "νῦν",
+                        "νῦν"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "now",
+                    "literal": "now",
+                    "louw": "67.38",
+                    "strong": 3568
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "V-",
+                    "pos_tag": "VPAI1S",
+                    "word_forms": [
+                        "ἐρωτῶ",
+                        "ἐρωτῶ",
+                        "ἐρωτῶ",
+                        "ἐρωτάω"
+                    ],
+                    "mounce_chapter": 21,
+                    "gloss": "to ask",
+                    "literal": "I ask",
+                    "louw": "33.180",
+                    "strong": 2065
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "RP",
+                    "pos_tag": "RP2AS",
+                    "word_forms": [
+                        "σε,",
+                        "σε",
+                        "σε",
+                        "σύ"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "you (singular)",
+                    "literal": "you",
+                    "louw": "92.6",
+                    "strong": 4571
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "N-",
+                    "pos_tag": "NVSF",
+                    "word_forms": [
+                        "κυρία,",
+                        "κυρία",
+                        "κυρία",
+                        "κυρία"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "lady",
+                    "literal": "lady",
+                    "louw": "87.54",
+                    "strong": 2959
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "D-",
+                    "pos_tag": "BN, TN",
+                    "word_forms": [
+                        "οὐχ",
+                        "οὐχ",
+                        "οὐ",
+                        "οὐ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "not",
+                    "literal": "not",
+                    "louw": "69.3",
+                    "strong": 3756
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "C-",
+                    "pos_tag": "CAM",
+                    "word_forms": [
+                        "ὡς",
+                        "ὡς",
+                        "ὡς",
+                        "ὡς"
+                    ],
+                    "mounce_chapter": 18,
+                    "gloss": "as, like",
+                    "literal": "as [if I were]",
+                    "louw": "64.12",
+                    "strong": 5613
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "N-",
+                    "pos_tag": "NASF",
+                    "word_forms": [
+                        "ἐντολὴν",
+                        "ἐντολὴν",
+                        "ἐντολήν",
+                        "ἐντολή"
+                    ],
+                    "mounce_chapter": 9,
+                    "gloss": "commandment",
+                    "literal": "commandment",
+                    "louw": "33.330",
+                    "strong": 1785
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "A-",
+                    "pos_tag": "JASF",
+                    "word_forms": [
+                        "⸂καινὴν",
+                        "καινὴν",
+                        "καινήν",
+                        "καινός"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "new",
+                    "literal": "a new",
+                    "louw": "28.33",
+                    "strong": 2537
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "V-",
+                    "pos_tag": "VPAP-SNM",
+                    "word_forms": [
+                        "γράφων",
+                        "γράφων",
+                        "γράφων",
+                        "γράφω"
+                    ],
+                    "mounce_chapter": 23,
+                    "gloss": "to write",
+                    "literal": "writing",
+                    "louw": "33.61",
+                    "strong": 1125
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "RP",
+                    "pos_tag": "RP2DS",
+                    "word_forms": [
+                        "σοι⸃",
+                        "σοι",
+                        "σοι",
+                        "σύ"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "you (singular)",
+                    "literal": "to you",
+                    "louw": "92.6",
+                    "strong": 4671
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "C-",
+                    "pos_tag": "CLC",
+                    "word_forms": [
+                        "ἀλλὰ",
+                        "ἀλλὰ",
+                        "ἀλλά",
+                        "ἀλλά"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "but",
+                    "literal": "but",
+                    "louw": "89.125",
+                    "strong": 235
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "RR",
+                    "pos_tag": "RR-ASF",
+                    "word_forms": [
+                        "ἣν",
+                        "ἣν",
+                        "ἥν",
+                        "ὅς"
+                    ],
+                    "mounce_chapter": 14,
+                    "gloss": "rel. that",
+                    "literal": "[one] that",
+                    "louw": "92.27",
+                    "strong": 3739
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "V-",
+                    "pos_tag": "VIAI1P",
+                    "word_forms": [
+                        "εἴχομεν",
+                        "εἴχομεν",
+                        "εἴχομεν",
+                        "ἔχω"
+                    ],
+                    "mounce_chapter": 16,
+                    "gloss": "to have",
+                    "literal": "we have had",
+                    "louw": "57.1",
+                    "strong": 2192
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "ἀπ’",
+                        "ἀπ’",
+                        "ἀπό",
+                        "ἀπό"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "from",
+                    "literal": "from",
+                    "louw": "67.131",
+                    "strong": 575
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "N-",
+                    "pos_tag": "NGSF",
+                    "word_forms": [
+                        "ἀρχῆς,",
+                        "ἀρχῆς",
+                        "ἀρχῆς",
+                        "ἀρχή"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "beginning",
+                    "literal": "the beginning",
+                    "louw": "67.65",
+                    "strong": 746
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "C-",
+                    "pos_tag": "CSC",
+                    "word_forms": [
+                        "ἵνα",
+                        "ἵνα",
+                        "ἵνα",
+                        "ἵνα"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "that",
+                    "literal": "that",
+                    "louw": "91.15",
+                    "strong": 2443
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "V-",
+                    "pos_tag": "VPAS1P",
+                    "word_forms": [
+                        "ἀγαπῶμεν",
+                        "ἀγαπῶμεν",
+                        "ἀγαπῶμεν",
+                        "ἀγαπάω"
+                    ],
+                    "mounce_chapter": 17,
+                    "gloss": "to love",
+                    "literal": "we should love",
+                    "louw": "25.43",
+                    "strong": 25
+                },
+                {
+                    "book_chapter_verse": "240105",
+                    "metadata": "RP",
+                    "pos_tag": "RC-APM",
+                    "word_forms": [
+                        "ἀλλήλους.",
+                        "ἀλλήλους",
+                        "ἀλλήλους",
+                        "ἀλλήλων"
+                    ],
+                    "mounce_chapter": 9,
+                    "gloss": "one another",
+                    "literal": "one another",
+                    "louw": "92.26",
+                    "strong": 240
+                }
+            ],
+            "6": [
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "C-",
+                    "pos_tag": "CLN",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "and",
+                    "literal": "and",
+                    "louw": "89.87",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "RD",
+                    "pos_tag": "RD-NSF",
+                    "word_forms": [
+                        "αὕτη",
+                        "αὕτη",
+                        "αὕτη",
+                        "οὗτος"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "this (demons. pron.)",
+                    "literal": "this",
+                    "louw": "92.29",
+                    "strong": 3778
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "V-",
+                    "pos_tag": "VPAI3S",
+                    "word_forms": [
+                        "ἐστὶν",
+                        "ἐστὶν",
+                        "ἐστί(ν)",
+                        "εἰμί"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "to be",
+                    "literal": "is",
+                    "louw": "13.4",
+                    "strong": 2076
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "RA",
+                    "pos_tag": "DNSF",
+                    "word_forms": [
+                        "ἡ",
+                        "ἡ",
+                        "ἡ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "—",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "N-",
+                    "pos_tag": "NNSF",
+                    "word_forms": [
+                        "ἀγάπη,",
+                        "ἀγάπη",
+                        "ἀγάπη",
+                        "ἀγάπη"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "love",
+                    "literal": "love",
+                    "louw": "25.43",
+                    "strong": 26
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "D-",
+                    "pos_tag": "CSE",
+                    "word_forms": [
+                        "ἵνα",
+                        "ἵνα",
+                        "ἵνα",
+                        "ἵνα"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "that",
+                    "literal": "that",
+                    "louw": "91.15",
+                    "strong": 2443
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "V-",
+                    "pos_tag": "VPAS1P",
+                    "word_forms": [
+                        "περιπατῶμεν",
+                        "περιπατῶμεν",
+                        "περιπατῶμεν",
+                        "περιπατέω"
+                    ],
+                    "mounce_chapter": 21,
+                    "gloss": "to walk",
+                    "literal": "we walk",
+                    "louw": "41.11",
+                    "strong": 4043
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "κατὰ",
+                        "κατὰ",
+                        "κατά",
+                        "κατά"
+                    ],
+                    "mounce_chapter": 14,
+                    "gloss": "according to",
+                    "literal": "according to",
+                    "louw": "89.8",
+                    "strong": 2596
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "RA",
+                    "pos_tag": "DAPF",
+                    "word_forms": [
+                        "τὰς",
+                        "τὰς",
+                        "τάς",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "—",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "N-",
+                    "pos_tag": "NAPF",
+                    "word_forms": [
+                        "ἐντολὰς",
+                        "ἐντολὰς",
+                        "ἐντολάς",
+                        "ἐντολή"
+                    ],
+                    "mounce_chapter": 9,
+                    "gloss": "commandment",
+                    "literal": "commandments",
+                    "louw": "33.330",
+                    "strong": 1785
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "RP",
+                    "pos_tag": "RP3GSM",
+                    "word_forms": [
+                        "αὐτοῦ·",
+                        "αὐτοῦ",
+                        "αὐτοῦ",
+                        "αὐτός"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "he",
+                    "literal": "his",
+                    "louw": "92.11",
+                    "strong": 846
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "RD",
+                    "pos_tag": "RD-NSF",
+                    "word_forms": [
+                        "αὕτη",
+                        "αὕτη",
+                        "αὕτη",
+                        "οὗτος"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "this (demons. pron.)",
+                    "literal": "this",
+                    "louw": "92.29",
+                    "strong": 3778
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "RA",
+                    "pos_tag": "DNSF",
+                    "word_forms": [
+                        "⸂ἡ",
+                        "ἡ",
+                        "ἡ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "N-",
+                    "pos_tag": "NNSF",
+                    "word_forms": [
+                        "ἐντολή",
+                        "ἐντολή",
+                        "ἐντολή",
+                        "ἐντολή"
+                    ],
+                    "mounce_chapter": 9,
+                    "gloss": "commandment",
+                    "literal": "commandment",
+                    "louw": "33.330",
+                    "strong": 1785
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "V-",
+                    "pos_tag": "VPAI3S",
+                    "word_forms": [
+                        "ἐστιν⸃,",
+                        "ἐστιν",
+                        "ἐστί(ν)",
+                        "εἰμί"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "to be",
+                    "literal": "is",
+                    "louw": "13.4",
+                    "strong": 2076
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "C-",
+                    "pos_tag": "CAM",
+                    "word_forms": [
+                        "καθὼς",
+                        "καθὼς",
+                        "καθώς",
+                        "καθώς"
+                    ],
+                    "mounce_chapter": 9,
+                    "gloss": "as, just as",
+                    "literal": "just as",
+                    "louw": "64.14",
+                    "strong": 2531
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "V-",
+                    "pos_tag": "VAAI2P",
+                    "word_forms": [
+                        "ἠκούσατε",
+                        "ἠκούσατε",
+                        "ἠκούσατε",
+                        "ἀκούω"
+                    ],
+                    "mounce_chapter": 16,
+                    "gloss": "to hear",
+                    "literal": "you have heard",
+                    "louw": "24.52",
+                    "strong": 191
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "ἀπ’",
+                        "ἀπ’",
+                        "ἀπό",
+                        "ἀπό"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "from",
+                    "literal": "from",
+                    "louw": "67.131",
+                    "strong": 575
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "N-",
+                    "pos_tag": "NGSF",
+                    "word_forms": [
+                        "ἀρχῆς,",
+                        "ἀρχῆς",
+                        "ἀρχῆς",
+                        "ἀρχή"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "beginning",
+                    "literal": "the beginning",
+                    "louw": "67.65",
+                    "strong": 746
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "D-",
+                    "pos_tag": "CSE",
+                    "word_forms": [
+                        "ἵνα",
+                        "ἵνα",
+                        "ἵνα",
+                        "ἵνα"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "so that",
+                    "literal": "so that",
+                    "louw": "91.15",
+                    "strong": 2443
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "ἐν",
+                        "ἐν",
+                        "ἐν",
+                        "ἐν"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "in",
+                    "literal": "in",
+                    "louw": "89.84",
+                    "strong": 1722
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "RP",
+                    "pos_tag": "RP3DSF",
+                    "word_forms": [
+                        "αὐτῇ",
+                        "αὐτῇ",
+                        "αὐτῇ",
+                        "αὐτός"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "he",
+                    "literal": "it",
+                    "louw": "92.11",
+                    "strong": 846
+                },
+                {
+                    "book_chapter_verse": "240106",
+                    "metadata": "V-",
+                    "pos_tag": "VPAS2P",
+                    "word_forms": [
+                        "περιπατῆτε.",
+                        "περιπατῆτε",
+                        "περιπατῆτε",
+                        "περιπατέω"
+                    ],
+                    "mounce_chapter": 21,
+                    "gloss": "to walk",
+                    "literal": "you should walk",
+                    "louw": "41.11",
+                    "strong": 4043
+                }
+            ],
+            "7": [
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "C-",
+                    "pos_tag": "CAZ",
+                    "word_forms": [
+                        "ὅτι",
+                        "ὅτι",
+                        "ὅτι",
+                        "ὅτι"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "because, for",
+                    "literal": "for",
+                    "louw": "89.33",
+                    "strong": 3754
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "A-",
+                    "pos_tag": "JNPM",
+                    "word_forms": [
+                        "πολλοὶ",
+                        "πολλοὶ",
+                        "πολλοί",
+                        "πολύς"
+                    ],
+                    "mounce_chapter": 13,
+                    "gloss": "many",
+                    "literal": "many",
+                    "louw": "59.1",
+                    "strong": 4183
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "A-",
+                    "pos_tag": "JNPM",
+                    "word_forms": [
+                        "πλάνοι",
+                        "πλάνοι",
+                        "πλάνοι",
+                        "πλάνος"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "deceiver",
+                    "literal": "deceivers",
+                    "louw": "31.9",
+                    "strong": 4108
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "V-",
+                    "pos_tag": "VAAI3P",
+                    "word_forms": [
+                        "⸀ἐξῆλθον",
+                        "ἐξῆλθον",
+                        "ἐξῆλθον",
+                        "ἐξέρχομαι"
+                    ],
+                    "mounce_chapter": 22,
+                    "gloss": "to go out",
+                    "literal": "have gone out",
+                    "louw": "15.40",
+                    "strong": 1831
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "εἰς",
+                        "εἰς",
+                        "εἰς",
+                        "εἰς"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "to, into",
+                    "literal": "into",
+                    "louw": "83.9",
+                    "strong": 1519
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "RA",
+                    "pos_tag": "DASM",
+                    "word_forms": [
+                        "τὸν",
+                        "τὸν",
+                        "τόν",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "N-",
+                    "pos_tag": "NASM",
+                    "word_forms": [
+                        "κόσμον,",
+                        "κόσμον",
+                        "κόσμον",
+                        "κόσμος"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "world",
+                    "literal": "world",
+                    "louw": "9.23",
+                    "strong": 2889
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "RA",
+                    "pos_tag": "DNPM",
+                    "word_forms": [
+                        "οἱ",
+                        "οἱ",
+                        "οἱ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "those",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "D-",
+                    "pos_tag": "BN, TN",
+                    "word_forms": [
+                        "μὴ",
+                        "μὴ",
+                        "μή",
+                        "μή"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "not",
+                    "literal": "[who do] not",
+                    "louw": "69.3",
+                    "strong": 3361
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "V-",
+                    "pos_tag": "VPAP-PNM",
+                    "word_forms": [
+                        "ὁμολογοῦντες",
+                        "ὁμολογοῦντες",
+                        "ὁμολογοῦντες",
+                        "ὁμολογέω"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "to confess",
+                    "literal": "confess",
+                    "louw": "33.274",
+                    "strong": 3670
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "N-",
+                    "pos_tag": "NASM",
+                    "word_forms": [
+                        "Ἰησοῦν",
+                        "Ἰησοῦν",
+                        "Ἰησοῦν",
+                        "Ἰησοῦς"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "Jesus",
+                    "literal": "Jesus",
+                    "louw": "93.169",
+                    "strong": 2424
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "N-",
+                    "pos_tag": "NASM",
+                    "word_forms": [
+                        "Χριστὸν",
+                        "Χριστὸν",
+                        "Χριστόν",
+                        "Χριστός"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "Christ",
+                    "literal": "Christi",
+                    "louw": "93.387",
+                    "strong": 5547
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "V-",
+                    "pos_tag": "VPUP-SAM",
+                    "word_forms": [
+                        "ἐρχόμενον",
+                        "ἐρχόμενον",
+                        "ἐρχόμενον",
+                        "ἔρχομαι"
+                    ],
+                    "mounce_chapter": 18,
+                    "gloss": "to come",
+                    "literal": "coming",
+                    "louw": "15.81",
+                    "strong": 2064
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "ἐν",
+                        "ἐν",
+                        "ἐν",
+                        "ἐν"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "in",
+                    "literal": "in",
+                    "louw": "13.8",
+                    "strong": 1722
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "N-",
+                    "pos_tag": "NDSF",
+                    "word_forms": [
+                        "σαρκί·",
+                        "σαρκί",
+                        "σαρκί",
+                        "σάρξ"
+                    ],
+                    "mounce_chapter": 10,
+                    "gloss": "flesh",
+                    "literal": "[the] flesh",
+                    "louw": "8.4",
+                    "strong": 4561
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "RD",
+                    "pos_tag": "RD-NSM",
+                    "word_forms": [
+                        "οὗτός",
+                        "οὗτός",
+                        "οὗτος",
+                        "οὗτος"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "this (demons. pron.)",
+                    "literal": "this person",
+                    "louw": "92.29",
+                    "strong": 3778
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "V-",
+                    "pos_tag": "VPAI3S",
+                    "word_forms": [
+                        "ἐστιν",
+                        "ἐστιν",
+                        "ἐστί(ν)",
+                        "εἰμί"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "to be",
+                    "literal": "is",
+                    "louw": "13.4",
+                    "strong": 2076
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "RA",
+                    "pos_tag": "DNSM",
+                    "word_forms": [
+                        "ὁ",
+                        "ὁ",
+                        "ὁ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "A-",
+                    "pos_tag": "JNSM",
+                    "word_forms": [
+                        "πλάνος",
+                        "πλάνος",
+                        "πλάνος",
+                        "πλάνος"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "deceiver",
+                    "literal": "deceiver",
+                    "louw": "31.9",
+                    "strong": 4108
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "C-",
+                    "pos_tag": "CLN",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "and",
+                    "literal": "and",
+                    "louw": "89.93",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "RA",
+                    "pos_tag": "DNSM",
+                    "word_forms": [
+                        "ὁ",
+                        "ὁ",
+                        "ὁ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240107",
+                    "metadata": "N-",
+                    "pos_tag": "NNSM",
+                    "word_forms": [
+                        "ἀντίχριστος.",
+                        "ἀντίχριστος",
+                        "ἀντίχριστος",
+                        "ἀντίχριστος"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "antichrist",
+                    "literal": "antichrist",
+                    "louw": "53.83",
+                    "strong": 500
+                }
+            ],
+            "8": [
+                {
+                    "book_chapter_verse": "240108",
+                    "metadata": "V-",
+                    "pos_tag": "VPAM2P",
+                    "word_forms": [
+                        "βλέπετε",
+                        "βλέπετε",
+                        "βλέπετε",
+                        "βλέπω"
+                    ],
+                    "mounce_chapter": 16,
+                    "gloss": "to see, to watch",
+                    "literal": "watch",
+                    "louw": "27.58",
+                    "strong": 991
+                },
+                {
+                    "book_chapter_verse": "240108",
+                    "metadata": "RP",
+                    "pos_tag": "RF3APM",
+                    "word_forms": [
+                        "ἑαυτούς,",
+                        "ἑαυτούς",
+                        "ἑαυτούς",
+                        "ἑαυτοῦ"
+                    ],
+                    "mounce_chapter": 13,
+                    "gloss": "oneself",
+                    "literal": "yourselves",
+                    "louw": "92.25",
+                    "strong": 1438
+                },
+                {
+                    "book_chapter_verse": "240108",
+                    "metadata": "C-",
+                    "pos_tag": "CAP",
+                    "word_forms": [
+                        "ἵνα",
+                        "ἵνα",
+                        "ἵνα",
+                        "ἵνα"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "that",
+                    "literal": "that",
+                    "louw": "89.59",
+                    "strong": 2443
+                },
+                {
+                    "book_chapter_verse": "240108",
+                    "metadata": "D-",
+                    "pos_tag": "BN, TN",
+                    "word_forms": [
+                        "μὴ",
+                        "μὴ",
+                        "μή",
+                        "μή"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "not",
+                    "literal": "[you do] not",
+                    "louw": "69.3",
+                    "strong": 3361
+                },
+                {
+                    "book_chapter_verse": "240108",
+                    "metadata": "V-",
+                    "pos_tag": "VAAS2P",
+                    "word_forms": [
+                        "⸀ἀπολέσητε",
+                        "ἀπολέσητε",
+                        "ἀπολέσητε",
+                        "ἀπόλλυμι"
+                    ],
+                    "mounce_chapter": 33,
+                    "gloss": "to lose, to lose out on",
+                    "literal": "lose",
+                    "louw": "57.68",
+                    "strong": 622
+                },
+                {
+                    "book_chapter_verse": "240108",
+                    "metadata": "RR",
+                    "pos_tag": "RR-APN",
+                    "word_forms": [
+                        "ἃ",
+                        "ἃ",
+                        "ἅ",
+                        "ὅς"
+                    ],
+                    "mounce_chapter": 14,
+                    "gloss": "rel. what",
+                    "literal": "what",
+                    "louw": "92.27",
+                    "strong": 3739
+                },
+                {
+                    "book_chapter_verse": "240108",
+                    "metadata": "V-",
+                    "pos_tag": "VAMI1P",
+                    "word_forms": [
+                        "⸀εἰργασάμεθα,",
+                        "εἰργασάμεθα",
+                        "εἰργασάμεθα",
+                        "ἐργάζομαι"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "to work for, to labor for",
+                    "literal": "we have worked for",
+                    "louw": "90.47",
+                    "strong": 2038
+                },
+                {
+                    "book_chapter_verse": "240108",
+                    "metadata": "C-",
+                    "pos_tag": "CLC",
+                    "word_forms": [
+                        "ἀλλὰ",
+                        "ἀλλὰ",
+                        "ἀλλά",
+                        "ἀλλά"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "but",
+                    "literal": "but",
+                    "louw": "89.125",
+                    "strong": 235
+                },
+                {
+                    "book_chapter_verse": "240108",
+                    "metadata": "N-",
+                    "pos_tag": "NASM",
+                    "word_forms": [
+                        "μισθὸν",
+                        "μισθὸν",
+                        "μισθόν",
+                        "μισθός"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "reward",
+                    "literal": "reward",
+                    "louw": "38.14",
+                    "strong": 3408
+                },
+                {
+                    "book_chapter_verse": "240108",
+                    "metadata": "A-",
+                    "pos_tag": "JASM",
+                    "word_forms": [
+                        "πλήρη",
+                        "πλήρη",
+                        "πλήρη",
+                        "πλήρης"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "full",
+                    "literal": "a full",
+                    "louw": "59.31",
+                    "strong": 4134
+                },
+                {
+                    "book_chapter_verse": "240108",
+                    "metadata": "V-",
+                    "pos_tag": "VAAS2P",
+                    "word_forms": [
+                        "⸀ἀπολάβητε.",
+                        "ἀπολάβητε",
+                        "ἀπολάβητε",
+                        "ἀπολαμβάνω"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "to receive",
+                    "literal": "receive",
+                    "louw": "57.136",
+                    "strong": 618
+                }
+            ],
+            "9": [
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "A-",
+                    "pos_tag": "JNSM",
+                    "word_forms": [
+                        "πᾶς",
+                        "πᾶς",
+                        "πᾶς",
+                        "πᾶς"
+                    ],
+                    "mounce_chapter": 10,
+                    "gloss": "all, every",
+                    "literal": "everyone",
+                    "louw": "59.24",
+                    "strong": 3956
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "RA",
+                    "pos_tag": "DNSM",
+                    "word_forms": [
+                        "ὁ",
+                        "ὁ",
+                        "ὁ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "—",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "V-",
+                    "pos_tag": "VPAP-SNM",
+                    "word_forms": [
+                        "⸀προάγων",
+                        "προάγων",
+                        "προάγων",
+                        "προάγω"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "to go ahead, to go too far",
+                    "literal": "who goes too far",
+                    "louw": "36.25",
+                    "strong": 4254
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "C-",
+                    "pos_tag": "CLN",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "and",
+                    "literal": "and",
+                    "louw": "89.92",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "D-",
+                    "pos_tag": "BN, TN",
+                    "word_forms": [
+                        "μὴ",
+                        "μὴ",
+                        "μή",
+                        "μή"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "not",
+                    "literal": "[does] not",
+                    "louw": "69.3",
+                    "strong": 3361
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "V-",
+                    "pos_tag": "VPAP-SNM",
+                    "word_forms": [
+                        "μένων",
+                        "μένων",
+                        "μένων",
+                        "μένω"
+                    ],
+                    "mounce_chapter": 20,
+                    "gloss": "to reside, to remain",
+                    "literal": "remain",
+                    "louw": "68.11",
+                    "strong": 3306
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "ἐν",
+                        "ἐν",
+                        "ἐν",
+                        "ἐν"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "in",
+                    "literal": "in",
+                    "louw": "89.119",
+                    "strong": 1722
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "RA",
+                    "pos_tag": "DDSF",
+                    "word_forms": [
+                        "τῇ",
+                        "τῇ",
+                        "τῇ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "N-",
+                    "pos_tag": "NDSF",
+                    "word_forms": [
+                        "διδαχῇ",
+                        "διδαχῇ",
+                        "διδαχῇ",
+                        "διδαχή"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "doctrine, teaching",
+                    "literal": "teaching",
+                    "louw": "33.224",
+                    "strong": 1322
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "RA",
+                    "pos_tag": "DGSM",
+                    "word_forms": [
+                        "τοῦ",
+                        "τοῦ",
+                        "τοῦ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "of",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "N-",
+                    "pos_tag": "NGSM",
+                    "word_forms": [
+                        "Χριστοῦ",
+                        "Χριστοῦ",
+                        "Χριστοῦ",
+                        "Χριστός"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "Christ",
+                    "literal": "Christ",
+                    "louw": "93.387",
+                    "strong": 5547
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "N-",
+                    "pos_tag": "NASM",
+                    "word_forms": [
+                        "θεὸν",
+                        "θεὸν",
+                        "θεόν",
+                        "θεός"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "God",
+                    "literal": "God",
+                    "louw": "12.1",
+                    "strong": 2316
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "D-",
+                    "pos_tag": "BN, TN",
+                    "word_forms": [
+                        "οὐκ",
+                        "οὐκ",
+                        "οὐ",
+                        "οὐ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "not",
+                    "literal": "[does] not",
+                    "louw": "69.3",
+                    "strong": 3756
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "V-",
+                    "pos_tag": "VPAI3S",
+                    "word_forms": [
+                        "ἔχει·",
+                        "ἔχει",
+                        "ἔχει",
+                        "ἔχω"
+                    ],
+                    "mounce_chapter": 16,
+                    "gloss": "to have",
+                    "literal": "have",
+                    "louw": "90.65",
+                    "strong": 2192
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "RA",
+                    "pos_tag": "DNSM",
+                    "word_forms": [
+                        "ὁ",
+                        "ὁ",
+                        "ὁ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "V-",
+                    "pos_tag": "VPAP-SNM",
+                    "word_forms": [
+                        "μένων",
+                        "μένων",
+                        "μένων",
+                        "μένω"
+                    ],
+                    "mounce_chapter": 20,
+                    "gloss": "to reside, to remain",
+                    "literal": "one who remains",
+                    "louw": "68.11",
+                    "strong": 3306
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "ἐν",
+                        "ἐν",
+                        "ἐν",
+                        "ἐν"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "in",
+                    "literal": "in",
+                    "louw": "89.119",
+                    "strong": 1722
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "RA",
+                    "pos_tag": "DDSF",
+                    "word_forms": [
+                        "τῇ",
+                        "τῇ",
+                        "τῇ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "N-",
+                    "pos_tag": "NDSF",
+                    "word_forms": [
+                        "⸀διδαχῇ,",
+                        "διδαχῇ",
+                        "διδαχῇ",
+                        "διδαχή"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "doctrine, teaching",
+                    "literal": "teaching",
+                    "louw": "33.224",
+                    "strong": 1322
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "RD",
+                    "pos_tag": "RD-NSM",
+                    "word_forms": [
+                        "οὗτος",
+                        "οὗτος",
+                        "οὗτος",
+                        "οὗτος"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "this (demons. pron.)",
+                    "literal": "this person",
+                    "louw": "92.29",
+                    "strong": 3778
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "C-",
+                    "pos_tag": "CLK",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "and",
+                    "literal": "both",
+                    "louw": "89.102",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "RA",
+                    "pos_tag": "DASM",
+                    "word_forms": [
+                        "τὸν",
+                        "τὸν",
+                        "τόν",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "N-",
+                    "pos_tag": "NASM",
+                    "word_forms": [
+                        "πατέρα",
+                        "πατέρα",
+                        "πατέρα",
+                        "πατήρ"
+                    ],
+                    "mounce_chapter": 11,
+                    "gloss": "Father",
+                    "literal": "Father",
+                    "louw": "12.12",
+                    "strong": 3962
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "C-",
+                    "pos_tag": "CLK, CLN",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "and",
+                    "literal": "and",
+                    "louw": "89.102",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "RA",
+                    "pos_tag": "DASM",
+                    "word_forms": [
+                        "τὸν",
+                        "τὸν",
+                        "τόν",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "N-",
+                    "pos_tag": "NASM",
+                    "word_forms": [
+                        "υἱὸν",
+                        "υἱὸν",
+                        "υἱόν",
+                        "υἱός"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "Son",
+                    "literal": "Son",
+                    "louw": "12.15",
+                    "strong": 5207
+                },
+                {
+                    "book_chapter_verse": "240109",
+                    "metadata": "V-",
+                    "pos_tag": "VPAI3S",
+                    "word_forms": [
+                        "ἔχει.",
+                        "ἔχει",
+                        "ἔχει",
+                        "ἔχω"
+                    ],
+                    "mounce_chapter": 16,
+                    "gloss": "to have",
+                    "literal": "has",
+                    "louw": "90.65",
+                    "strong": 2192
+                }
+            ],
+            "10": [
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "C-",
+                    "pos_tag": "CAC",
+                    "word_forms": [
+                        "εἴ",
+                        "εἴ",
+                        "εἰ",
+                        "εἰ"
+                    ],
+                    "mounce_chapter": 10,
+                    "gloss": "if",
+                    "literal": "if",
+                    "louw": "89.65",
+                    "strong": 1487
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "RI",
+                    "pos_tag": "RX-NSM",
+                    "word_forms": [
+                        "τις",
+                        "τις",
+                        "τὶς",
+                        "τις"
+                    ],
+                    "mounce_chapter": 10,
+                    "gloss": "anyone",
+                    "literal": "anyone",
+                    "louw": "92.12",
+                    "strong": 5100
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "V-",
+                    "pos_tag": "VPUI3S",
+                    "word_forms": [
+                        "ἔρχεται",
+                        "ἔρχεται",
+                        "ἔρχεται",
+                        "ἔρχομαι"
+                    ],
+                    "mounce_chapter": 18,
+                    "gloss": "to come",
+                    "literal": "comes",
+                    "louw": "15.81",
+                    "strong": 2064
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "πρὸς",
+                        "πρὸς",
+                        "πρός",
+                        "πρός"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "to",
+                    "literal": "to",
+                    "louw": "84.18",
+                    "strong": 4314
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "RP",
+                    "pos_tag": "RP2AP",
+                    "word_forms": [
+                        "ὑμᾶς",
+                        "ὑμᾶς",
+                        "ὑμᾶς",
+                        "σύ"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "you (plural)",
+                    "literal": "you",
+                    "louw": "92.7",
+                    "strong": 5209
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "C-",
+                    "pos_tag": "CLN",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "and",
+                    "literal": "and",
+                    "louw": "89.87",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "RD",
+                    "pos_tag": "RD-ASF",
+                    "word_forms": [
+                        "ταύτην",
+                        "ταύτην",
+                        "ταύτην",
+                        "οὗτος"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "this (demons. pron.)",
+                    "literal": "this",
+                    "louw": "92.29",
+                    "strong": 3778
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "RA",
+                    "pos_tag": "DASF",
+                    "word_forms": [
+                        "τὴν",
+                        "τὴν",
+                        "τήν",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "—",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "N-",
+                    "pos_tag": "NASF",
+                    "word_forms": [
+                        "διδαχὴν",
+                        "διδαχὴν",
+                        "διδαχήν",
+                        "διδαχή"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "doctrine, teaching",
+                    "literal": "teaching",
+                    "louw": "33.224",
+                    "strong": 1322
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "D-",
+                    "pos_tag": "BN, TN",
+                    "word_forms": [
+                        "οὐ",
+                        "οὐ",
+                        "οὐ",
+                        "οὐ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "not",
+                    "literal": "[does] not",
+                    "louw": "69.3",
+                    "strong": 3756
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "V-",
+                    "pos_tag": "VPAI3S",
+                    "word_forms": [
+                        "φέρει,",
+                        "φέρει",
+                        "φέρει",
+                        "φέρω"
+                    ],
+                    "mounce_chapter": 29,
+                    "gloss": "to bring",
+                    "literal": "bring",
+                    "louw": "13.35",
+                    "strong": 5342
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "D-",
+                    "pos_tag": "BN, TN",
+                    "word_forms": [
+                        "μὴ",
+                        "μὴ",
+                        "μή",
+                        "μή"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "not",
+                    "literal": "[do] not",
+                    "louw": "69.3",
+                    "strong": 3361
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "V-",
+                    "pos_tag": "VPAM2P",
+                    "word_forms": [
+                        "λαμβάνετε",
+                        "λαμβάνετε",
+                        "λαμβάνετε",
+                        "λαμβάνω"
+                    ],
+                    "mounce_chapter": 22,
+                    "gloss": "to receive",
+                    "literal": "receive",
+                    "louw": "57.125",
+                    "strong": 2983
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "RP",
+                    "pos_tag": "RP3ASM",
+                    "word_forms": [
+                        "αὐτὸν",
+                        "αὐτὸν",
+                        "αὐτόν",
+                        "αὐτός"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "he",
+                    "literal": "him",
+                    "louw": "92.11",
+                    "strong": 846
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "εἰς",
+                        "εἰς",
+                        "εἰς",
+                        "εἰς"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "to, into",
+                    "literal": "into",
+                    "louw": "84.22",
+                    "strong": 1519
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "N-",
+                    "pos_tag": "NASF",
+                    "word_forms": [
+                        "οἰκίαν",
+                        "οἰκίαν",
+                        "οἰκίαν",
+                        "οἰκία"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "house",
+                    "literal": "[your] house",
+                    "louw": "7.3",
+                    "strong": 3614
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "C-",
+                    "pos_tag": "CLN",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "and",
+                    "literal": "and",
+                    "louw": "89.92",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "V-",
+                    "pos_tag": "VPAN",
+                    "word_forms": [
+                        "χαίρειν",
+                        "χαίρειν",
+                        "χαίρειν",
+                        "χαίρω"
+                    ],
+                    "mounce_chapter": 24,
+                    "gloss": "to greet, to give a greeting",
+                    "literal": "a greeting",
+                    "louw": "33.22",
+                    "strong": 5463
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "RP",
+                    "pos_tag": "RP3DSM",
+                    "word_forms": [
+                        "αὐτῷ",
+                        "αὐτῷ",
+                        "αὐτῷ",
+                        "αὐτός"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "he",
+                    "literal": "to him",
+                    "louw": "92.11",
+                    "strong": 846
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "D-",
+                    "pos_tag": "BN, TN",
+                    "word_forms": [
+                        "μὴ",
+                        "μὴ",
+                        "μή",
+                        "μή"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "not",
+                    "literal": "[do] not",
+                    "louw": "69.3",
+                    "strong": 3361
+                },
+                {
+                    "book_chapter_verse": "240110",
+                    "metadata": "V-",
+                    "pos_tag": "VPAM2P",
+                    "word_forms": [
+                        "λέγετε·",
+                        "λέγετε",
+                        "λέγετε",
+                        "λέγω"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "to say",
+                    "literal": "speak",
+                    "louw": "33.69",
+                    "strong": 3004
+                }
+            ],
+            "11": [
+                {
+                    "book_chapter_verse": "240111",
+                    "metadata": "RA",
+                    "pos_tag": "DNSM",
+                    "word_forms": [
+                        "ὁ",
+                        "ὁ",
+                        "ὁ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240111",
+                    "metadata": "V-",
+                    "pos_tag": "VPAP-SNM",
+                    "word_forms": [
+                        "⸂λέγων",
+                        "λέγων",
+                        "λέγων",
+                        "λέγω"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "to say",
+                    "literal": "one who speaks",
+                    "louw": "33.69",
+                    "strong": 3004
+                },
+                {
+                    "book_chapter_verse": "240111",
+                    "metadata": "C-",
+                    "pos_tag": "CAZ",
+                    "word_forms": [
+                        "γὰρ⸃",
+                        "γὰρ",
+                        "γάρ",
+                        "γάρ"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "for, because",
+                    "literal": "because",
+                    "louw": "89.23",
+                    "strong": 1063
+                },
+                {
+                    "book_chapter_verse": "240111",
+                    "metadata": "RP",
+                    "pos_tag": "RP3DSM",
+                    "word_forms": [
+                        "αὐτῷ",
+                        "αὐτῷ",
+                        "αὐτῷ",
+                        "αὐτός"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "he",
+                    "literal": "to him",
+                    "louw": "92.11",
+                    "strong": 846
+                },
+                {
+                    "book_chapter_verse": "240111",
+                    "metadata": "V-",
+                    "pos_tag": "VPAN",
+                    "word_forms": [
+                        "χαίρειν",
+                        "χαίρειν",
+                        "χαίρειν",
+                        "χαίρω"
+                    ],
+                    "mounce_chapter": 24,
+                    "gloss": "to greet, to give a greeting",
+                    "literal": "a greeting",
+                    "louw": "33.22",
+                    "strong": 5463
+                },
+                {
+                    "book_chapter_verse": "240111",
+                    "metadata": "V-",
+                    "pos_tag": "VPAI3S",
+                    "word_forms": [
+                        "κοινωνεῖ",
+                        "κοινωνεῖ",
+                        "κοινωνεῖ",
+                        "κοινωνέω"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "to share, to have a share",
+                    "literal": "shares",
+                    "louw": "42.16",
+                    "strong": 2841
+                },
+                {
+                    "book_chapter_verse": "240111",
+                    "metadata": "RA",
+                    "pos_tag": "DDPN",
+                    "word_forms": [
+                        "τοῖς",
+                        "τοῖς",
+                        "τοῖς",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "in",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240111",
+                    "metadata": "N-",
+                    "pos_tag": "NDPN",
+                    "word_forms": [
+                        "ἔργοις",
+                        "ἔργοις",
+                        "ἔργοις",
+                        "ἔργον"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "work, deed",
+                    "literal": "deeds",
+                    "louw": "42.42",
+                    "strong": 2041
+                },
+                {
+                    "book_chapter_verse": "240111",
+                    "metadata": "RP",
+                    "pos_tag": "RP3GSM",
+                    "word_forms": [
+                        "αὐτοῦ",
+                        "αὐτοῦ",
+                        "αὐτοῦ",
+                        "αὐτός"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "he",
+                    "literal": "his",
+                    "louw": "92.11",
+                    "strong": 846
+                },
+                {
+                    "book_chapter_verse": "240111",
+                    "metadata": "RA",
+                    "pos_tag": "DDPN",
+                    "word_forms": [
+                        "τοῖς",
+                        "τοῖς",
+                        "τοῖς",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "—",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240111",
+                    "metadata": "A-",
+                    "pos_tag": "JDPN",
+                    "word_forms": [
+                        "πονηροῖς.",
+                        "πονηροῖς",
+                        "πονηροῖς",
+                        "πονηρός"
+                    ],
+                    "mounce_chapter": 9,
+                    "gloss": "evil, wicked",
+                    "literal": "evil",
+                    "louw": "88.110",
+                    "strong": 4190
+                }
+            ],
+            "12": [
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "A-",
+                    "pos_tag": "JAPN",
+                    "word_forms": [
+                        "Πολλὰ",
+                        "Πολλὰ",
+                        "πολλά",
+                        "πολύς"
+                    ],
+                    "mounce_chapter": 13,
+                    "gloss": "many",
+                    "literal": "many [things]",
+                    "louw": "59.1",
+                    "strong": 4183
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "V-",
+                    "pos_tag": "VPAP-SNM",
+                    "word_forms": [
+                        "ἔχων",
+                        "ἔχων",
+                        "ἔχων",
+                        "ἔχω"
+                    ],
+                    "mounce_chapter": 16,
+                    "gloss": "to have",
+                    "literal": "[although] I have",
+                    "louw": "57.1",
+                    "strong": 2192
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "RP",
+                    "pos_tag": "RP2DP",
+                    "word_forms": [
+                        "ὑμῖν",
+                        "ὑμῖν",
+                        "ὑμῖν",
+                        "σύ"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "you (plural)",
+                    "literal": "to you",
+                    "louw": "92.7",
+                    "strong": 5213
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "V-",
+                    "pos_tag": "VPAN",
+                    "word_forms": [
+                        "γράφειν",
+                        "γράφειν",
+                        "γράφειν",
+                        "γράφω"
+                    ],
+                    "mounce_chapter": 23,
+                    "gloss": "to write",
+                    "literal": "to write",
+                    "louw": "33.61",
+                    "strong": 1125
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "D-",
+                    "pos_tag": "BN, TN",
+                    "word_forms": [
+                        "οὐκ",
+                        "οὐκ",
+                        "οὐ",
+                        "οὐ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "not",
+                    "literal": "[I do] not",
+                    "louw": "69.3",
+                    "strong": 3756
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "V-",
+                    "pos_tag": "VAPI1S",
+                    "word_forms": [
+                        "ἐβουλήθην",
+                        "ἐβουλήθην",
+                        "ἐβουλήθην",
+                        "βούλομαι"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "to wish, to want",
+                    "literal": "want [to do so]",
+                    "louw": "25.3",
+                    "strong": 1014
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "διὰ",
+                        "διὰ",
+                        "διά",
+                        "διά"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "by, by means of",
+                    "literal": "by means of",
+                    "louw": "90.8",
+                    "strong": 1223
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "N-",
+                    "pos_tag": "NGSM",
+                    "word_forms": [
+                        "χάρτου",
+                        "χάρτου",
+                        "χάρτου",
+                        "χάρτης"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "paper",
+                    "literal": "paper",
+                    "louw": "6.58",
+                    "strong": 5489
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "C-",
+                    "pos_tag": "CLN",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "and",
+                    "literal": "and",
+                    "louw": "89.92",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "N-",
+                    "pos_tag": "JGSN",
+                    "word_forms": [
+                        "μέλανος,",
+                        "μέλανος",
+                        "μέλανος",
+                        "μέλαν"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "ink",
+                    "literal": "ink",
+                    "louw": "79.26",
+                    "strong": 3188
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "C-",
+                    "pos_tag": "CLC",
+                    "word_forms": [
+                        "ἀλλὰ",
+                        "ἀλλὰ",
+                        "ἀλλά",
+                        "ἀλλά"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "but",
+                    "literal": "but",
+                    "louw": "89.125",
+                    "strong": 235
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "V-",
+                    "pos_tag": "VPAI1S",
+                    "word_forms": [
+                        "ἐλπίζω",
+                        "ἐλπίζω",
+                        "ἐλπίζω",
+                        "ἐλπίζω"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "to hope",
+                    "literal": "I hope",
+                    "louw": "30.54",
+                    "strong": 1679
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "V-",
+                    "pos_tag": "VAMN",
+                    "word_forms": [
+                        "⸀γενέσθαι",
+                        "γενέσθαι",
+                        "γενέσθαι",
+                        "γίνομαι"
+                    ],
+                    "mounce_chapter": 22,
+                    "gloss": "to be, to become",
+                    "literal": "to be",
+                    "louw": "15.1",
+                    "strong": 1096
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "πρὸς",
+                        "πρὸς",
+                        "πρός",
+                        "πρός"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "with",
+                    "literal": "with",
+                    "louw": "84.18",
+                    "strong": 4314
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "RP",
+                    "pos_tag": "RP2AP",
+                    "word_forms": [
+                        "ὑμᾶς",
+                        "ὑμᾶς",
+                        "ὑμᾶς",
+                        "σύ"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "you (plural)",
+                    "literal": "you",
+                    "louw": "92.7",
+                    "strong": 5209
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "C-",
+                    "pos_tag": "CLN",
+                    "word_forms": [
+                        "καὶ",
+                        "καὶ",
+                        "καί",
+                        "καί"
+                    ],
+                    "mounce_chapter": 4,
+                    "gloss": "and",
+                    "literal": "and",
+                    "louw": "89.92",
+                    "strong": 2532
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "N-",
+                    "pos_tag": "NASN",
+                    "word_forms": [
+                        "στόμα",
+                        "στόμα",
+                        "στόμα",
+                        "στόμα"
+                    ],
+                    "mounce_chapter": 20,
+                    "gloss": "mouth",
+                    "literal": "mouth",
+                    "louw": "83.39",
+                    "strong": 4750
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "P-",
+                    "pos_tag": "P",
+                    "word_forms": [
+                        "πρὸς",
+                        "πρὸς",
+                        "πρός",
+                        "πρός"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "to",
+                    "literal": "to",
+                    "louw": "83.39",
+                    "strong": 4314
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "N-",
+                    "pos_tag": "NASN",
+                    "word_forms": [
+                        "στόμα",
+                        "στόμα",
+                        "στόμα",
+                        "στόμα"
+                    ],
+                    "mounce_chapter": 20,
+                    "gloss": "mouth",
+                    "literal": "mouth",
+                    "louw": "83.39",
+                    "strong": 4750
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "V-",
+                    "pos_tag": "VAAN",
+                    "word_forms": [
+                        "λαλῆσαι,",
+                        "λαλῆσαι",
+                        "λαλῆσαι",
+                        "λαλέω"
+                    ],
+                    "mounce_chapter": 17,
+                    "gloss": "to talk, to speak",
+                    "literal": "to speak",
+                    "louw": "33.70",
+                    "strong": 2980
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "C-",
+                    "pos_tag": "CAP",
+                    "word_forms": [
+                        "ἵνα",
+                        "ἵνα",
+                        "ἵνα",
+                        "ἵνα"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "in order that, so that",
+                    "literal": "so that",
+                    "louw": "89.59",
+                    "strong": 2443
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "RA",
+                    "pos_tag": "DNSF",
+                    "word_forms": [
+                        "ἡ",
+                        "ἡ",
+                        "ἡ",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "—",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "N-",
+                    "pos_tag": "NNSF",
+                    "word_forms": [
+                        "χαρὰ",
+                        "χαρὰ",
+                        "χαρά",
+                        "χαρά"
+                    ],
+                    "mounce_chapter": 16,
+                    "gloss": "joy",
+                    "literal": "joy",
+                    "louw": "25.123",
+                    "strong": 5479
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "RP",
+                    "pos_tag": "RP2GP",
+                    "word_forms": [
+                        "⸀ὑμῶν",
+                        "ὑμῶν",
+                        "ὑμῶν",
+                        "σύ"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "you",
+                    "literal": "your",
+                    "louw": "92.6",
+                    "strong": 5216
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "V-",
+                    "pos_tag": "VRPP-SNF",
+                    "word_forms": [
+                        "⸂πεπληρωμένη",
+                        "πεπληρωμένη",
+                        "πεπληρωμένη",
+                        "πληρόω"
+                    ],
+                    "mounce_chapter": 17,
+                    "gloss": "to fulfill, to complete",
+                    "literal": "complete",
+                    "louw": "59.33",
+                    "strong": 4137
+                },
+                {
+                    "book_chapter_verse": "240112",
+                    "metadata": "V-",
+                    "pos_tag": "VPAS3S",
+                    "word_forms": [
+                        "ᾖ⸃.",
+                        "ᾖ",
+                        "ᾖ",
+                        "εἰμί"
+                    ],
+                    "mounce_chapter": 8,
+                    "gloss": "to be",
+                    "literal": "may be",
+                    "louw": "13.1",
+                    "strong": 5600
+                }
+            ],
+            "13": [
+                {
+                    "book_chapter_verse": "240113",
+                    "metadata": "V-",
+                    "pos_tag": "VPUI3S",
+                    "word_forms": [
+                        "Ἀσπάζεταί",
+                        "Ἀσπάζεταί",
+                        "ἀσπάζεται",
+                        "ἀσπάζομαι"
+                    ],
+                    "mounce_chapter": 28,
+                    "gloss": "to greet",
+                    "literal": "greet",
+                    "louw": "33.20",
+                    "strong": 782
+                },
+                {
+                    "book_chapter_verse": "240113",
+                    "metadata": "RP",
+                    "pos_tag": "RP2AS",
+                    "word_forms": [
+                        "σε",
+                        "σε",
+                        "σε",
+                        "σύ"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "you (singular)",
+                    "literal": "you",
+                    "louw": "92.6",
+                    "strong": 4571
+                },
+                {
+                    "book_chapter_verse": "240113",
+                    "metadata": "RA",
+                    "pos_tag": "DNPN",
+                    "word_forms": [
+                        "τὰ",
+                        "τὰ",
+                        "τά",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "the",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240113",
+                    "metadata": "N-",
+                    "pos_tag": "NNPN",
+                    "word_forms": [
+                        "τέκνα",
+                        "τέκνα",
+                        "τέκνα",
+                        "τέκνον"
+                    ],
+                    "mounce_chapter": 10,
+                    "gloss": "child",
+                    "literal": "children",
+                    "louw": "11.63",
+                    "strong": 5043
+                },
+                {
+                    "book_chapter_verse": "240113",
+                    "metadata": "RA",
+                    "pos_tag": "DGSF",
+                    "word_forms": [
+                        "τῆς",
+                        "τῆς",
+                        "τῆς",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "of",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240113",
+                    "metadata": "N-",
+                    "pos_tag": "NGSF",
+                    "word_forms": [
+                        "ἀδελφῆς",
+                        "ἀδελφῆς",
+                        "ἀδελφῆς",
+                        "ἀδελφή"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "sister",
+                    "literal": "sister",
+                    "louw": "11.24",
+                    "strong": 79
+                },
+                {
+                    "book_chapter_verse": "240113",
+                    "metadata": "RP",
+                    "pos_tag": "RP2GS",
+                    "word_forms": [
+                        "σου",
+                        "σου",
+                        "σου",
+                        "σύ"
+                    ],
+                    "mounce_chapter": 7,
+                    "gloss": "you (singular)",
+                    "literal": "your",
+                    "louw": "92.6",
+                    "strong": 4675
+                },
+                {
+                    "book_chapter_verse": "240113",
+                    "metadata": "RA",
+                    "pos_tag": "DGSF",
+                    "word_forms": [
+                        "τῆς",
+                        "τῆς",
+                        "τῆς",
+                        "ὁ"
+                    ],
+                    "mounce_chapter": 6,
+                    "gloss": "the",
+                    "literal": "—",
+                    "louw": "92.24",
+                    "strong": 3588
+                },
+                {
+                    "book_chapter_verse": "240113",
+                    "metadata": "A-",
+                    "pos_tag": "JGSF",
+                    "word_forms": [
+                        "⸀ἐκλεκτῆς.",
+                        "ἐκλεκτῆς",
+                        "ἐκλεκτῆς",
+                        "ἐκλεκτός"
+                    ],
+                    "mounce_chapter": 99,
+                    "gloss": "elect, chosen",
+                    "literal": "elect",
+                    "louw": "30.93",
+                    "strong": 1588
+                }
+            ]
+        }
+    }
+}

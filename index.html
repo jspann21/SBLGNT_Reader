@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>SBLGNT Reader</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha384-iw3OoTErCYJJB9mCa8LNS2hbsQ7M3C0EpIsO/H5+EGAkPGc6rk+V8i04oW/K5xq0"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <header>
+        <button id="hamburger-button" class="hamburger-button" title="Open Navigation" aria-label="Open Navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="logo">
+            <i class="fas fa-book-reader"></i> SBLGNT
+        </div>
+        <button id="settings-button" class="settings-button" title="Settings" aria-label="Settings">
+            <i class="fas fa-cog"></i>
+        </button>
+    </header>
+
+    <nav id="side-nav" class="side-nav">
+        <ul class="book-list">
+            <!-- Dynamically populated list of books with nested chapters -->
+        </ul>
+    </nav>
+    <div id="side-nav-backdrop" class="side-nav-backdrop"></div>
+
+    <main id="content">
+        <!-- Dynamic content will be loaded here -->
+    </main>
+    <!-- Navigation Arrows -->
+    <div class="chapter-navigation">
+        <button id="prev-chapter" class="nav-button" title="Previous Chapter">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+        <button id="next-chapter" class="nav-button" title="Next Chapter">
+            <i class="fas fa-arrow-right"></i>
+        </button>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Settings</h2>
+            <div class="setting">
+                <label for="mounce-chapter">Mounce Vocab Chapter:</label>
+                <select id="mounce-chapter">
+                    <option value="99">None</option>
+                    <!-- Dynamically populated options -->
+                </select>
+            </div>
+            <div class="setting">
+                <label for="theme-toggle">Dark Mode:</label>
+                <input type="checkbox" id="theme-toggle">
+            </div>
+            <div class="setting">
+                <label for="font-size-slider">Font Size:</label>
+                <div class="font-size-setting">
+                    <span class="font-size-icon small">A</span>
+                    <input type="range" id="font-size-slider" min="1" max="5" value="3">
+                    <span class="font-size-icon large">A</span>
+                </div>
+            </div>
+            <div class="setting">
+                <label for="paragraph-toggle">Paragraph Mode:</label>
+                <input type="checkbox" id="paragraph-toggle">
+            </div>
+            <div class="setting">
+                <label for="show-verse-numbers">Show Verse Numbers:</label>
+                <input type="checkbox" id="show-verse-numbers" checked>
+            </div>
+            <div class="setting">
+                <label for="tooltip-toggle">Enable Tooltips:</label>
+                <input type="checkbox" id="tooltip-toggle" checked>
+            </div>
+            <!-- Save Button -->
+            <div class="setting">
+                <button id="save-settings-button">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

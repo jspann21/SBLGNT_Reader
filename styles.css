@@ -1,0 +1,821 @@
+/* styles.css */
+@font-face {
+    font-family: 'sbl_greek';
+    src: url('./fonts/sbl_greek.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Base Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: var(--base-font-size); /* Base font size for other elements */
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+:root {
+    --primary-color: #007bff; /* Default blue for light mode */
+    --primary-color-hover: #0056b3; /* Darker shade for hover in light mode */
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --header-background: #f8f9fa;
+    --modal-background: rgba(0, 0, 0, 0.5);
+    --content-background: #ffffff;
+    --nav-select-background: #ffffff;
+    --nav-select-color: #000000;
+    --nav-select-border-color: #ced4da;
+    --button-background: #007bff;
+    --button-color: #ffffff;
+    --button-hover-background: #0056b3;
+    --nav-button-background: rgba(0, 123, 255, 0.8);
+    --nav-button-color: #ffffff;
+    --nav-button-hover-background: rgba(0, 123, 255, 1);
+    --checkbox-color: #007bff;
+    --base-font-size: 16px; /* Base font size for other elements */
+    --verse-font-size: 20px; /* Font size for verses */
+    --range-track-bg-color: #3a3a3a;
+    --chapter-button-bg: #ffffff; /* White background */
+    --chapter-button-text: #000000; /* Black text */
+    --chapter-button-hover-bg: #ddd; /* Light gray on hover */
+    --chapter-button-active-bg: #3399ff; /* Blue when active */
+    --chapter-button-active-text: #ffffff; /* White text when active */
+}
+
+body.dark {
+    --primary-color: #28a745; /* Green for dark mode */
+    --primary-color-hover: #218838; /* Darker shade for hover in dark mode */
+    --background-color: #121212;
+    --text-color: #e0e0e0;
+    --header-background: #1f1f1f;
+    --modal-background: rgba(255, 255, 255, 0.1);
+    --content-background: #1e1e1e;
+    --nav-select-background: #2c2c2c;
+    --nav-select-color: #ffffff;
+    --nav-select-border-color: #555;
+    --button-background: #28a745;
+    --button-color: #ffffff;
+    --button-hover-background: #218838;
+    --nav-button-background: rgba(40, 167, 69, 0.8);
+    --nav-button-color: #ffffff;
+    --nav-button-hover-background: rgba(40, 167, 69, 1);
+    --checkbox-color: #28a745;
+    --range-track-bg-color: #555;
+    --chapter-button-bg: #2c2c2c; /* Dark gray background */
+    --chapter-button-text: #ffffff; /* White text */
+    --chapter-button-hover-bg: #3a3a3a; /* Slightly lighter gray on hover */
+    --chapter-button-active-bg: var(--primary-color); /* Green when active */
+    --chapter-button-active-text: #ffffff; /* White text when active */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--header-background);
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute space between elements */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.logo {
+    flex: 1 1 auto; /* Allow the logo to grow and shrink */
+    text-align: center; /* Center the logo text */
+    font-size: 1.2em;
+    font-weight: 600;
+    color: var(--text-color);
+    white-space: nowrap; /* Prevent the text from wrapping */
+    overflow: hidden; /* Hide overflow if necessary */
+    text-overflow: ellipsis; /* Add ellipsis if text overflows */
+}
+
+.logo i {
+    margin-right: 8px;
+    color: var(--button-background);
+}
+
+.hamburger-button,
+.settings-button {
+    background: none;
+    border: none;
+    color: var(--text-color);
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 8px;
+    flex-shrink: 0; /* Prevent buttons from shrinking */
+}
+
+.hamburger-button:hover,
+.settings-button:hover {
+    color: var(--primary-color-hover);
+}
+
+@media (min-width: 961px) {
+    .hamburger-button {
+        display: none; /* Hide hamburger button on desktop */
+    }
+
+    .chapter-navigation {
+        left: calc(50% + 125px); /* Shift right by half of the sidebar's width (250px / 2) */
+        transform: translateX(-50%);
+    }
+    .modal-content {
+        margin-left: 250px; /* Half of the side-nav width */
+    }
+    .chapter {
+        padding-left: 10px;
+    }
+}
+
+.side-nav {
+    position: fixed;
+    top: 60px; /* Height of the header */
+    left: 0;
+    width: 250px;
+    height: calc(100% - 60px);
+    background-color: var(--header-background);
+    overflow-y: auto;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    z-index: 10000;
+}
+
+@media (max-width: 960px) {
+    header {
+        padding: 8px 10px;
+    }
+
+    .logo {
+        font-size: 1em;
+    }
+
+    .hamburger-button,
+    .settings-button {
+        font-size: 1.2em;
+        padding: 6px;
+    }
+
+    .side-nav {
+        transform: translateX(-100%); /* Hidden by default on mobile */
+        transition: transform 0.3s ease-in-out;
+        top: 50px;
+        height: calc(100% - 50px);
+    }
+
+    .side-nav.open {
+        transform: translateX(0); /* Show when open */
+    }
+
+    .hamburger-button {
+        display: block; /* Show on mobile */
+    }
+
+    body main {
+        padding: 80px 20px 20px 20px;
+    }
+
+    .chapter-navigation {
+        bottom: 70px;
+        left: 50%;
+    }
+
+    .side-nav.open ~ .chapter-navigation {
+        display: none;
+    }
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+.book-list {
+    list-style: none;
+    padding: 0 0 20px;
+    margin: 0;
+}
+
+.book-title {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: 'sbl_greek';
+    font-weight: 400;
+}
+
+.book-item.active .book-title {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.book-item:hover .book-title {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* Chapter Grid Styles within Book Items */
+.book-item .chapter-grid {
+    margin-top: 5px;
+    gap: 5px;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    overflow: hidden;
+    max-height: 0; /* Hidden by default */
+    opacity: 0;
+}
+
+.book-item .chapter-grid:not(.hidden) {
+    max-height: 1000px; /* Sufficiently large to show all chapters */
+    opacity: 1;
+    display: grid; /* Ensure grid is displayed when visible */
+}
+
+/* Optional: Add a caret icon to indicate expandable items */
+.book-title::after {
+    content: '\f0da'; /* FontAwesome caret-down icon */
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s;
+}
+
+.book-item.active .book-title::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.book-item:last-child .chapter-grid:not(.hidden) {
+    margin-bottom: 100px; /* Adjust the value as needed */
+}
+
+/* Chapter Button Styles */
+.chapter-button {
+    padding: 6px;
+    background-color: transparent;
+    color: var(--chapter-button-text);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 0.9em;
+}
+
+.chapter-button:hover {
+    background-color: var(--chapter-button-hover-bg);
+}
+
+.chapter-button:active,
+.chapter-button:focus {
+    background-color: var(--chapter-button-active-bg);
+    color: var(--chapter-button-active-text);
+    outline: none; /* Removes the default focus outline */
+}
+
+.chapter-button.active {
+    background-color: var(--chapter-button-active-bg);
+    color: var(--chapter-button-active-text);
+}
+
+.hidden {
+    display: none;
+}
+
+main {
+    padding: 80px 20px 20px 270px; /* Left padding to accommodate side nav */
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.chapter {
+    margin-bottom: 40px;
+    background-color: var(--content-background);
+    box-shadow: 0 0 0 60px var(--content-background);
+}
+
+.chapter h2 {
+    font-size: clamp(1.5em, 5vw, 2em);
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 10px;
+    color: var(--button-background);
+    font-family: 'sbl_greek';
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.verse {
+    font-weight: normal;
+    font-size: var(--verse-font-size);
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.verse-number {
+    font-size: 0.6em;
+    vertical-align: super;
+    font-weight: normal;
+    margin-right: 6px;
+    color: var(--text-color);
+}
+
+.bold-word {
+    font-weight: bold;
+}
+
+.unbold-word {
+    font-weight: normal;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--modal-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 950;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.modal-content {
+    background-color: var(--content-background);
+    padding: 25px 30px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 450px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: var(--text-color);
+    position: relative; /* To position the close button */
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+.setting {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.setting label {
+    flex: 0 0 150px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.setting select {
+    width: 100%; /* Full width for dropdown */
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid var(--nav-select-border-color);
+    border-radius: 4px;
+    background-color: var(--nav-select-background);
+    color: var(--nav-select-color);
+}
+
+.setting select:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+.font-size-setting {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.font-size-setting input[type="range"] {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.setting label {
+    flex: 0 0 150px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.font-size-icon {
+    font-size: 1.2em; /* Font size for the A icons */
+    font-weight: normal; /* Ensure it's not bold */
+    color: var(--text-color); /* Use the text color from the theme */
+}
+
+/* Smaller 'A' for the left */
+.font-size-icon.small {
+    font-size: 0.9em; /* Make the 'A' smaller on the left */
+}
+
+/* Larger 'A' for the right */
+.font-size-icon.large {
+    font-size: 1.8em; /* Make the 'A' larger on the right */
+}
+
+.setting input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--nav-select-border-color);
+    border-radius: 4px;
+    background-color: var(--nav-select-background);
+    color: var(--nav-select-color);
+    accent-color: var(--checkbox-color);
+    transition: background-color 0.3s, border-color 0.3s, accent-color 0.3s;
+    position: relative;
+}
+
+.setting input[type="checkbox"]:checked {
+    background-color: var(--checkbox-color);
+    border-color: var(--checkbox-color);
+}
+
+.setting input[type="checkbox"]:checked::after {
+    content: '\2714'; /* Checkmark symbol */
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 3px;
+    display: block;
+    line-height: 18px;
+}
+
+.setting input[type="range"] {
+    flex: 1;
+    margin: 0 10px;
+    -webkit-appearance: none;
+    height: 4px;
+    border-radius: 5px;
+    background: var(--range-track-bg-color);
+    outline: none;
+    transition: opacity 0.2s, background 0.3s;
+}
+
+/* Styles for the slider thumb */
+.setting input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.setting input[type="range"]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.setting input[type="range"]::-ms-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.setting button#save-settings-button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--button-background);
+    color: var(--button-color);
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.setting button#save-settings-button:hover {
+    background-color: var(--button-hover-background);
+}
+
+
+/* Smooth Scroll Behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Loading Spinner Styles */
+.loading-spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid var(--primary-color);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    z-index: 3000; /* Above other elements */
+}
+
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+/* Chapter Navigation Arrows */
+.chapter-navigation {
+    position: fixed;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    z-index: 850;
+}
+
+.nav-button {
+    background-color: var(--nav-button-background);
+    color: var(--nav-button-color);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+/* Apply hover effects only on devices that support hover */
+@media (hover: hover) {
+    .nav-button:hover {
+        background-color: var(--nav-button-hover-background);
+        transform: scale(1.1);
+    }
+}
+
+.nav-button:active {
+    transform: scale(0.95);
+}
+
+.nav-button:focus {
+    outline: none;
+    transform: scale(1);
+}
+
+.nav-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    transform: scale(1);
+}
+
+.paragraph {
+    text-indent: 2em;
+    padding-bottom: 1em;
+}
+
+@media (max-width: 480px) {
+    .chapter h2 {
+        font-size: clamp(1em, 6vw, 1.5em);
+    }
+
+    .nav-button {
+        width: 40px;
+        height: 40px;
+        font-size: 1em;
+    }
+
+    .chapter-navigation {
+        bottom: 10px;
+        gap: 10px;
+    }
+
+    .modal-content {
+        padding: 15px;
+    }
+
+    .setting label {
+        font-size: 0.9em;
+        width: auto;
+        margin-right: 5px;
+    }
+}
+
+.side-nav-backdrop {
+    display: none;
+    position: fixed;
+    top: 50px; /* Same as side-nav */
+    left: 0;
+    width: 100%;
+    height: calc(100% - 50px);
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 975;
+}
+
+.side-nav.open ~ .side-nav-backdrop {
+    display: block;
+}
+
+/* General Tooltip Styles */
+#tooltip {
+    position: absolute;
+    background-color: var(--content-background);
+    color: var(--text-color);
+    border: 1px solid var(--nav-select-border-color);
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 70vh; /* Prevent the tooltip from stretching beyond 70% of the viewport height */
+    z-index: 900;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    line-height: 22px;
+    font-family: Gotham, "Gentium Plus", Ezra, Helvetica, Arial, sans-serif;
+    padding: 10px;
+    overflow-y: auto; /* Enable scrolling if content exceeds height */
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(5%);
+    pointer-events: none;
+    word-wrap: break-word; /* Ensure long words wrap */
+    white-space: normal; /* Allow text to wrap */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+#tooltip.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.tooltip-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--nav-select-border-color);
+    font-family: 'sbl_greek';
+}
+
+.tooltip-lemma {
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.tooltip-close a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.tooltip-close a:hover {
+    color: var(--primary-color);
+}
+
+.tooltip-content {
+    padding-top: 10px;
+}
+
+.tooltip-pos-tag,
+.tooltip-gloss,
+.tooltip-literal,
+.tooltip-louw,
+.tooltip-strong,
+.tooltip-mounce {
+    margin-bottom: 5px;
+}
+
+.tooltip-pos-tag {
+    border-bottom: 1px solid var(--nav-select-border-color);
+    padding-bottom: 5px;
+}
+
+/* Mobile Styling: Make tooltips modal-like */
+@media (max-width: 768px) {
+    #tooltip {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        margin: 0;
+        padding: 20px;
+        background-color: var(--content-background);
+        font-size: 16px;
+        line-height: 24px;
+        border-radius: 0; /* No round top corners */
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+        z-index: 900;
+        transition: bottom 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        max-width: none;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+
+    .tooltip-header {
+        padding-bottom: 15px;
+    }
+
+    .tooltip-lemma {
+        font-size: 20px;
+    }
+
+    .tooltip-close a {
+        font-size: 18px;
+    }
+
+    .tooltip-content {
+        padding-top: 15px;
+    }
+}
+
+/* Ensure tooltip does not go off-screen on desktop */
+@media (min-width: 769px) {
+    #tooltip {
+        max-width: 300px;
+    }
+
+    #tooltip.above-word {
+        transform: translateY(-105%);
+    }
+
+    #tooltip.below-word {
+        transform: translateY(5%);
+    }
+
+    #tooltip {
+        transform-origin: top;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+}
+
+/* Adjust the font size for very small devices */
+@media (max-width: 480px) {
+    #tooltip {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+/* Global Custom Scrollbar Styles */
+html, body {
+    scrollbar-color: var(--nav-select-border-color) var(--content-background); /* Firefox Thumb and Track Color */
+}
+
+/* WebKit-based browsers (Chrome, Edge, Safari) */
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    width: 12px; /* Set width for vertical scrollbar */
+    height: 12px; /* Set height for horizontal scrollbar (if applicable) */
+}
+
+html::-webkit-scrollbar-track, body::-webkit-scrollbar-track {
+    background-color: var(--content-background); /* Track color */
+}
+
+html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color); /* Thumb color */
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 3px solid var(--content-background); /* Creates some padding effect */
+}
+
+html::-webkit-scrollbar-thumb:hover, body::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary-color-hover); /* Thumb color on hover */
+}
+
+html::-webkit-scrollbar-corner, body::-webkit-scrollbar-corner {
+    background-color: var(--content-background); /* Bottom corner between vertical and horizontal scrollbars */
+}
