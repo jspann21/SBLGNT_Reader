@@ -969,6 +969,17 @@ function setupEventListeners() {
         }
     });
 
+    window.addEventListener('scroll', () => {
+        hideTooltip(); // Always hide tooltips when scrolling
+
+        if (sideNav.classList.contains('open')) {
+            // Force a reflow by briefly hiding and showing the side-nav
+            sideNav.style.display = 'none';
+            sideNav.offsetHeight; // Trigger reflow by accessing offsetHeight
+            sideNav.style.display = ''; // Restore display
+        }
+    });
+
     // Save Settings Button Click
     saveSettingsButton.addEventListener('click', () => {
         mounceChapterSelected = parseInt(mounceSelect.value, 10);
@@ -1145,6 +1156,7 @@ function setupEventListeners() {
     const sideNavBackdrop = document.getElementById('side-nav-backdrop');
     sideNavBackdrop.addEventListener('click', () => {
         sideNav.classList.remove('open');
+        document.body.classList.remove('no-scroll');
         hamburgerButton.setAttribute('aria-expanded', 'false');
     });
 

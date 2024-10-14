@@ -172,7 +172,6 @@ header {
 
     .side-nav.open {
         transform: translateX(0); /* Show when open */
-        position: fixed; /* Ensure it stays fixed when scrolling */
         z-index: 10000; /* Ensure it's on top when opened */
     }
 
@@ -194,6 +193,7 @@ header {
 
     .hamburger-button {
         display: block; /* Show on mobile */
+        z-index: 10001; /* Ensure the hamburger button is on top */
     }
 
     body main {
