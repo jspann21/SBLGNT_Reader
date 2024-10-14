@@ -171,6 +171,24 @@ header {
 
     .side-nav.open {
         transform: translateX(0); /* Show when open */
+        position: fixed; /* Ensure it stays fixed when scrolling */
+        z-index: 10000; /* Ensure it's on top when opened */
+    }
+
+    /* Backdrop behind the menu to handle clicks outside */
+    .side-nav-backdrop {
+        display: none;
+        position: fixed;
+        top: 50px; /* Same as side-nav */
+        left: 0;
+        width: 100%;
+        height: calc(100% - 50px);
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 975; /* Below the side-nav but above other content */
+    }
+
+    .side-nav.open ~ .side-nav-backdrop {
+        display: block;
     }
 
     .hamburger-button {

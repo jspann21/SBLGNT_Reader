@@ -977,7 +977,19 @@ function setupEventListeners() {
 
         // Toggle side navigation
         sideNav.classList.toggle('open');
+        document.body.classList.toggle('no-scroll'); // Prevent background scrolling when menu is open
         console.log('Side Navigation Toggled');
+    });
+
+    // Ensure touch events also toggle the menu correctly on mobile
+    hamburgerButton.addEventListener('touchend', (event) => {
+        event.preventDefault(); // Prevent default touch behavior
+        hideTooltip(); // Hide any open tooltips
+
+        // Toggle side navigation
+        sideNav.classList.toggle('open');
+        document.body.classList.toggle('no-scroll'); // Prevent background scrolling when menu is open
+        console.log('Side Navigation Toggled on Touch');
     });
 
     // Book Item Click - Toggle Chapter Grid and Load Book Data
