@@ -972,13 +972,6 @@ function setupEventListeners() {
 
     window.addEventListener('scroll', () => {
         hideTooltip(); // Always hide tooltips when scrolling
-
-        if (sideNav.classList.contains('open')) {
-            // Force a reflow by briefly hiding and showing the side-nav
-            sideNav.style.display = 'none';
-            sideNav.offsetHeight; // Trigger reflow by accessing offsetHeight
-            sideNav.style.display = ''; // Restore display
-        }
     });
 
     // Save Settings Button Click
@@ -1019,8 +1012,14 @@ function setupEventListeners() {
         hideTooltip();
 
         // Toggle side navigation
-        sideNav.classList.toggle('open');
-        document.body.classList.toggle('no-scroll'); // Prevent background scrolling when menu is open
+        if (sideNav.classList.contains('open')) {
+            sideNav.classList.remove('open');
+            document.body.classList.remove('no-scroll');
+        } else {
+            sideNav.classList.add('open');
+            document.body.classList.add('no-scroll');
+        }
+
         console.log('Side Navigation Toggled');
     });
 
@@ -1134,14 +1133,15 @@ function setupEventListeners() {
     });
 
     // Handle window resize to ensure side nav is visible on desktop
+    let resizeTimeout;
     window.addEventListener('resize', () => {
-        if (window.innerWidth > 768) {
-            sideNav.classList.remove('hidden');
-            sideNav.classList.remove('open');
-            document.body.classList.remove('no-scroll');
-        } else {
-            sideNav.classList.add('hidden');
-        }
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+            if (window.innerWidth > 768) {
+                sideNav.classList.remove('open');
+                document.body.classList.remove('no-scroll');
+            }
+        }, 150);
     });
 
     // Close side navigation when clicking on the backdrop

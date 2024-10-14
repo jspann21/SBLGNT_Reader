@@ -162,7 +162,10 @@ header {
     }
 
     .side-nav {
-        transition: left 0.3s ease-in-out; /* Use 'left' instead of 'transform' */
+        -webkit-transition: left 0.3s ease-in-out;
+        -moz-transition: left 0.3s ease-in-out;
+        -o-transition: left 0.3s ease-in-out;
+        transition: left 0.3s ease-in-out;
         left: -250px; /* Hidden by default */
         width: 250px;
         top: 50px;
