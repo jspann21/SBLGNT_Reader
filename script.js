@@ -176,7 +176,8 @@ async function fetchData() {
         // Fetch Mounce Vocab
         const mounceResponse = await fetch('mounce_vocab.json');
         if (!mounceResponse.ok) {
-            throw new Error(`Failed to fetch mounce_vocab.json: ${mounceResponse.statusText}`);
+            console.error(`Failed to fetch mounce_vocab.json: ${mounceResponse.statusText}`);
+            return; // Early return if data fetching fails
         }
         mounceVocab = await mounceResponse.json();
         console.log('Mounce Vocab Loaded');
@@ -196,7 +197,8 @@ async function loadAvailableBooks() {
     try {
         const response = await fetch('sblgnt_json/books.json'); // Fetch English book names
         if (!response.ok) {
-            throw new Error(`Failed to fetch books.json: ${response.statusText}`);
+            console.error(`Failed to fetch books.json: ${response.statusText}`);
+            return; // Early return if data fetching fails
         }
         booksList = await response.json();
         console.log('Books List Loaded:', booksList);
@@ -307,13 +309,15 @@ async function loadBookData(bookIdx) {
     try {
         const response = await fetch(`sblgnt_json/${fileName}.json`);
         if (!response.ok) {
-            throw new Error(`Failed to fetch ${fileName}.json: ${response.statusText}`);
+            console.error(`Failed to fetch ${fileName}.json: ${response.statusText}`);
+            return; // Early return if data fetching fails
         }
         const data = await response.json();
         // Extract the book data directly
         sblgntData = data[bookName];
         if (!sblgntData) {
-            throw new Error(`Book data for ${bookName} not found in JSON.`);
+            console.error(`Book data for ${bookName} not found in JSON.`);
+            return; // Early return if data fetching fails
         }
         console.log(`Loaded data for ${bookName}`);
     } catch (error) {
