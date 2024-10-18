@@ -206,7 +206,7 @@ async function loadAvailableBooks() {
         booksList.forEach((book, index) => {
             const bookItem = document.createElement('li');
             bookItem.classList.add('book-item');
-            bookItem.dataset.index = index;
+            bookItem.dataset.index = String(index);
 
             // Book Title (use Greek name for display if available, else fallback to English)
             const bookTitle = document.createElement('div');
@@ -251,9 +251,9 @@ function populateChaptersInBook(bookIdx, maxChap) {
 
     for (let chap = 1; chap <= maxChap; chap++) {
         const chapterButton = document.createElement('button');
-        chapterButton.textContent = chap;
+        chapterButton.textContent = String(chap);
         chapterButton.classList.add('chapter-button');
-        chapterButton.dataset.chapter = chap;
+        chapterButton.dataset.chapter = String(chap);
         chaptersDiv.appendChild(chapterButton);
     }
 }
@@ -348,8 +348,8 @@ function populateMounceSelect() {
 
     uniqueChapters.forEach(chapterNum => {
         const option = document.createElement('option');
-        option.value = chapterNum;
-        option.textContent = chapterNum;
+        option.value = String(chapterNum);
+        option.textContent = String(chapterNum);
         mounceSelect.appendChild(option);
     });
 
@@ -589,7 +589,7 @@ function addVerseContent(verseElement, verseWords) {
 
         // Ensure the verse number is extracted correctly
         const verseNumStr = verseWords[0].book_chapter_verse;
-        verseNumber.textContent = parseInt(verseNumStr.slice(-2), 10); // Set as text content
+        verseNumber.textContent = String(parseInt(verseNumStr.slice(-2), 10)); // Set as text content
         verseElement.appendChild(verseNumber);
     }
 
