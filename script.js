@@ -1,4 +1,20 @@
 // script.js
+/**
+ * @typedef {Object} WordInfo
+ * @property {string[]} word_forms - The different forms of the word.
+ * @property {number} mounce_chapter - The Mounce chapter number.
+ * @property {string} book_chapter_verse - The book, chapter, and verse reference.
+ * @property {string} [gloss] - The gloss of the word.
+ * @property {string} [literal] - The literal meaning.
+ * @property {string} [louw] - The Louw-Nida reference.
+ * @property {string} [strong] - The Strong's number.
+ * @property {string} [pos_tag] - The part of speech tag.
+ * // Add any other properties you use from wordInfo
+ */
+
+/**
+ * @typedef {WordInfo[]} VerseWords
+ */
 
 // Global Variables
 let sblgntData = {}; // Current book's data
@@ -671,7 +687,7 @@ function showTooltip(event, wordInfo) {
     tooltip.innerHTML = `
         <div class="tooltip-header">
             <span class="tooltip-lemma"><strong>${wordInfo.word_forms[3]}</strong></span> <!-- Lemma -->
-            <span class="tooltip-close"><a href="#" onclick="hideTooltip(event)">&times;</a></span>
+            <span class="tooltip-close"><button type="button" class="close-button">&times;</button></span>
         </div>
         <div class="tooltip-content">
             <div class="tooltip-gloss"><strong>Gloss:</strong> ${gloss}</div>
@@ -974,12 +990,18 @@ function setupEventListeners() {
         }
     });
 
+    document.body.addEventListener('click', (event) => {
+        if (event.target.classList.contains('close-button')) {
+            hideTooltip(event);
+        }
+    });
+
     window.addEventListener('scroll', () => {
         hideTooltip(); // Always hide tooltips when scrolling
     });
 
     // Save Settings Button Click
-    saveSettingsButton.addEventListener('click', () => {
+    saveSettingsButton.addEventListener('click', async () => {
         mounceChapterSelected = parseInt(mounceSelect.value, 10);
         console.log(`Mounce Chapter Selected: ${mounceChapterSelected}`);
 
@@ -991,7 +1013,7 @@ function setupEventListeners() {
         console.log('Settings Modal Closed After Saving');
 
         // Reload the current chapter to apply unbolding
-        displayChapter(currentBookIndex, currentChapter, false);
+        await displayChapter(currentBookIndex, currentChapter, false);
     });
 
     // Theme Toggle Change
@@ -1115,25 +1137,25 @@ function setupEventListeners() {
     });
 
     // Paragraph Mode Toggle
-    document.getElementById('paragraph-toggle').addEventListener('change', (event) => {
+    document.getElementById('paragraph-toggle').addEventListener('change', async (event) => {
         isParagraphMode = event.target.checked;
-        saveSettings(); // Save the new state
-        displayChapter(currentBookIndex, currentChapter, false); // Re-render current chapter
+        saveSettings();
+        await displayChapter(currentBookIndex, currentChapter, false);
         console.log(`Paragraph Mode Toggled: ${isParagraphMode}`);
     });
 
     // Show Verse Numbers Toggle
-    document.getElementById('show-verse-numbers').addEventListener('change', (event) => {
+    document.getElementById('show-verse-numbers').addEventListener('change', async (event) => {
         showVerseNumbers = event.target.checked;
         saveSettings(); // Save the new state
-        displayChapter(currentBookIndex, currentChapter, false); // Re-render current chapter with/without verse numbers
+        await displayChapter(currentBookIndex, currentChapter, false);
         console.log(`Show Verse Numbers Toggled: ${showVerseNumbers}`);
     });
 
-    mounceSelect.addEventListener('change', (event) => {
+    mounceSelect.addEventListener('change', async (event) => {
         mounceChapterSelected = parseInt(event.target.value, 10);
         console.log(`Mounce Vocab Chapter changed to: ${mounceChapterSelected}`);
-        displayChapter(currentBookIndex, currentChapter, false);
+        await displayChapter(currentBookIndex, currentChapter, false);
     });
 
     // Handle window resize to ensure side nav is visible on desktop
@@ -1182,10 +1204,9 @@ function setupEventListeners() {
         }
     });
 
-    document.getElementById('save-settings-button').addEventListener('click', () => {
+    document.getElementById('save-settings-button').addEventListener('click', async () => {
         saveSettings();
         document.getElementById('settings-modal').classList.add('hidden');
-        displayChapter(currentBookIndex, currentChapter, false);
+        await displayChapter(currentBookIndex, currentChapter, false); // Use await to handle the promise
     });
-
 }

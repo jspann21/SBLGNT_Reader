@@ -720,13 +720,16 @@ html {
     color: var(--text-color);
 }
 
-.tooltip-close a {
+.tooltip-close button {
+    background: none;
+    border: none;
     color: var(--text-color);
-    text-decoration: none;
     font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-.tooltip-close a:hover {
+.tooltip-close button:hover {
     color: var(--primary-color);
 }
 
