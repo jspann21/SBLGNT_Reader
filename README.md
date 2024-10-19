@@ -4,12 +4,12 @@ A web-based reader for the **SBL Greek New Testament** that allows you to custom
 
 *Example of the reader highlighting unknown words.*
 
-![image](https://github.com/user-attachments/assets/d082e95c-a789-41bc-bf8a-d1675c9aff35)
+![1](https://github.com/user-attachments/assets/42d6047c-02cd-4238-8871-55b59cabf257)
 
 
 *Word details displayed upon clicking a word.*
 
-![image](https://github.com/user-attachments/assets/002ac2e5-7728-40dd-a02a-2d898671ba8f)
+![2](https://github.com/user-attachments/assets/94379e63-30a7-433c-8332-2060a8ce464a)
 
 ## Features
 
@@ -30,7 +30,7 @@ You can use the SBLGNT Reader directly in your browser without downloading anyth
 
 1. **Set Your Vocabulary Level**:
 
-   - Click on the settings icon ![image](https://github.com/user-attachments/assets/9dc85929-b081-481f-be8e-53ac818032cd)
+   - Click on the settings icon ![3](https://github.com/user-attachments/assets/42d139c8-99db-46e2-85e4-7ddc406eaf89)
  to open the settings modal.
    - Select your current Mounce vocabulary chapter from the dropdown menu.
    - Adjust other settings like theme, font size, and display options as desired.
@@ -69,11 +69,11 @@ This project utilizes data from the following sources:
 
 *Settings modal where you can customize your experience.*
 
-![image](https://github.com/user-attachments/assets/b7cc6cdb-b3f0-4d65-b459-835536a812e1)
+![4](https://github.com/user-attachments/assets/0a58f2bf-4c50-4c6b-9ff2-dc2eea7640b8)
 
 *Dark mode with adjusted font size.*
 
-![image](https://github.com/user-attachments/assets/1a03016d-03ef-4c88-ae01-103ddff1a219)
+![5](https://github.com/user-attachments/assets/54fc8c52-781a-4d4a-9017-0b43e51373d5)
 
 ## Contributing
 
