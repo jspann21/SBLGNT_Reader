@@ -16,7 +16,8 @@
                     "gloss": "Paul",
                     "literal": "Paul",
                     "louw": "93.294",
-                    "strong": 3972
+                    "strong": 3972,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180101",
@@ -32,7 +33,8 @@
                     "gloss": "prisoner",
                     "literal": "a prisoner",
                     "louw": "37.117",
-                    "strong": 1198
+                    "strong": 1198,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180101",
@@ -48,7 +50,8 @@
                     "gloss": "Christ",
                     "literal": "of Christ",
                     "louw": "93.387",
-                    "strong": 5547
+                    "strong": 5547,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180101",
@@ -64,7 +67,8 @@
                     "gloss": "Jesus",
                     "literal": "Jesus",
                     "louw": "93.169",
-                    "strong": 2424
+                    "strong": 2424,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180101",
@@ -80,7 +84,8 @@
                     "gloss": "and",
                     "literal": "and",
                     "louw": "89.92",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180101",
@@ -96,7 +101,8 @@
                     "gloss": "Timothy",
                     "literal": "Timothy",
                     "louw": "93.361",
-                    "strong": 5095
+                    "strong": 5095,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180101",
@@ -112,7 +118,8 @@
                     "gloss": "the",
                     "literal": "our",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180101",
@@ -128,7 +135,8 @@
                     "gloss": "brother",
                     "literal": "brother",
                     "louw": "11.23",
-                    "strong": 80
+                    "strong": 80,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180101",
@@ -144,7 +152,8 @@
                     "gloss": "Philemon",
                     "literal": "to Philemon",
                     "louw": "93.377",
-                    "strong": 5371
+                    "strong": 5371,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180101",
@@ -160,7 +169,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180101",
@@ -176,7 +186,8 @@
                     "gloss": "beloved, dear",
                     "literal": "dear friend",
                     "louw": "25.45",
-                    "strong": 27
+                    "strong": 27,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180101",
@@ -192,7 +203,8 @@
                     "gloss": "and",
                     "literal": "and",
                     "louw": "89.92",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180101",
@@ -208,7 +220,8 @@
                     "gloss": "fellow worker",
                     "literal": "fellow worker",
                     "louw": "42.44",
-                    "strong": 4904
+                    "strong": 4904,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180101",
@@ -224,7 +237,8 @@
                     "gloss": "we",
                     "literal": "our",
                     "louw": "92.1",
-                    "strong": 2257
+                    "strong": 2257,
+                    "type": "personal"
                 }
             ],
             "2": [
@@ -242,7 +256,8 @@
                     "gloss": "and",
                     "literal": "and",
                     "louw": "89.92",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180102",
@@ -258,7 +273,8 @@
                     "gloss": "Apphia",
                     "literal": "to Apphia",
                     "louw": "93.34",
-                    "strong": 682
+                    "strong": 682,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180102",
@@ -274,7 +290,8 @@
                     "gloss": "the",
                     "literal": "our",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180102",
@@ -290,7 +307,8 @@
                     "gloss": "sister",
                     "literal": "sister",
                     "louw": "11.24",
-                    "strong": 79
+                    "strong": 79,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180102",
@@ -306,7 +324,8 @@
                     "gloss": "and",
                     "literal": "and",
                     "louw": "89.92",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180102",
@@ -322,7 +341,8 @@
                     "gloss": "Archippus",
                     "literal": "to Archippus",
                     "louw": "93.46",
-                    "strong": 751
+                    "strong": 751,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180102",
@@ -338,7 +358,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180102",
@@ -354,7 +375,8 @@
                     "gloss": "fellow soldier",
                     "literal": "fellow soldier",
                     "louw": "34.19",
-                    "strong": 4961
+                    "strong": 4961,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180102",
@@ -370,7 +392,8 @@
                     "gloss": "we",
                     "literal": "our",
                     "louw": "92.1",
-                    "strong": 2257
+                    "strong": 2257,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180102",
@@ -386,7 +409,8 @@
                     "gloss": "and",
                     "literal": "and",
                     "louw": "89.92",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180102",
@@ -402,7 +426,8 @@
                     "gloss": "the",
                     "literal": "to the",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180102",
@@ -418,7 +443,8 @@
                     "gloss": "in",
                     "literal": "in",
                     "louw": "89.113",
-                    "strong": 2596
+                    "strong": 2596,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180102",
@@ -434,7 +460,8 @@
                     "gloss": "house",
                     "literal": "house",
                     "louw": "7.2",
-                    "strong": 3624
+                    "strong": 3624,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180102",
@@ -450,7 +477,8 @@
                     "gloss": "you (singular)",
                     "literal": "your",
                     "louw": "92.6",
-                    "strong": 4675
+                    "strong": 4675,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180102",
@@ -466,7 +494,8 @@
                     "gloss": "church",
                     "literal": "church",
                     "louw": "11.32",
-                    "strong": 1577
+                    "strong": 1577,
+                    "type": "common"
                 }
             ],
             "3": [
@@ -484,7 +513,8 @@
                     "gloss": "grace, kindness",
                     "literal": "grace",
                     "louw": "25.89",
-                    "strong": 5485
+                    "strong": 5485,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180103",
@@ -500,7 +530,8 @@
                     "gloss": "you (plural)",
                     "literal": "to you",
                     "louw": "92.7",
-                    "strong": 5213
+                    "strong": 5213,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180103",
@@ -516,7 +547,8 @@
                     "gloss": "and",
                     "literal": "and",
                     "louw": "89.92",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180103",
@@ -532,7 +564,8 @@
                     "gloss": "peace",
                     "literal": "peace",
                     "louw": "22.42",
-                    "strong": 1515
+                    "strong": 1515,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180103",
@@ -548,7 +581,8 @@
                     "gloss": "from",
                     "literal": "from",
                     "louw": "90.15",
-                    "strong": 575
+                    "strong": 575,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180103",
@@ -564,7 +598,8 @@
                     "gloss": "God",
                     "literal": "God",
                     "louw": "12.1",
-                    "strong": 2316
+                    "strong": 2316,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180103",
@@ -580,7 +615,8 @@
                     "gloss": "Father",
                     "literal": "Father",
                     "louw": "12.12",
-                    "strong": 3962
+                    "strong": 3962,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180103",
@@ -596,7 +632,8 @@
                     "gloss": "we",
                     "literal": "our",
                     "louw": "92.1",
-                    "strong": 2257
+                    "strong": 2257,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180103",
@@ -612,7 +649,8 @@
                     "gloss": "and",
                     "literal": "and",
                     "louw": "89.92",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180103",
@@ -628,7 +666,8 @@
                     "gloss": "Lord",
                     "literal": "the Lord",
                     "louw": "12.9",
-                    "strong": 2962
+                    "strong": 2962,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180103",
@@ -644,7 +683,8 @@
                     "gloss": "Jesus",
                     "literal": "Jesus",
                     "louw": "93.169",
-                    "strong": 2424
+                    "strong": 2424,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180103",
@@ -660,7 +700,8 @@
                     "gloss": "Christ",
                     "literal": "Christ",
                     "louw": "93.387",
-                    "strong": 5547
+                    "strong": 5547,
+                    "type": "proper"
                 }
             ],
             "4": [
@@ -678,7 +719,8 @@
                     "gloss": "to be thankful",
                     "literal": "I thank",
                     "louw": "33.349",
-                    "strong": 2168
+                    "strong": 2168,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180104",
@@ -694,7 +736,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180104",
@@ -710,7 +753,8 @@
                     "gloss": "God",
                     "literal": "God",
                     "louw": "12.1",
-                    "strong": 2316
+                    "strong": 2316,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180104",
@@ -726,7 +770,8 @@
                     "gloss": "I",
                     "literal": "my",
                     "louw": "92.1",
-                    "strong": 3450
+                    "strong": 3450,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180104",
@@ -742,7 +787,8 @@
                     "gloss": "always, at all times",
                     "literal": "always",
                     "louw": "67.88",
-                    "strong": 3842
+                    "strong": 3842,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180104",
@@ -758,7 +804,8 @@
                     "gloss": "remembrance, mention",
                     "literal": "mention",
                     "louw": "29.18",
-                    "strong": 3417
+                    "strong": 3417,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180104",
@@ -774,7 +821,8 @@
                     "gloss": "you (singular)",
                     "literal": "of you",
                     "louw": "92.6",
-                    "strong": 4675
+                    "strong": 4675,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180104",
@@ -790,7 +838,8 @@
                     "gloss": "to make, to do",
                     "literal": "making",
                     "louw": "90.45",
-                    "strong": 4160
+                    "strong": 4160,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180104",
@@ -806,7 +855,8 @@
                     "gloss": "upon the occasion of, in",
                     "literal": "in",
                     "louw": "67.136",
-                    "strong": 1909
+                    "strong": 1909,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180104",
@@ -822,7 +872,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180104",
@@ -838,7 +889,8 @@
                     "gloss": "prayer",
                     "literal": "prayers",
                     "louw": "33.178",
-                    "strong": 4335
+                    "strong": 4335,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180104",
@@ -854,7 +906,8 @@
                     "gloss": "I",
                     "literal": "my",
                     "louw": "92.1",
-                    "strong": 3450
+                    "strong": 3450,
+                    "type": "personal"
                 }
             ],
             "5": [
@@ -872,7 +925,8 @@
                     "gloss": "to hear",
                     "literal": "[because] I hear about",
                     "louw": "33.212",
-                    "strong": 191
+                    "strong": 191,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -888,7 +942,8 @@
                     "gloss": "you (singular)",
                     "literal": "your",
                     "louw": "92.6",
-                    "strong": 4675
+                    "strong": 4675,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -904,7 +959,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -920,7 +976,8 @@
                     "gloss": "love",
                     "literal": "love",
                     "louw": "25.43",
-                    "strong": 26
+                    "strong": 26,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -936,7 +993,8 @@
                     "gloss": "and",
                     "literal": "and",
                     "louw": "89.92",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -952,7 +1010,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -968,7 +1027,8 @@
                     "gloss": "faith",
                     "literal": "faith",
                     "louw": "31.85",
-                    "strong": 4102
+                    "strong": 4102,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -984,7 +1044,8 @@
                     "gloss": "rel. who, which, what",
                     "literal": "which",
                     "louw": "92.27",
-                    "strong": 3739
+                    "strong": 3739,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -1000,7 +1061,8 @@
                     "gloss": "to have",
                     "literal": "you have",
                     "louw": "57.1",
-                    "strong": 2192
+                    "strong": 2192,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -1016,7 +1078,8 @@
                     "gloss": "to, toward",
                     "literal": "toward",
                     "louw": "89.7",
-                    "strong": 4314
+                    "strong": 4314,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -1032,7 +1095,8 @@
                     "gloss": "the",
                     "literal": "the",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -1048,7 +1112,8 @@
                     "gloss": "Lord",
                     "literal": "Lord",
                     "louw": "12.9",
-                    "strong": 2962
+                    "strong": 2962,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -1064,7 +1129,8 @@
                     "gloss": "Jesus",
                     "literal": "Jesus",
                     "louw": "93.169",
-                    "strong": 2424
+                    "strong": 2424,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -1080,7 +1146,8 @@
                     "gloss": "and",
                     "literal": "and",
                     "louw": "89.92",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -1096,7 +1163,8 @@
                     "gloss": "for",
                     "literal": "for",
                     "louw": "90.23",
-                    "strong": 1519
+                    "strong": 1519,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -1112,7 +1180,8 @@
                     "gloss": "all",
                     "literal": "all",
                     "louw": "59.23",
-                    "strong": 3956
+                    "strong": 3956,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -1128,7 +1197,8 @@
                     "gloss": "the",
                     "literal": "the",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180105",
@@ -1144,7 +1214,8 @@
                     "gloss": "holy, holy one",
                     "literal": "saints",
                     "louw": "11.27",
-                    "strong": 40
+                    "strong": 40,
+                    "type": ""
                 }
             ],
             "6": [
@@ -1162,7 +1233,8 @@
                     "gloss": "in order that, that",
                     "literal": "[I pray] that",
                     "louw": "89.59",
-                    "strong": 3704
+                    "strong": 3704,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1178,7 +1250,8 @@
                     "gloss": "the",
                     "literal": "the",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1194,7 +1267,8 @@
                     "gloss": "fellowship",
                     "literal": "fellowship",
                     "louw": "34.5",
-                    "strong": 2842
+                    "strong": 2842,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1210,7 +1284,8 @@
                     "gloss": "the",
                     "literal": "of",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1226,7 +1301,8 @@
                     "gloss": "faith",
                     "literal": "faith",
                     "louw": "31.102",
-                    "strong": 4102
+                    "strong": 4102,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1242,7 +1318,8 @@
                     "gloss": "you (singular)",
                     "literal": "your",
                     "louw": "92.6",
-                    "strong": 4675
+                    "strong": 4675,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1258,7 +1335,8 @@
                     "gloss": "effective, active",
                     "literal": "effective",
                     "louw": "13.124",
-                    "strong": 1756
+                    "strong": 1756,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1274,7 +1352,8 @@
                     "gloss": "to become",
                     "literal": "may become",
                     "louw": "13.48",
-                    "strong": 1096
+                    "strong": 1096,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1290,7 +1369,8 @@
                     "gloss": "in",
                     "literal": "in",
                     "louw": "89.5",
-                    "strong": 1722
+                    "strong": 1722,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1306,7 +1386,8 @@
                     "gloss": "knowledge, recognition",
                     "literal": "the knowledge",
                     "louw": "28.2",
-                    "strong": 1922
+                    "strong": 1922,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1322,7 +1403,8 @@
                     "gloss": "all, every",
                     "literal": "[of] every",
                     "louw": "59.23",
-                    "strong": 3956
+                    "strong": 3956,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1338,7 +1420,8 @@
                     "gloss": "good",
                     "literal": "good [thing]",
                     "louw": "88.1",
-                    "strong": 18
+                    "strong": 18,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1354,7 +1437,8 @@
                     "gloss": "rel. who, which, that",
                     "literal": "that [is]",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1370,7 +1454,8 @@
                     "gloss": "in",
                     "literal": "in",
                     "louw": "83.9",
-                    "strong": 1722
+                    "strong": 1722,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1386,7 +1471,8 @@
                     "gloss": "we",
                     "literal": "us",
                     "louw": "92.1",
-                    "strong": 2254
+                    "strong": 2254,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1402,7 +1488,8 @@
                     "gloss": "for",
                     "literal": "for",
                     "louw": "90.41",
-                    "strong": 1519
+                    "strong": 1519,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180106",
@@ -1418,7 +1505,8 @@
                     "gloss": "Christ",
                     "literal": "Christ",
                     "louw": "93.387",
-                    "strong": 5547
+                    "strong": 5547,
+                    "type": "proper"
                 }
             ],
             "7": [
@@ -1436,7 +1524,8 @@
                     "gloss": "joy",
                     "literal": "joy",
                     "louw": "25.123",
-                    "strong": 5479
+                    "strong": 5479,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1452,7 +1541,8 @@
                     "gloss": "for",
                     "literal": "for",
                     "louw": "89.23",
-                    "strong": 1063
+                    "strong": 1063,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1468,7 +1558,8 @@
                     "gloss": "much, great",
                     "literal": "great",
                     "louw": "78.3",
-                    "strong": 4183
+                    "strong": 4183,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1484,7 +1575,8 @@
                     "gloss": "to have",
                     "literal": "I have",
                     "louw": "57.1",
-                    "strong": 2192
+                    "strong": 2192,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1500,7 +1592,8 @@
                     "gloss": "and",
                     "literal": "and",
                     "louw": "89.92",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1516,7 +1609,8 @@
                     "gloss": "encouragement, comfort",
                     "literal": "encouragement",
                     "louw": "25.150",
-                    "strong": 3874
+                    "strong": 3874,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1532,7 +1626,8 @@
                     "gloss": "from, because of",
                     "literal": "from",
                     "louw": "89.27",
-                    "strong": 1909
+                    "strong": 1909,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1548,7 +1643,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1564,7 +1660,8 @@
                     "gloss": "love",
                     "literal": "love",
                     "louw": "25.43",
-                    "strong": 26
+                    "strong": 26,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1580,7 +1677,8 @@
                     "gloss": "you (singular)",
                     "literal": "your",
                     "louw": "92.6",
-                    "strong": 4675
+                    "strong": 4675,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1596,7 +1694,8 @@
                     "gloss": "because",
                     "literal": "because",
                     "louw": "89.33",
-                    "strong": 3754
+                    "strong": 3754,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1612,7 +1711,8 @@
                     "gloss": "the",
                     "literal": "the",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1628,7 +1728,8 @@
                     "gloss": "inward parts",
                     "literal": "hearts",
                     "louw": "25.50",
-                    "strong": 4698
+                    "strong": 4698,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1644,7 +1745,8 @@
                     "gloss": "the",
                     "literal": "of the",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1660,7 +1762,8 @@
                     "gloss": "holy, holy one",
                     "literal": "saints",
                     "louw": "11.27",
-                    "strong": 40
+                    "strong": 40,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1676,7 +1779,8 @@
                     "gloss": "to refresh, to revive",
                     "literal": "have been refreshed",
                     "louw": "23.84",
-                    "strong": 373
+                    "strong": 373,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1692,7 +1796,8 @@
                     "gloss": "by, through",
                     "literal": "through",
                     "louw": "89.76",
-                    "strong": 1223
+                    "strong": 1223,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1708,7 +1813,8 @@
                     "gloss": "you (singular)",
                     "literal": "you",
                     "louw": "92.6",
-                    "strong": 4675
+                    "strong": 4675,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180107",
@@ -1724,7 +1830,8 @@
                     "gloss": "brother",
                     "literal": "brother",
                     "louw": "11.23",
-                    "strong": 80
+                    "strong": 80,
+                    "type": "common"
                 }
             ],
             "8": [
@@ -1742,7 +1849,8 @@
                     "gloss": "therefore",
                     "literal": "therefore",
                     "louw": "89.47",
-                    "strong": 1352
+                    "strong": 1352,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180108",
@@ -1758,7 +1866,8 @@
                     "gloss": "much, great",
                     "literal": "great",
                     "louw": "59.11",
-                    "strong": 4183
+                    "strong": 4183,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180108",
@@ -1774,7 +1883,8 @@
                     "gloss": "in",
                     "literal": "in",
                     "louw": "89.119",
-                    "strong": 1722
+                    "strong": 1722,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180108",
@@ -1790,7 +1900,8 @@
                     "gloss": "Christ",
                     "literal": "Christ",
                     "louw": "93.387",
-                    "strong": 5547
+                    "strong": 5547,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180108",
@@ -1806,7 +1917,8 @@
                     "gloss": "confidence, boldness",
                     "literal": "confidence",
                     "louw": "25.158",
-                    "strong": 3954
+                    "strong": 3954,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180108",
@@ -1822,7 +1934,8 @@
                     "gloss": "to have",
                     "literal": "[although I ] have",
                     "louw": "57.1",
-                    "strong": 2192
+                    "strong": 2192,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180108",
@@ -1838,7 +1951,8 @@
                     "gloss": "to order, to command",
                     "literal": "to order",
                     "louw": "33.325",
-                    "strong": 2004
+                    "strong": 2004,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180108",
@@ -1854,7 +1968,8 @@
                     "gloss": "you (singular)",
                     "literal": "you",
                     "louw": "92.6",
-                    "strong": 4671
+                    "strong": 4671,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180108",
@@ -1870,7 +1985,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180108",
@@ -1886,7 +2002,8 @@
                     "gloss": "it is proper, it is fitting",
                     "literal": "[to do what ] is proper",
                     "louw": "66.1",
-                    "strong": 433
+                    "strong": 433,
+                    "type": ""
                 }
             ],
             "9": [
@@ -1904,7 +2021,8 @@
                     "gloss": "because of, for the sake of",
                     "literal": "because of",
                     "louw": "89.26",
-                    "strong": 1223
+                    "strong": 1223,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180109",
@@ -1920,7 +2038,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180109",
@@ -1936,7 +2055,8 @@
                     "gloss": "love",
                     "literal": "love",
                     "louw": "25.43",
-                    "strong": 26
+                    "strong": 26,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180109",
@@ -1952,7 +2072,8 @@
                     "gloss": "rather, instead",
                     "literal": "instead",
                     "louw": "89.126",
-                    "strong": 3123
+                    "strong": 3123,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180109",
@@ -1968,7 +2089,8 @@
                     "gloss": "to urge, to appeal to",
                     "literal": "I appeal to [you]",
                     "louw": "33.168",
-                    "strong": 3870
+                    "strong": 3870,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180109",
@@ -1984,7 +2106,8 @@
                     "gloss": "such as this, such",
                     "literal": "such a one",
                     "louw": "64.2",
-                    "strong": 5108
+                    "strong": 5108,
+                    "type": "demonstrative"
                 },
                 {
                     "book_chapter_verse": "180109",
@@ -2000,7 +2123,8 @@
                     "gloss": "to be",
                     "literal": "[since I] am",
                     "louw": "13.1",
-                    "strong": 5607
+                    "strong": 5607,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180109",
@@ -2016,7 +2140,8 @@
                     "gloss": "as, like",
                     "literal": "as",
                     "louw": "64.12",
-                    "strong": 5613
+                    "strong": 5613,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180109",
@@ -2032,7 +2157,8 @@
                     "gloss": "Paul",
                     "literal": "Paul",
                     "louw": "93.294",
-                    "strong": 3972
+                    "strong": 3972,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180109",
@@ -2048,7 +2174,8 @@
                     "gloss": "old man",
                     "literal": "an old man",
                     "louw": "9.31",
-                    "strong": 4246
+                    "strong": 4246,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180109",
@@ -2064,7 +2191,8 @@
                     "gloss": "now",
                     "literal": "now",
                     "louw": "67.38",
-                    "strong": 3570
+                    "strong": 3570,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180109",
@@ -2080,7 +2208,8 @@
                     "gloss": "and",
                     "literal": "and",
                     "louw": "89.87",
-                    "strong": 1161
+                    "strong": 1161,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180109",
@@ -2096,7 +2225,8 @@
                     "gloss": "also",
                     "literal": "also",
                     "louw": "89.93",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180109",
@@ -2112,7 +2242,8 @@
                     "gloss": "prisoner",
                     "literal": "a prisoner",
                     "louw": "37.117",
-                    "strong": 1198
+                    "strong": 1198,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180109",
@@ -2128,7 +2259,8 @@
                     "gloss": "Christ",
                     "literal": "of Christ",
                     "louw": "93.387",
-                    "strong": 5547
+                    "strong": 5547,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180109",
@@ -2144,7 +2276,8 @@
                     "gloss": "Jesus",
                     "literal": "Jesus",
                     "louw": "93.169",
-                    "strong": 2424
+                    "strong": 2424,
+                    "type": "proper"
                 }
             ],
             "10": [
@@ -2162,7 +2295,8 @@
                     "gloss": "to urge, to appeal to",
                     "literal": "I am appealing to",
                     "louw": "33.168",
-                    "strong": 3870
+                    "strong": 3870,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180110",
@@ -2178,7 +2312,8 @@
                     "gloss": "you (singular)",
                     "literal": "you",
                     "louw": "92.6",
-                    "strong": 4571
+                    "strong": 4571,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180110",
@@ -2194,7 +2329,8 @@
                     "gloss": "about, concerning",
                     "literal": "concerning",
                     "louw": "90.24",
-                    "strong": 4012
+                    "strong": 4012,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180110",
@@ -2210,7 +2346,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180110",
@@ -2226,7 +2363,8 @@
                     "gloss": "my",
                     "literal": "my",
                     "louw": "92.2",
-                    "strong": 1700
+                    "strong": 1700,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180110",
@@ -2242,7 +2380,8 @@
                     "gloss": "child",
                     "literal": "child",
                     "louw": "9.46",
-                    "strong": 5043
+                    "strong": 5043,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180110",
@@ -2258,7 +2397,8 @@
                     "gloss": "rel. who",
                     "literal": "whom",
                     "louw": "92.27",
-                    "strong": 3739
+                    "strong": 3739,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180110",
@@ -2274,7 +2414,8 @@
                     "gloss": "to become the parent of",
                     "literal": "I became the father of",
                     "louw": "23.58",
-                    "strong": 1080
+                    "strong": 1080,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180110",
@@ -2290,7 +2431,8 @@
                     "gloss": "in, during",
                     "literal": "during",
                     "louw": "67.136",
-                    "strong": 1722
+                    "strong": 1722,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180110",
@@ -2306,7 +2448,8 @@
                     "gloss": "the",
                     "literal": "my",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180110",
@@ -2322,7 +2465,8 @@
                     "gloss": "bonds",
                     "literal": "imprisonment",
                     "louw": "6.14",
-                    "strong": 1199
+                    "strong": 1199,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180110",
@@ -2338,7 +2482,8 @@
                     "gloss": "Onesimus",
                     "literal": "Onesimus",
                     "louw": "93.288",
-                    "strong": 3682
+                    "strong": 3682,
+                    "type": "proper"
                 }
             ],
             "11": [
@@ -2356,7 +2501,8 @@
                     "gloss": "the",
                     "literal": "he",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180111",
@@ -2372,7 +2518,8 @@
                     "gloss": "once, formerly",
                     "literal": "once",
                     "louw": "67.9",
-                    "strong": 4218
+                    "strong": 4218,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180111",
@@ -2388,7 +2535,8 @@
                     "gloss": "you (singular)",
                     "literal": "to you",
                     "louw": "92.6",
-                    "strong": 4671
+                    "strong": 4671,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180111",
@@ -2404,7 +2552,8 @@
                     "gloss": "useless, worthless",
                     "literal": "[was] useless",
                     "louw": "65.33",
-                    "strong": 890
+                    "strong": 890,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180111",
@@ -2420,7 +2569,8 @@
                     "gloss": "now",
                     "literal": "now",
                     "louw": "67.38",
-                    "strong": 3570
+                    "strong": 3570,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180111",
@@ -2436,7 +2586,8 @@
                     "gloss": "but, and",
                     "literal": "but",
                     "louw": "89.124",
-                    "strong": 1161
+                    "strong": 1161,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180111",
@@ -2452,7 +2603,8 @@
                     "gloss": "you (singular)",
                     "literal": "to you",
                     "louw": "92.6",
-                    "strong": 4671
+                    "strong": 4671,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180111",
@@ -2468,7 +2620,8 @@
                     "gloss": "and",
                     "literal": "and",
                     "louw": "89.102",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180111",
@@ -2484,7 +2637,8 @@
                     "gloss": "I",
                     "literal": "to me",
                     "louw": "92.1",
-                    "strong": 1698
+                    "strong": 1698,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180111",
@@ -2500,7 +2654,8 @@
                     "gloss": "useful",
                     "literal": "[he is] useful",
                     "louw": "65.31",
-                    "strong": 2173
+                    "strong": 2173,
+                    "type": ""
                 }
             ],
             "12": [
@@ -2518,7 +2673,8 @@
                     "gloss": "rel. who",
                     "literal": "whom",
                     "louw": "92.27",
-                    "strong": 3739
+                    "strong": 3739,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180112",
@@ -2534,7 +2690,8 @@
                     "gloss": "to send back",
                     "literal": "I have sent back",
                     "louw": "15.70",
-                    "strong": 375
+                    "strong": 375,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180112",
@@ -2550,7 +2707,8 @@
                     "gloss": "you (singular)",
                     "literal": "to you",
                     "louw": "92.6",
-                    "strong": 4671
+                    "strong": 4671,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180112",
@@ -2566,7 +2724,8 @@
                     "gloss": "he",
                     "literal": "himself",
                     "louw": "92.11",
-                    "strong": 846
+                    "strong": 846,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180112",
@@ -2582,7 +2741,8 @@
                     "gloss": "this (demons. pron.)",
                     "literal": "that",
                     "louw": "89.106",
-                    "strong": 5124
+                    "strong": 5124,
+                    "type": "demonstrative"
                 },
                 {
                     "book_chapter_verse": "180112",
@@ -2598,7 +2758,8 @@
                     "gloss": "to be",
                     "literal": "is",
                     "louw": "89.106",
-                    "strong": 2076
+                    "strong": 2076,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180112",
@@ -2614,7 +2775,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180112",
@@ -2630,7 +2792,8 @@
                     "gloss": "my",
                     "literal": "my",
                     "louw": "92.2",
-                    "strong": 1699
+                    "strong": 1699,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180112",
@@ -2646,7 +2809,8 @@
                     "gloss": "inward parts",
                     "literal": "heart",
                     "louw": "25.50",
-                    "strong": 4698
+                    "strong": 4698,
+                    "type": "common"
                 }
             ],
             "13": [
@@ -2664,7 +2828,8 @@
                     "gloss": "rel. who",
                     "literal": "whom",
                     "louw": "92.27",
-                    "strong": 3739
+                    "strong": 3739,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180113",
@@ -2680,7 +2845,8 @@
                     "gloss": "I",
                     "literal": "I",
                     "louw": "92.1",
-                    "strong": 1473
+                    "strong": 1473,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180113",
@@ -2696,7 +2862,8 @@
                     "gloss": "to wish, to want",
                     "literal": "wanted",
                     "louw": "25.3",
-                    "strong": 1014
+                    "strong": 1014,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180113",
@@ -2712,7 +2879,8 @@
                     "gloss": "near, by",
                     "literal": "with",
                     "louw": "90.58",
-                    "strong": 4314
+                    "strong": 4314,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180113",
@@ -2728,7 +2896,8 @@
                     "gloss": "myself",
                     "literal": "me",
                     "louw": "92.3",
-                    "strong": 1683
+                    "strong": 1683,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180113",
@@ -2744,7 +2913,8 @@
                     "gloss": "to hold fast, to restrain",
                     "literal": "to keep",
                     "louw": "13.150",
-                    "strong": 2722
+                    "strong": 2722,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180113",
@@ -2760,7 +2930,8 @@
                     "gloss": "in order that",
                     "literal": "in order that",
                     "louw": "89.59",
-                    "strong": 2443
+                    "strong": 2443,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180113",
@@ -2776,7 +2947,8 @@
                     "gloss": "for, on behalf of",
                     "literal": "on behalf of",
                     "louw": "90.36",
-                    "strong": 5228
+                    "strong": 5228,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180113",
@@ -2792,7 +2964,8 @@
                     "gloss": "you (singular)",
                     "literal": "you",
                     "louw": "92.6",
-                    "strong": 4675
+                    "strong": 4675,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180113",
@@ -2808,7 +2981,8 @@
                     "gloss": "I",
                     "literal": "me",
                     "louw": "92.1",
-                    "strong": 3427
+                    "strong": 3427,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180113",
@@ -2824,7 +2998,8 @@
                     "gloss": "to serve",
                     "literal": "he might serve",
                     "louw": "35.19",
-                    "strong": 1247
+                    "strong": 1247,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180113",
@@ -2840,7 +3015,8 @@
                     "gloss": "in, during",
                     "literal": "during",
                     "louw": "89.5",
-                    "strong": 1722
+                    "strong": 1722,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180113",
@@ -2856,7 +3032,8 @@
                     "gloss": "the",
                     "literal": "my",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180113",
@@ -2872,7 +3049,8 @@
                     "gloss": "bonds",
                     "literal": "imprisonment",
                     "louw": "37.115",
-                    "strong": 1199
+                    "strong": 1199,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180113",
@@ -2888,7 +3066,8 @@
                     "gloss": "the",
                     "literal": "for the",
                     "louw": "92.24",
-                    "strong": 35882
+                    "strong": 35882,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180113",
@@ -2904,7 +3083,8 @@
                     "gloss": "good news, gospel",
                     "literal": "gospel",
                     "louw": "33.217",
-                    "strong": 2098
+                    "strong": 2098,
+                    "type": "common"
                 }
             ],
             "14": [
@@ -2922,7 +3102,8 @@
                     "gloss": "separately, apart from",
                     "literal": "apart from",
                     "louw": "89.120",
-                    "strong": 5565
+                    "strong": 5565,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -2938,7 +3119,8 @@
                     "gloss": "but, and",
                     "literal": "but",
                     "louw": "89.124",
-                    "strong": 1161
+                    "strong": 1161,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -2954,7 +3136,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -2970,7 +3153,8 @@
                     "gloss": "your",
                     "literal": "your",
                     "louw": "92.8",
-                    "strong": 4674
+                    "strong": 4674,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -2986,7 +3170,8 @@
                     "gloss": "approval, consent",
                     "literal": "consent",
                     "louw": "31.14",
-                    "strong": 1106
+                    "strong": 1106,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -3002,7 +3187,8 @@
                     "gloss": "nothing",
                     "literal": "nothing",
                     "louw": "92.23",
-                    "strong": 3762
+                    "strong": 3762,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -3018,7 +3204,8 @@
                     "gloss": "to wish, to want",
                     "literal": "I wanted",
                     "louw": "25.1",
-                    "strong": 2309
+                    "strong": 2309,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -3034,7 +3221,8 @@
                     "gloss": "to make, to do",
                     "literal": "to do",
                     "louw": "90.45",
-                    "strong": 4160
+                    "strong": 4160,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -3050,7 +3238,8 @@
                     "gloss": "in order that",
                     "literal": "in order that",
                     "louw": "89.59",
-                    "strong": 2443
+                    "strong": 2443,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -3066,7 +3255,8 @@
                     "gloss": "not",
                     "literal": "not",
                     "louw": "89.62",
-                    "strong": 3361
+                    "strong": 3361,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -3082,7 +3272,8 @@
                     "gloss": "as",
                     "literal": "as",
                     "louw": "64.12",
-                    "strong": 5613
+                    "strong": 5613,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -3098,7 +3289,8 @@
                     "gloss": "according to",
                     "literal": "according to",
                     "louw": "89.8",
-                    "strong": 2596
+                    "strong": 2596,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -3114,7 +3306,8 @@
                     "gloss": "necessity",
                     "literal": "necessity",
                     "louw": "71.30",
-                    "strong": 318
+                    "strong": 318,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -3130,7 +3323,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -3146,7 +3340,8 @@
                     "gloss": "good",
                     "literal": "good [deed]",
                     "louw": "88.1",
-                    "strong": 18
+                    "strong": 18,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -3162,7 +3357,8 @@
                     "gloss": "you (singular)",
                     "literal": "your",
                     "louw": "92.6",
-                    "strong": 4675
+                    "strong": 4675,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -3178,7 +3374,8 @@
                     "gloss": "to be",
                     "literal": "might be",
                     "louw": "13.1",
-                    "strong": 5600
+                    "strong": 5600,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -3194,7 +3391,8 @@
                     "gloss": "but",
                     "literal": "but",
                     "louw": "89.125",
-                    "strong": 235
+                    "strong": 235,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -3210,7 +3408,8 @@
                     "gloss": "according to",
                     "literal": "according to",
                     "louw": "89.8",
-                    "strong": 2596
+                    "strong": 2596,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180114",
@@ -3226,7 +3425,8 @@
                     "gloss": "of free will, voluntary",
                     "literal": "[your own] free will",
                     "louw": "25.65",
-                    "strong": 1595
+                    "strong": 1595,
+                    "type": ""
                 }
             ],
             "15": [
@@ -3244,7 +3444,8 @@
                     "gloss": "perhaps, possibly",
                     "literal": "perhaps",
                     "louw": "71.12",
-                    "strong": 5029
+                    "strong": 5029,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180115",
@@ -3260,7 +3461,8 @@
                     "gloss": "for",
                     "literal": "for",
                     "louw": "89.23",
-                    "strong": 1063
+                    "strong": 1063,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180115",
@@ -3276,7 +3478,8 @@
                     "gloss": "because of",
                     "literal": "because of",
                     "louw": "89.26",
-                    "strong": 1223
+                    "strong": 1223,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180115",
@@ -3292,7 +3495,8 @@
                     "gloss": "this (demons. pron.)",
                     "literal": "this",
                     "louw": "92.29",
-                    "strong": 5124
+                    "strong": 5124,
+                    "type": "demonstrative"
                 },
                 {
                     "book_chapter_verse": "180115",
@@ -3308,7 +3512,8 @@
                     "gloss": "to separate, to divide",
                     "literal": "he was separated [from you]",
                     "louw": "85.41",
-                    "strong": 5563
+                    "strong": 5563,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180115",
@@ -3324,7 +3529,8 @@
                     "gloss": "near, at, during",
                     "literal": "for",
                     "louw": "67.16",
-                    "strong": 4314
+                    "strong": 4314,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180115",
@@ -3340,7 +3546,8 @@
                     "gloss": "hour",
                     "literal": "a time",
                     "louw": "67.148",
-                    "strong": 5610
+                    "strong": 5610,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180115",
@@ -3356,7 +3563,8 @@
                     "gloss": "in order that",
                     "literal": "in order that",
                     "louw": "89.59",
-                    "strong": 2443
+                    "strong": 2443,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180115",
@@ -3372,7 +3580,8 @@
                     "gloss": "eternal",
                     "literal": "forever",
                     "louw": "67.96",
-                    "strong": 166
+                    "strong": 166,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180115",
@@ -3388,7 +3597,8 @@
                     "gloss": "he",
                     "literal": "him [back]",
                     "louw": "92.11",
-                    "strong": 846
+                    "strong": 846,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180115",
@@ -3404,7 +3614,8 @@
                     "gloss": "to receive back, to be paid in full",
                     "literal": "you might have",
                     "louw": "90.67",
-                    "strong": 568
+                    "strong": 568,
+                    "type": ""
                 }
             ],
             "16": [
@@ -3422,7 +3633,8 @@
                     "gloss": "no longer, no more",
                     "literal": "no longer",
                     "louw": "67.130",
-                    "strong": 3765
+                    "strong": 3765,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3438,7 +3650,8 @@
                     "gloss": "as",
                     "literal": "as",
                     "louw": "64.12",
-                    "strong": 5613
+                    "strong": 5613,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3454,7 +3667,8 @@
                     "gloss": "slave",
                     "literal": "a slave",
                     "louw": "37.3",
-                    "strong": 1401
+                    "strong": 1401,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3470,7 +3684,8 @@
                     "gloss": "but",
                     "literal": "but",
                     "louw": "89.125",
-                    "strong": 235
+                    "strong": 235,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3486,7 +3701,8 @@
                     "gloss": "over, beyond, more than",
                     "literal": "more than",
                     "louw": "78.29",
-                    "strong": 5228
+                    "strong": 5228,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3502,7 +3718,8 @@
                     "gloss": "slave",
                     "literal": "a slave",
                     "louw": "37.3",
-                    "strong": 1401
+                    "strong": 1401,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3518,7 +3735,8 @@
                     "gloss": "brother",
                     "literal": "brother",
                     "louw": "11.23",
-                    "strong": 80
+                    "strong": 80,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3534,7 +3752,8 @@
                     "gloss": "beloved, dear",
                     "literal": "a beloved",
                     "louw": "25.45",
-                    "strong": 27
+                    "strong": 27,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3550,7 +3769,8 @@
                     "gloss": "above all, especially",
                     "literal": "especially",
                     "louw": "78.7",
-                    "strong": 3122
+                    "strong": 3122,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3566,7 +3786,8 @@
                     "gloss": "I",
                     "literal": "to me",
                     "louw": "92.1",
-                    "strong": 1698
+                    "strong": 1698,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3582,7 +3803,8 @@
                     "gloss": "how much, how great",
                     "literal": "how much",
                     "louw": "59.17",
-                    "strong": 4214
+                    "strong": 4214,
+                    "type": "interrogative"
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3598,7 +3820,8 @@
                     "gloss": "but, and",
                     "literal": "but",
                     "louw": "89.124",
-                    "strong": 1161
+                    "strong": 1161,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3614,7 +3837,8 @@
                     "gloss": "more",
                     "literal": "more",
                     "louw": "78.28",
-                    "strong": 3123
+                    "strong": 3123,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3630,7 +3854,8 @@
                     "gloss": "you (singular)",
                     "literal": "to you",
                     "louw": "92.6",
-                    "strong": 4671
+                    "strong": 4671,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3646,7 +3871,8 @@
                     "gloss": "and",
                     "literal": "both",
                     "louw": "89.102",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3662,7 +3888,8 @@
                     "gloss": "in",
                     "literal": "in",
                     "louw": "89.84",
-                    "strong": 1722
+                    "strong": 1722,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3678,7 +3905,8 @@
                     "gloss": "flesh",
                     "literal": "the flesh",
                     "louw": "8.4",
-                    "strong": 4561
+                    "strong": 4561,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3694,7 +3922,8 @@
                     "gloss": "and",
                     "literal": "and",
                     "louw": "89.102",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3710,7 +3939,8 @@
                     "gloss": "in",
                     "literal": "in",
                     "louw": "89.84",
-                    "strong": 1722
+                    "strong": 1722,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180116",
@@ -3726,7 +3956,8 @@
                     "gloss": "Lord",
                     "literal": "the Lord",
                     "louw": "12.9",
-                    "strong": 2962
+                    "strong": 2962,
+                    "type": "common"
                 }
             ],
             "17": [
@@ -3744,7 +3975,8 @@
                     "gloss": "if",
                     "literal": "if",
                     "louw": "89.65",
-                    "strong": 1487
+                    "strong": 1487,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180117",
@@ -3760,7 +3992,8 @@
                     "gloss": "therefore",
                     "literal": "therefore",
                     "louw": "89.50",
-                    "strong": 3767
+                    "strong": 3767,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180117",
@@ -3776,7 +4009,8 @@
                     "gloss": "I",
                     "literal": "me",
                     "louw": "92.1",
-                    "strong": 3165
+                    "strong": 3165,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180117",
@@ -3792,7 +4026,8 @@
                     "gloss": "to look upon, to consider",
                     "literal": "you consider",
                     "louw": "13.2",
-                    "strong": 2192
+                    "strong": 2192,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180117",
@@ -3808,7 +4043,8 @@
                     "gloss": "partner, sharer",
                     "literal": "a partner",
                     "louw": "34.6",
-                    "strong": 2844
+                    "strong": 2844,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180117",
@@ -3824,7 +4060,8 @@
                     "gloss": "to receive, to welcome",
                     "literal": "receive",
                     "louw": "34.53",
-                    "strong": 4355
+                    "strong": 4355,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180117",
@@ -3840,7 +4077,8 @@
                     "gloss": "he",
                     "literal": "him",
                     "louw": "92.11",
-                    "strong": 846
+                    "strong": 846,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180117",
@@ -3856,7 +4094,8 @@
                     "gloss": "as, like",
                     "literal": "as",
                     "louw": "64.12",
-                    "strong": 5613
+                    "strong": 5613,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180117",
@@ -3872,7 +4111,8 @@
                     "gloss": "I",
                     "literal": "[you would] me",
                     "louw": "92.1",
-                    "strong": 1691
+                    "strong": 1691,
+                    "type": "personal"
                 }
             ],
             "18": [
@@ -3890,7 +4130,8 @@
                     "gloss": "if",
                     "literal": "if",
                     "louw": "89.65",
-                    "strong": 1487
+                    "strong": 1487,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180118",
@@ -3906,7 +4147,8 @@
                     "gloss": "but, and",
                     "literal": "but",
                     "louw": "89.87",
-                    "strong": 1161
+                    "strong": 1161,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180118",
@@ -3922,7 +4164,8 @@
                     "gloss": "anything",
                     "literal": "in anything",
                     "louw": "92.12",
-                    "strong": 5100
+                    "strong": 5100,
+                    "type": "indefinite"
                 },
                 {
                     "book_chapter_verse": "180118",
@@ -3938,7 +4181,8 @@
                     "gloss": "to wrong, to damage, to cause loss",
                     "literal": "he has caused",
                     "louw": "20.25",
-                    "strong": 91
+                    "strong": 91,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180118",
@@ -3954,7 +4198,8 @@
                     "gloss": "you (singular)",
                     "literal": "you [loss]",
                     "louw": "92.6",
-                    "strong": 4571
+                    "strong": 4571,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180118",
@@ -3970,7 +4215,8 @@
                     "gloss": "or",
                     "literal": "or",
                     "louw": "89.139",
-                    "strong": 2228
+                    "strong": 2228,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180118",
@@ -3986,7 +4232,8 @@
                     "gloss": "to owe",
                     "literal": "owes [you anything]",
                     "louw": "57.219",
-                    "strong": 3784
+                    "strong": 3784,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180118",
@@ -4002,7 +4249,8 @@
                     "gloss": "this (demons. pron.)",
                     "literal": "this",
                     "louw": "92.29",
-                    "strong": 5124
+                    "strong": 5124,
+                    "type": "demonstrative"
                 },
                 {
                     "book_chapter_verse": "180118",
@@ -4018,7 +4266,8 @@
                     "gloss": "I",
                     "literal": "to me",
                     "louw": "92.1",
-                    "strong": 1698
+                    "strong": 1698,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180118",
@@ -4034,7 +4283,8 @@
                     "gloss": "to charge to one's account",
                     "literal": "charge to [my] account",
                     "louw": "57.226",
-                    "strong": 1677
+                    "strong": 1677,
+                    "type": ""
                 }
             ],
             "19": [
@@ -4052,7 +4302,8 @@
                     "gloss": "I",
                     "literal": "I",
                     "louw": "92.1",
-                    "strong": 1473
+                    "strong": 1473,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4068,7 +4319,8 @@
                     "gloss": "Paul",
                     "literal": "Paul",
                     "louw": "93.294",
-                    "strong": 3972
+                    "strong": 3972,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4084,7 +4336,8 @@
                     "gloss": "to write",
                     "literal": "write [this]",
                     "louw": "33.61",
-                    "strong": 1125
+                    "strong": 1125,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4100,7 +4353,8 @@
                     "gloss": "the",
                     "literal": "with",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4116,7 +4370,8 @@
                     "gloss": "my",
                     "literal": "my",
                     "louw": "92.2",
-                    "strong": 1699
+                    "strong": 1699,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4132,7 +4387,8 @@
                     "gloss": "hand",
                     "literal": "[own] hand",
                     "louw": "8.30",
-                    "strong": 5495
+                    "strong": 5495,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4148,7 +4404,8 @@
                     "gloss": "I",
                     "literal": "I",
                     "louw": "92.1",
-                    "strong": 1473
+                    "strong": 1473,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4164,7 +4421,8 @@
                     "gloss": "to pay off, repay",
                     "literal": "will pay it back",
                     "louw": "57.156",
-                    "strong": 661
+                    "strong": 661,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4180,7 +4438,8 @@
                     "gloss": "in order that",
                     "literal": "lest",
                     "louw": "89.59",
-                    "strong": 2443
+                    "strong": 2443,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4196,7 +4455,8 @@
                     "gloss": "not",
                     "literal": "—",
                     "louw": "89.62",
-                    "strong": 3361
+                    "strong": 3361,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4212,7 +4472,8 @@
                     "gloss": "to say",
                     "literal": "I mention",
                     "louw": "33.69",
-                    "strong": 3004
+                    "strong": 3004,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4228,7 +4489,8 @@
                     "gloss": "you (singular)",
                     "literal": "to you",
                     "louw": "92.6",
-                    "strong": 4671
+                    "strong": 4671,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4244,7 +4506,8 @@
                     "gloss": "that",
                     "literal": "that",
                     "louw": "90.21",
-                    "strong": 3754
+                    "strong": 3754,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4260,7 +4523,8 @@
                     "gloss": "even",
                     "literal": "even",
                     "louw": "89.93",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4276,7 +4540,8 @@
                     "gloss": "yourself",
                     "literal": "yourself",
                     "louw": "92.10",
-                    "strong": 4572
+                    "strong": 4572,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4292,7 +4557,8 @@
                     "gloss": "I",
                     "literal": "to me",
                     "louw": "92.1",
-                    "strong": 3427
+                    "strong": 3427,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180119",
@@ -4308,7 +4574,8 @@
                     "gloss": "to owe besides",
                     "literal": "you owe besides",
                     "louw": "57.220",
-                    "strong": 4359
+                    "strong": 4359,
+                    "type": ""
                 }
             ],
             "20": [
@@ -4326,7 +4593,8 @@
                     "gloss": "yes",
                     "literal": "yes",
                     "louw": "69.1",
-                    "strong": 3483
+                    "strong": 3483,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180120",
@@ -4342,7 +4610,8 @@
                     "gloss": "brother",
                     "literal": "brother",
                     "louw": "11.23",
-                    "strong": 80
+                    "strong": 80,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180120",
@@ -4358,7 +4627,8 @@
                     "gloss": "I",
                     "literal": "I",
                     "louw": "92.1",
-                    "strong": 1473
+                    "strong": 1473,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180120",
@@ -4374,7 +4644,8 @@
                     "gloss": "you (singular)",
                     "literal": "you",
                     "louw": "92.6",
-                    "strong": 4675
+                    "strong": 4675,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180120",
@@ -4390,7 +4661,8 @@
                     "gloss": "to have benefit of",
                     "literal": "ought to have [some] benefit of",
                     "louw": "35.4",
-                    "strong": 3685
+                    "strong": 3685,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180120",
@@ -4406,7 +4678,8 @@
                     "gloss": "in",
                     "literal": "in",
                     "louw": "89.119",
-                    "strong": 1722
+                    "strong": 1722,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180120",
@@ -4422,7 +4695,8 @@
                     "gloss": "Lord",
                     "literal": "the Lord",
                     "louw": "12.9",
-                    "strong": 2962
+                    "strong": 2962,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180120",
@@ -4438,7 +4712,8 @@
                     "gloss": "to refresh, to revive",
                     "literal": "refresh",
                     "louw": "23.84",
-                    "strong": 373
+                    "strong": 373,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180120",
@@ -4454,7 +4729,8 @@
                     "gloss": "I",
                     "literal": "my",
                     "louw": "92.1",
-                    "strong": 3450
+                    "strong": 3450,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180120",
@@ -4470,7 +4746,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180120",
@@ -4486,7 +4763,8 @@
                     "gloss": "inward parts",
                     "literal": "heart",
                     "louw": "25.50",
-                    "strong": 4698
+                    "strong": 4698,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180120",
@@ -4502,7 +4780,8 @@
                     "gloss": "in",
                     "literal": "in",
                     "louw": "89.26",
-                    "strong": 1722
+                    "strong": 1722,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180120",
@@ -4518,7 +4797,8 @@
                     "gloss": "Christ",
                     "literal": "Christ",
                     "louw": "93.387",
-                    "strong": 5547
+                    "strong": 5547,
+                    "type": "proper"
                 }
             ],
             "21": [
@@ -4536,7 +4816,8 @@
                     "gloss": "to persuade, to convince, to be confident of",
                     "literal": "confident of",
                     "louw": "31.82",
-                    "strong": 3982
+                    "strong": 3982,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180121",
@@ -4552,7 +4833,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180121",
@@ -4568,7 +4850,8 @@
                     "gloss": "obedience",
                     "literal": "obedience",
                     "louw": "36.15",
-                    "strong": 5218
+                    "strong": 5218,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180121",
@@ -4584,7 +4867,8 @@
                     "gloss": "you (singular)",
                     "literal": "your",
                     "louw": "92.6",
-                    "strong": 4675
+                    "strong": 4675,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180121",
@@ -4600,7 +4884,8 @@
                     "gloss": "to write",
                     "literal": "I am writing",
                     "louw": "33.61",
-                    "strong": 1125
+                    "strong": 1125,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180121",
@@ -4616,7 +4901,8 @@
                     "gloss": "you (singular)",
                     "literal": "to you",
                     "louw": "92.6",
-                    "strong": 4671
+                    "strong": 4671,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180121",
@@ -4632,7 +4918,8 @@
                     "gloss": "to know",
                     "literal": "[because] I know",
                     "louw": "28.1",
-                    "strong": 1492
+                    "strong": 1492,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180121",
@@ -4648,7 +4935,8 @@
                     "gloss": "that",
                     "literal": "that",
                     "louw": "90.21",
-                    "strong": 3754
+                    "strong": 3754,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180121",
@@ -4664,7 +4952,8 @@
                     "gloss": "even",
                     "literal": "even",
                     "louw": "91.12",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180121",
@@ -4680,7 +4969,8 @@
                     "gloss": "over, beyond, more than",
                     "literal": "beyond",
                     "louw": "90.24",
-                    "strong": 5228
+                    "strong": 5228,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180121",
@@ -4696,7 +4986,8 @@
                     "gloss": "rel. who, which, what",
                     "literal": "what",
                     "louw": "92.27",
-                    "strong": 3739
+                    "strong": 3739,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180121",
@@ -4712,7 +5003,8 @@
                     "gloss": "to say",
                     "literal": "I say",
                     "louw": "33.69",
-                    "strong": 3004
+                    "strong": 3004,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180121",
@@ -4728,7 +5020,8 @@
                     "gloss": "to make, to do",
                     "literal": "you will do",
                     "louw": "90.45",
-                    "strong": 4160
+                    "strong": 4160,
+                    "type": ""
                 }
             ],
             "22": [
@@ -4746,7 +5039,8 @@
                     "gloss": "at the same time",
                     "literal": "at the same time",
                     "louw": "67.34",
-                    "strong": 260
+                    "strong": 260,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180122",
@@ -4762,7 +5056,8 @@
                     "gloss": "and, now",
                     "literal": "—",
                     "louw": "89.94",
-                    "strong": 1161
+                    "strong": 1161,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180122",
@@ -4778,7 +5073,8 @@
                     "gloss": "also",
                     "literal": "also",
                     "louw": "89.93",
-                    "strong": 2532
+                    "strong": 2532,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180122",
@@ -4794,7 +5090,8 @@
                     "gloss": "to prepare",
                     "literal": "prepare",
                     "louw": "77.3",
-                    "strong": 2090
+                    "strong": 2090,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180122",
@@ -4810,7 +5107,8 @@
                     "gloss": "I",
                     "literal": "for me",
                     "louw": "92.1",
-                    "strong": 3427
+                    "strong": 3427,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180122",
@@ -4826,7 +5124,8 @@
                     "gloss": "lodging place, guest room",
                     "literal": "a guest room",
                     "louw": "7.31",
-                    "strong": 3578
+                    "strong": 3578,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180122",
@@ -4842,7 +5141,8 @@
                     "gloss": "to hope, to hope for",
                     "literal": "I hope",
                     "louw": "30.54",
-                    "strong": 1679
+                    "strong": 1679,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180122",
@@ -4858,7 +5158,8 @@
                     "gloss": "for",
                     "literal": "for",
                     "louw": "89.23",
-                    "strong": 1063
+                    "strong": 1063,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180122",
@@ -4874,7 +5175,8 @@
                     "gloss": "that",
                     "literal": "that",
                     "louw": "90.21",
-                    "strong": 3754
+                    "strong": 3754,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180122",
@@ -4890,7 +5192,8 @@
                     "gloss": "by means of, through",
                     "literal": "through",
                     "louw": "89.76",
-                    "strong": 1223
+                    "strong": 1223,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180122",
@@ -4906,7 +5209,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180122",
@@ -4922,7 +5226,8 @@
                     "gloss": "prayer",
                     "literal": "prayers",
                     "louw": "33.178",
-                    "strong": 4335
+                    "strong": 4335,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180122",
@@ -4938,7 +5243,8 @@
                     "gloss": "you (plural)",
                     "literal": "your",
                     "louw": "92.7",
-                    "strong": 5216
+                    "strong": 5216,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180122",
@@ -4954,7 +5260,8 @@
                     "gloss": "to show favor, give freely",
                     "literal": "I will be restored",
                     "louw": "57.102",
-                    "strong": 5483
+                    "strong": 5483,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180122",
@@ -4970,7 +5277,8 @@
                     "gloss": "you (plural)",
                     "literal": "to you",
                     "louw": "92.7",
-                    "strong": 5213
+                    "strong": 5213,
+                    "type": "personal"
                 }
             ],
             "23": [
@@ -4988,7 +5296,8 @@
                     "gloss": "to greet, to welcome",
                     "literal": "greets",
                     "louw": "33.20",
-                    "strong": 782
+                    "strong": 782,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180123",
@@ -5004,7 +5313,8 @@
                     "gloss": "you (singular)",
                     "literal": "you",
                     "louw": "92.6",
-                    "strong": 4571
+                    "strong": 4571,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180123",
@@ -5020,7 +5330,8 @@
                     "gloss": "Epaphras",
                     "literal": "Epaphras",
                     "louw": "93.120",
-                    "strong": 1889
+                    "strong": 1889,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180123",
@@ -5036,7 +5347,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180123",
@@ -5052,7 +5364,8 @@
                     "gloss": "fellow prisoner",
                     "literal": "fellow prisoner",
                     "louw": "37.118",
-                    "strong": 4869
+                    "strong": 4869,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180123",
@@ -5068,7 +5381,8 @@
                     "gloss": "I",
                     "literal": "my",
                     "louw": "92.1",
-                    "strong": 3450
+                    "strong": 3450,
+                    "type": "personal"
                 },
                 {
                     "book_chapter_verse": "180123",
@@ -5084,7 +5398,8 @@
                     "gloss": "in",
                     "literal": "in",
                     "louw": "89.119",
-                    "strong": 1722
+                    "strong": 1722,
+                    "type": "relative"
                 },
                 {
                     "book_chapter_verse": "180123",
@@ -5100,7 +5415,8 @@
                     "gloss": "Christ",
                     "literal": "Christ",
                     "louw": "93.387",
-                    "strong": 5547
+                    "strong": 5547,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180123",
@@ -5116,7 +5432,8 @@
                     "gloss": "Jesus",
                     "literal": "Jesus",
                     "louw": "93.169",
-                    "strong": 2424
+                    "strong": 2424,
+                    "type": "proper"
                 }
             ],
             "24": [
@@ -5134,7 +5451,8 @@
                     "gloss": "Mark",
                     "literal": "[and so do ] Mark",
                     "louw": "93.255",
-                    "strong": 3138
+                    "strong": 3138,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180124",
@@ -5150,7 +5468,8 @@
                     "gloss": "Aristarchus",
                     "literal": "Aristarchus",
                     "louw": "93.38",
-                    "strong": 708
+                    "strong": 708,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180124",
@@ -5166,7 +5485,8 @@
                     "gloss": "Demas",
                     "literal": "Demas",
                     "louw": "93.92",
-                    "strong": 1214
+                    "strong": 1214,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180124",
@@ -5182,7 +5502,8 @@
                     "gloss": "Luke",
                     "literal": "[and] Luke",
                     "louw": "93.234",
-                    "strong": 3065
+                    "strong": 3065,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180124",
@@ -5198,7 +5519,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180124",
@@ -5214,7 +5536,8 @@
                     "gloss": "fellow worker",
                     "literal": "fellow workers",
                     "louw": "42.44",
-                    "strong": 4904
+                    "strong": 4904,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180124",
@@ -5230,7 +5553,8 @@
                     "gloss": "I",
                     "literal": "my",
                     "louw": "92.1",
-                    "strong": 3450
+                    "strong": 3450,
+                    "type": "personal"
                 }
             ],
             "25": [
@@ -5248,7 +5572,8 @@
                     "gloss": "the",
                     "literal": "the",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180125",
@@ -5264,7 +5589,8 @@
                     "gloss": "grace, kindness",
                     "literal": "grace",
                     "louw": "25.89",
-                    "strong": 5485
+                    "strong": 5485,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180125",
@@ -5280,7 +5606,8 @@
                     "gloss": "the",
                     "literal": "of the",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180125",
@@ -5296,7 +5623,8 @@
                     "gloss": "Lord",
                     "literal": "Lord",
                     "louw": "12.9",
-                    "strong": 2962
+                    "strong": 2962,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180125",
@@ -5312,7 +5640,8 @@
                     "gloss": "Jesus",
                     "literal": "Jesus",
                     "louw": "93.169",
-                    "strong": 2424
+                    "strong": 2424,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180125",
@@ -5328,7 +5657,8 @@
                     "gloss": "Christ",
                     "literal": "Christ",
                     "louw": "93.387",
-                    "strong": 5547
+                    "strong": 5547,
+                    "type": "proper"
                 },
                 {
                     "book_chapter_verse": "180125",
@@ -5344,7 +5674,8 @@
                     "gloss": "with",
                     "literal": "[be] with",
                     "louw": "89.108",
-                    "strong": 3326
+                    "strong": 3326,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180125",
@@ -5360,7 +5691,8 @@
                     "gloss": "the",
                     "literal": "—",
                     "louw": "92.24",
-                    "strong": 3588
+                    "strong": 3588,
+                    "type": ""
                 },
                 {
                     "book_chapter_verse": "180125",
@@ -5376,7 +5708,8 @@
                     "gloss": "spirit",
                     "literal": "spirit",
                     "louw": "26.9",
-                    "strong": 4151
+                    "strong": 4151,
+                    "type": "common"
                 },
                 {
                     "book_chapter_verse": "180125",
@@ -5392,7 +5725,8 @@
                     "gloss": "you (plural)",
                     "literal": "your",
                     "louw": "92.7",
-                    "strong": 5216
+                    "strong": 5216,
+                    "type": "personal"
                 }
             ]
         }

@@ -110,7 +110,8 @@ function loadSettings() {
     const storedShowVerseNumbers = localStorage.getItem('showVerseNumbers');
     const storedBookIndex = localStorage.getItem('currentBookIndex');
     const storedChapter = localStorage.getItem('currentChapter');
-    const storedTooltips = localStorage.getItem('enableTooltips'); // Load tooltip setting
+    const storedTooltips = localStorage.getItem('enableTooltips');
+    const storedUnboldProper = localStorage.getItem('unboldProperNouns');
 
     if (storedBookIndex !== null && storedChapter !== null) {
         currentBookIndex = parseInt(storedBookIndex, 10);
@@ -153,6 +154,12 @@ function loadSettings() {
     document.getElementById('tooltip-toggle').checked = enableTooltips;
     window.enableTooltips = enableTooltips;
     console.log(`Loaded Tooltip Setting: ${enableTooltips}`);
+
+    // Load the 'Unbold Proper Nouns' setting (default: false)
+    const unboldProper = storedUnboldProper === 'true';
+    document.getElementById('unbold-proper-toggle').checked = unboldProper;
+    window.unboldProperNouns = unboldProper;
+    console.log(`Loaded Unbold Proper Nouns Setting: ${unboldProper}`);
 }
 
 
@@ -165,6 +172,7 @@ function saveSettings() {
     localStorage.setItem('showVerseNumbers', showVerseNumbers);
     localStorage.setItem('currentBookIndex', currentBookIndex);
     localStorage.setItem('currentChapter', currentChapter);
+    localStorage.setItem('unboldProperNouns', document.getElementById('unbold-proper-toggle').checked);
 
     // Save tooltip setting
     const enableTooltips = document.getElementById('tooltip-toggle').checked;
@@ -539,7 +547,10 @@ async function loadPreviousPassage() {
 
 
 // Determine if a Word Should Be Unbolded
-function shouldUnbold(wordMounceChapter) {
+function shouldUnbold(wordMounceChapter, wordType) {
+    if (window.unboldProperNouns && wordType === 'proper') {
+        return true; // Unbold proper nouns if setting is enabled
+    }
     if (mounceChapterSelected === 99) return true; // No unbolding
     return wordMounceChapter <= mounceChapterSelected;
 }
@@ -614,7 +625,7 @@ function addVerseContent(verseElement, verseWords) {
         wordSpan.textContent = wordInfo.word_forms[0] + ' ';
         wordSpan.style.fontFamily = 'sbl_greek, serif';
 
-        if (shouldUnbold(wordInfo.mounce_chapter)) {
+        if (shouldUnbold(wordInfo.mounce_chapter, wordInfo.type)) {
             wordSpan.classList.add('unbold-word');
         } else {
             wordSpan.classList.add('bold-word');
@@ -1128,6 +1139,14 @@ function setupEventListeners() {
     nextChapterButton.addEventListener('click', async () => {
         await loadNextPassage();
         nextChapterButton.blur(); // Remove focus after click
+    });
+
+    // Event listener for 'Unbold Proper Nouns' checkbox
+    document.getElementById('unbold-proper-toggle').addEventListener('change', async (event) => {
+        window.unboldProperNouns = event.target.checked;
+        saveSettings();
+        console.log(`Unbold Proper Nouns Toggled: ${window.unboldProperNouns}`);
+        await displayChapter(currentBookIndex, currentChapter, false);
     });
 
     document.getElementById('font-size-slider').addEventListener('input', (event) => {
