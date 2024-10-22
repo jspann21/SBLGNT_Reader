@@ -77,12 +77,6 @@ const bookNameMapping = {
     "Revelation": "ΑΠΟΚΑΛΥΨΙΣ ΙΩΑΝΝΟΥ"
 };
 
-// Create Spinner Element
-const spinner = document.createElement('div');
-spinner.classList.add('loading-spinner');
-spinner.style.display = 'none'; // Initially hidden
-document.body.appendChild(spinner);
-
 // Create Tooltip Element
 const tooltip = document.createElement('div');
 tooltip.id = 'tooltip';
@@ -472,7 +466,6 @@ async function displayChapter(bookIdx, chapter, scrollToTop = true) {
 async function loadNextPassage() {
     if (isLoading) return;
     isLoading = true;
-    spinner.style.display = 'block';
     console.log('Loading Next Chapter');
 
     const bookName = booksList[currentBookIndex];
@@ -494,7 +487,6 @@ async function loadNextPassage() {
         console.log('Reached the End of the Bible');
         alert('You have reached the end of the Bible.');
         isLoading = false;
-        spinner.style.display = 'none';
         return;
     }
 
@@ -503,8 +495,6 @@ async function loadNextPassage() {
 
     // Update side navigation
     updateSideNav();
-
-    spinner.style.display = 'none';
     isLoading = false;
 }
 
@@ -512,7 +502,6 @@ async function loadNextPassage() {
 async function loadPreviousPassage() {
     if (isLoading) return;
     isLoading = true;
-    spinner.style.display = 'block';
     console.log('Loading Previous Chapter');
 
     if (currentChapter > 1) {
@@ -531,7 +520,6 @@ async function loadPreviousPassage() {
         console.log('Reached the Beginning of the Bible');
         alert('You are already at the beginning of the Bible.');
         isLoading = false;
-        spinner.style.display = 'none';
         return;
     }
 
@@ -540,8 +528,6 @@ async function loadPreviousPassage() {
 
     // Update side navigation
     updateSideNav();
-
-    spinner.style.display = 'none';
     isLoading = false;
 }
 
