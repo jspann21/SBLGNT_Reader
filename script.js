@@ -36,6 +36,8 @@ const closeButton = document.querySelector('.close-button');
 const mounceSelect = document.getElementById('mounce-chapter');
 const themeToggle = document.getElementById('theme-toggle');
 const saveSettingsButton = document.getElementById('save-settings-button');
+const paragraphsCache = {};
+const bookDataCache = {};
 
 // Side Navigation Elements
 const sideNav = document.getElementById('side-nav');
@@ -319,30 +321,39 @@ function updateSideNav() {
     updateChapterButtons();
 }
 
-
-// Load Book Data by Index
 async function loadBookData(bookIdx) {
     const bookName = booksList[bookIdx];
-    const fileName = bookName.replace(/ /g, ''); // Remove spaces if JSON filenames don't have spaces
+    const fileName = bookName.replace(/ /g, '');
+
+    // Use cached data if available
+    if (bookDataCache[bookName]) {
+        sblgntData = bookDataCache[bookName];
+        console.log(`Loaded ${bookName} from cache`);
+        return;
+    }
+
     try {
         const response = await fetch(`sblgnt_json/${fileName}.json`);
         if (!response.ok) {
             console.error(`Failed to fetch ${fileName}.json: ${response.statusText}`);
-            return; // Early return if data fetching fails
+            return;
         }
         const data = await response.json();
-        // Extract the book data directly
         sblgntData = data[bookName];
         if (!sblgntData) {
             console.error(`Book data for ${bookName} not found in JSON.`);
-            return; // Early return if data fetching fails
+            return;
         }
-        console.log(`Loaded data for ${bookName}`);
+        // Cache the data for later use
+        bookDataCache[bookName] = sblgntData;
+        console.log(`Fetched and cached data for ${bookName}`);
     } catch (error) {
         console.error(`Error loading book ${bookName}:`, error);
-        sblgntData = {}; // Reset to prevent incorrect data usage
+        sblgntData = {};
     }
 }
+
+
 
 // Get Maximum Chapter for a Book
 function getMaxChapter(bookIdx) {
@@ -375,6 +386,28 @@ function populateMounceSelect() {
     console.log('Mounce Chapter Dropdown Populated');
 }
 
+// Helper function to fetch and cache paragraph JSON data
+async function getParagraphs(bookName, chapter) {
+    const formattedChapter = String(chapter).padStart(3, '0');
+    const cacheKey = `${bookName}-${formattedChapter}`;
+    if (paragraphsCache[cacheKey]) {
+        return paragraphsCache[cacheKey];
+    }
+    try {
+        const response = await fetch(`sblgnt_json/paragraphs/${bookName}/${formattedChapter}-paragraphs.json`);
+        if (!response.ok) {
+            console.error(`Failed to fetch paragraphs for ${bookName} ${formattedChapter}: ${response.statusText}`);
+            return null;
+        }
+        const paragraphs = await response.json();
+        paragraphsCache[cacheKey] = paragraphs;
+        return paragraphs;
+    } catch (error) {
+        console.error(`Error fetching paragraphs for ${bookName} ${formattedChapter}:`, error);
+        return null;
+    }
+}
+
 // Display a Specific Chapter
 async function displayChapter(bookIdx, chapter, scrollToTop = true) {
     if (chapter < 1) return; // Prevent loading invalid chapters
@@ -397,31 +430,22 @@ async function displayChapter(bookIdx, chapter, scrollToTop = true) {
     chapterElement.appendChild(chapterTitle);
 
     if (isParagraphMode) {
-        // Paragraph mode: handle paragraphs with suffixes (e.g., "6a", "6b") as separate.
-        const formattedChapter = String(chapter).padStart(3, '0');
-        try {
-            const paragraphResponse = await fetch(`sblgnt_json/paragraphs/${bookName}/${formattedChapter}-paragraphs.json`);
-            if (paragraphResponse.ok) {
-                const paragraphs = await paragraphResponse.json(); // Directly use the array from file
-
-                paragraphs.forEach(paragraph => {
-                    const paragraphElement = document.createElement('div');
-                    paragraphElement.classList.add('paragraph');
-
-                    paragraph.forEach(verseNum => {
-                        if (chapterData[verseNum]) {
-                            const verseElement = document.createElement('span');
-                            verseElement.classList.add('verse');
-                            addVerseContent(verseElement, chapterData[verseNum]);
-                            paragraphElement.appendChild(verseElement);
-                        }
-                    });
-
-                    chapterElement.appendChild(paragraphElement); // Add paragraph to chapterElement
+        // Paragraph mode: Use the caching function to fetch paragraph data
+        const paragraphs = await getParagraphs(bookName, chapter);
+        if (paragraphs) {
+            paragraphs.forEach(paragraph => {
+                const paragraphElement = document.createElement('div');
+                paragraphElement.classList.add('paragraph');
+                paragraph.forEach(verseNum => {
+                    if (chapterData[verseNum]) {
+                        const verseElement = document.createElement('span');
+                        verseElement.classList.add('verse');
+                        addVerseContent(verseElement, chapterData[verseNum]);
+                        paragraphElement.appendChild(verseElement);
+                    }
                 });
-            }
-        } catch (error) {
-            console.error(`Error fetching paragraph data for ${bookName} ${formattedChapter}:`, error);
+                chapterElement.appendChild(paragraphElement); // Add paragraph to chapterElement
+            });
         }
     } else {
         // Non-paragraph mode: Combine verses with suffixes into one base verse (e.g., "6", "6a", "6b" → "6").
@@ -1001,15 +1025,9 @@ function setupEventListeners() {
     saveSettingsButton.addEventListener('click', async () => {
         mounceChapterSelected = parseInt(mounceSelect.value, 10);
         console.log(`Mounce Chapter Selected: ${mounceChapterSelected}`);
-
-        // Save the settings
         saveSettings();
-
-        // Close the modal
         settingsModal.classList.add('hidden');
         console.log('Settings Modal Closed After Saving');
-
-        // Reload the current chapter to apply unbolding
         await displayChapter(currentBookIndex, currentChapter, false);
     });
 
@@ -1207,11 +1225,5 @@ function setupEventListeners() {
         ) {
             hideTooltip();
         }
-    });
-
-    document.getElementById('save-settings-button').addEventListener('click', async () => {
-        saveSettings();
-        document.getElementById('settings-modal').classList.add('hidden');
-        await displayChapter(currentBookIndex, currentChapter, false); // Use await to handle the promise
     });
 }
