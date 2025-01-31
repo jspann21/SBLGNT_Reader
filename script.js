@@ -430,46 +430,9 @@ async function displayChapter(bookIdx, chapter, scrollToTop = true) {
     chapterElement.appendChild(chapterTitle);
 
     if (isParagraphMode) {
-        // Paragraph mode: Use the caching function to fetch paragraph data
-        const paragraphs = await getParagraphs(bookName, chapter);
-        if (paragraphs) {
-            paragraphs.forEach(paragraph => {
-                const paragraphElement = document.createElement('div');
-                paragraphElement.classList.add('paragraph');
-                paragraph.forEach(verseNum => {
-                    if (chapterData[verseNum]) {
-                        const verseElement = document.createElement('span');
-                        verseElement.classList.add('verse');
-                        addVerseContent(verseElement, chapterData[verseNum]);
-                        paragraphElement.appendChild(verseElement);
-                    }
-                });
-                chapterElement.appendChild(paragraphElement); // Add paragraph to chapterElement
-            });
-        }
+        await renderParagraphMode(chapterElement, bookName, chapter, chapterData);
     } else {
-        // Non-paragraph mode: Combine verses with suffixes into one base verse (e.g., "6", "6a", "6b" → "6").
-        const combinedVerses = {};
-
-        // Traverse chapterData to detect and group suffixes like "6a", "6b", etc.
-        Object.keys(chapterData).forEach(verseNum => {
-            const baseVerseNum = verseNum.replace(/[a-z]$/, ''); // Remove any letter suffix (e.g., "6a" → "6")
-
-            if (!combinedVerses[baseVerseNum]) {
-                combinedVerses[baseVerseNum] = [];
-            }
-
-            combinedVerses[baseVerseNum].push(...chapterData[verseNum]);
-        });
-
-        // Render the combined verses
-        Object.keys(combinedVerses).forEach(verseNum => {
-            const verseElement = document.createElement('div');
-            verseElement.classList.add('verse');
-            verseElement.id = `chapter-${chapter}-verse-${verseNum}`;
-            addVerseContent(verseElement, combinedVerses[verseNum]);
-            chapterElement.appendChild(verseElement); // Add verse to chapterElement
-        });
+        renderNonParagraphMode(chapterElement, chapterData, chapter); // Pass chapter here
     }
 
     // Replace current content with the new chapter
@@ -484,6 +447,42 @@ async function displayChapter(bookIdx, chapter, scrollToTop = true) {
     updateNavigationButtons();
     updateChapterButtons();
     console.log(`Displayed ${bookName} Chapter ${chapter}`);
+}
+
+async function renderParagraphMode(chapterElement, bookName, chapter, chapterData) {
+    const paragraphs = await getParagraphs(bookName, chapter);
+    if (!paragraphs) return;
+    paragraphs.forEach(paragraph => {
+        const paragraphElement = document.createElement('div');
+        paragraphElement.classList.add('paragraph');
+        paragraph.forEach(verseNum => {
+            if (chapterData[verseNum]) {
+                const verseElement = document.createElement('span');
+                verseElement.classList.add('verse');
+                addVerseContent(verseElement, chapterData[verseNum]);
+                paragraphElement.appendChild(verseElement);
+            }
+        });
+        chapterElement.appendChild(paragraphElement);
+    });
+}
+
+function renderNonParagraphMode(chapterElement, chapterData, chapter) {
+    const combinedVerses = {};
+    Object.keys(chapterData).forEach(verseNum => {
+        const baseVerseNum = verseNum.replace(/[a-z]$/, '');
+        if (!combinedVerses[baseVerseNum]) {
+            combinedVerses[baseVerseNum] = [];
+        }
+        combinedVerses[baseVerseNum].push(...chapterData[verseNum]);
+    });
+    Object.keys(combinedVerses).forEach(verseNum => {
+        const verseElement = document.createElement('div');
+        verseElement.classList.add('verse');
+        verseElement.id = `chapter-${chapter}-verse-${verseNum}`; // Now chapter is defined
+        addVerseContent(verseElement, combinedVerses[verseNum]);
+        chapterElement.appendChild(verseElement);
+    });
 }
 
 // Load Next Chapter
