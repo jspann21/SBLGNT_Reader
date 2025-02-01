@@ -350,8 +350,7 @@ function getMaxChapter(bookIdx) {
         console.warn(`Book data for ${bookName} is not loaded.`);
         return 1; // Default to 1 if not found
     }
-    const maxChap = Object.keys(bookData).length;
-    return maxChap;
+    return Object.keys(bookData).length;
 }
 
 // Populate Mounce Chapter Dropdown
@@ -474,7 +473,6 @@ async function loadNextPassage() {
     if (isLoading) return;
     isLoading = true;
 
-    const bookName = booksList[currentBookIndex];
     const totalChapters = getMaxChapter(currentBookIndex);
 
     if (currentChapter < totalChapters) {
