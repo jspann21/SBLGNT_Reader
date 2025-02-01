@@ -9,7 +9,6 @@
  * @property {string} [louw] - The Louw-Nida reference.
  * @property {string} [strong] - The Strong's number.
  * @property {string} [pos_tag] - The part of speech tag.
- * // Add any other properties you use from wordInfo
  */
 
 /**
@@ -116,50 +115,42 @@ function loadSettings() {
     if (storedBookIndex !== null && storedChapter !== null) {
         currentBookIndex = parseInt(storedBookIndex, 10);
         currentChapter = parseInt(storedChapter, 10);
-        console.log(`Loaded Current State: Book Index ${currentBookIndex}, Chapter ${currentChapter}`);
     }
 
     if (storedMounce) {
         mounceChapterSelected = parseInt(storedMounce, 10);
-        console.log(`Loaded Mounce Chapter Setting: ${mounceChapterSelected}`);
     }
 
     if (storedTheme === 'dark') {
         document.body.classList.add('dark');
         themeToggle.checked = true;
-        console.log('Loaded Theme Setting: Dark Mode');
     }
 
     if (storedVerseFontSizeScale) {
         verseFontSizeScale = parseInt(storedVerseFontSizeScale, 10);
         updateVerseFontSize(verseFontSizeScale);
         document.getElementById('font-size-slider').value = verseFontSizeScale;
-        console.log(`Loaded Verse Font Size Setting: Scale ${verseFontSizeScale}`);
     }
 
     if (storedParagraphMode) {
         isParagraphMode = storedParagraphMode === 'true';
         document.getElementById('paragraph-toggle').checked = isParagraphMode;
-        console.log(`Loaded Paragraph Mode Setting: ${isParagraphMode}`);
     }
 
     if (storedShowVerseNumbers) {
         showVerseNumbers = storedShowVerseNumbers === 'true';
         document.getElementById('show-verse-numbers').checked = showVerseNumbers;
-        console.log(`Loaded Show Verse Numbers Setting: ${showVerseNumbers}`);
     }
 
     // Load the tooltip setting (default: true if not set)
     const enableTooltips = storedTooltips === null ? true : storedTooltips === 'true';
     document.getElementById('tooltip-toggle').checked = enableTooltips;
     window.enableTooltips = enableTooltips;
-    console.log(`Loaded Tooltip Setting: ${enableTooltips}`);
 
     // Load the 'Unbold Proper Nouns' setting (default: false)
     const unboldProper = storedUnboldProper === 'true';
     document.getElementById('unbold-proper-toggle').checked = unboldProper;
     window.unboldProperNouns = unboldProper;
-    console.log(`Loaded Unbold Proper Nouns Setting: ${unboldProper}`);
 }
 
 
@@ -178,8 +169,6 @@ function saveSettings() {
     const enableTooltips = document.getElementById('tooltip-toggle').checked;
     localStorage.setItem('enableTooltips', enableTooltips);
     window.enableTooltips = enableTooltips;
-
-    console.log('Settings Saved');
 }
 
 
@@ -204,7 +193,6 @@ async function fetchData() {
             return; // Early return if data fetching fails
         }
         mounceVocab = await mounceResponse.json();
-        console.log('Mounce Vocab Loaded');
 
         // Populate Mounce Chapter dropdown
         populateMounceSelect();
@@ -225,8 +213,6 @@ async function loadAvailableBooks() {
             return; // Early return if data fetching fails
         }
         booksList = await response.json();
-        console.log('Books List Loaded:', booksList);
-
         booksList.forEach((book, index) => {
             const bookItem = document.createElement('li');
             bookItem.classList.add('book-item');
@@ -252,7 +238,6 @@ async function loadAvailableBooks() {
         } else {
             currentBookIndex = 0; // Fallback to the first book if "Matthew" is not found
         }
-        console.log(`Default Book Selected: ${booksList[currentBookIndex]} (Index: ${currentBookIndex})`);
         highlightSelectedBook();
         await loadBookData(currentBookIndex);
         const maxChap = getMaxChapter(currentBookIndex);
@@ -332,7 +317,6 @@ async function loadBookData(bookIdx) {
     // Use cached data if available
     if (bookDataCache[bookName]) {
         sblgntData = bookDataCache[bookName];
-        console.log(`Loaded ${bookName} from cache`);
         return;
     }
 
@@ -350,7 +334,6 @@ async function loadBookData(bookIdx) {
         }
         // Cache the data for later use
         bookDataCache[bookName] = sblgntData;
-        console.log(`Fetched and cached data for ${bookName}`);
     } catch (error) {
         console.error(`Error loading book ${bookName}:`, error);
         sblgntData = {};
@@ -368,7 +351,6 @@ function getMaxChapter(bookIdx) {
         return 1; // Default to 1 if not found
     }
     const maxChap = Object.keys(bookData).length;
-    console.log(`Maximum Chapters in ${bookName}: ${maxChap}`);
     return maxChap;
 }
 
@@ -387,7 +369,6 @@ function populateMounceSelect() {
     });
 
     mounceSelect.value = mounceChapterSelected;
-    console.log('Mounce Chapter Dropdown Populated');
 }
 
 // Helper function to fetch and cache paragraph JSON data
@@ -450,7 +431,6 @@ async function displayChapter(bookIdx, chapter, scrollToTop = true) {
     // Update navigation buttons' state
     updateNavigationButtons();
     updateChapterButtons();
-    console.log(`Displayed ${bookName} Chapter ${chapter}`);
 }
 
 async function renderParagraphMode(chapterElement, bookName, chapter, chapterData) {
@@ -493,25 +473,21 @@ function renderNonParagraphMode(chapterElement, chapterData, chapter) {
 async function loadNextPassage() {
     if (isLoading) return;
     isLoading = true;
-    console.log('Loading Next Chapter');
 
     const bookName = booksList[currentBookIndex];
     const totalChapters = getMaxChapter(currentBookIndex);
 
     if (currentChapter < totalChapters) {
         currentChapter += 1;
-        console.log(`Next Chapter in Same Book: ${bookName} Chapter ${currentChapter}`);
     } else if (currentBookIndex < booksList.length - 1) {
         currentBookIndex += 1;
         currentChapter = 1;
-        console.log(`Moving to Next Book: ${booksList[currentBookIndex]} Chapter ${currentChapter}`);
         await loadBookData(currentBookIndex);
         highlightSelectedBook();
         const maxChap = getMaxChapter(currentBookIndex);
         populateChaptersInBook(currentBookIndex, maxChap);
     } else {
         // Reached the end of the Bible
-        console.log('Reached the End of the Bible');
         alert('You have reached the end of the Bible.');
         isLoading = false;
         return;
@@ -529,22 +505,18 @@ async function loadNextPassage() {
 async function loadPreviousPassage() {
     if (isLoading) return;
     isLoading = true;
-    console.log('Loading Previous Chapter');
 
     if (currentChapter > 1) {
         currentChapter -= 1;
-        console.log(`Previous Chapter in Same Book: ${booksList[currentBookIndex]} Chapter ${currentChapter}`);
     } else if (currentBookIndex > 0) {
         currentBookIndex -= 1;
         await loadBookData(currentBookIndex);
         highlightSelectedBook();
         currentChapter = getMaxChapter(currentBookIndex);
-        console.log(`Last Chapter of Previous Book: ${booksList[currentBookIndex]} Chapter ${currentChapter}`);
         const maxChap = getMaxChapter(currentBookIndex);
         populateChaptersInBook(currentBookIndex, maxChap);
     } else {
         // Reached the beginning of the Bible
-        console.log('Reached the Beginning of the Bible');
         alert('You are already at the beginning of the Bible.');
         isLoading = false;
         return;
@@ -957,25 +929,21 @@ function setupEventListeners() {
         if (sideNav.classList.contains('open')) {
             sideNav.classList.remove('open');
             document.body.classList.remove('no-scroll');
-            console.log('Side Navigation Closed when Settings Modal Opened');
         }
 
         // Open the settings modal
         settingsModal.classList.remove('hidden');
-        console.log('Settings Modal Opened');
     });
 
     // Close Button Click
     closeButton.addEventListener('click', () => {
         settingsModal.classList.add('hidden');
-        console.log('Settings Modal Closed');
     });
 
     // Click Outside Modal to Close
     window.addEventListener('click', (event) => {
         if (event.target === settingsModal) {
             settingsModal.classList.add('hidden');
-            console.log('Settings Modal Closed by Clicking Outside');
         }
     });
 
@@ -992,10 +960,8 @@ function setupEventListeners() {
     // Save Settings Button Click
     saveSettingsButton.addEventListener('click', async () => {
         mounceChapterSelected = parseInt(mounceSelect.value, 10);
-        console.log(`Mounce Chapter Selected: ${mounceChapterSelected}`);
         saveSettings();
         settingsModal.classList.add('hidden');
-        console.log('Settings Modal Closed After Saving');
         await displayChapter(currentBookIndex, currentChapter, false);
     });
 
@@ -1003,10 +969,8 @@ function setupEventListeners() {
     themeToggle.addEventListener('change', (event) => {
         if (event.target.checked) {
             document.body.classList.add('dark');
-            console.log('Dark Mode Enabled');
         } else {
             document.body.classList.remove('dark');
-            console.log('Dark Mode Disabled');
         }
         // Settings are saved when 'Save' button is clicked
     });
@@ -1016,7 +980,6 @@ function setupEventListeners() {
         // Close settings modal if it's open
         if (!settingsModal.classList.contains('hidden')) {
             settingsModal.classList.add('hidden');
-            console.log('Settings Modal Closed when Side Navigation Opened');
         }
         hideTooltip();
 
@@ -1028,8 +991,6 @@ function setupEventListeners() {
             sideNav.classList.add('open');
             document.body.classList.add('no-scroll');
         }
-
-        console.log('Side Navigation Toggled');
     });
 
     // Book Item Click - Toggle Chapter Grid and Load Book Data
@@ -1117,14 +1078,12 @@ function setupEventListeners() {
     document.getElementById('unbold-proper-toggle').addEventListener('change', async (event) => {
         window.unboldProperNouns = event.target.checked;
         saveSettings();
-        console.log(`Unbold Proper Nouns Toggled: ${window.unboldProperNouns}`);
         await displayChapter(currentBookIndex, currentChapter, false);
     });
 
     document.getElementById('font-size-slider').addEventListener('input', (event) => {
         verseFontSizeScale = parseInt(event.target.value, 10);
         updateVerseFontSize(verseFontSizeScale);
-        console.log(`Font Size Slider Changed: Scale ${verseFontSizeScale}`);
     });
 
     // Paragraph Mode Toggle
@@ -1132,7 +1091,6 @@ function setupEventListeners() {
         isParagraphMode = event.target.checked;
         saveSettings();
         await displayChapter(currentBookIndex, currentChapter, false);
-        console.log(`Paragraph Mode Toggled: ${isParagraphMode}`);
     });
 
     // Show Verse Numbers Toggle
@@ -1140,12 +1098,10 @@ function setupEventListeners() {
         showVerseNumbers = event.target.checked;
         saveSettings(); // Save the new state
         await displayChapter(currentBookIndex, currentChapter, false);
-        console.log(`Show Verse Numbers Toggled: ${showVerseNumbers}`);
     });
 
     mounceSelect.addEventListener('change', async (event) => {
         mounceChapterSelected = parseInt(event.target.value, 10);
-        console.log(`Mounce Vocab Chapter changed to: ${mounceChapterSelected}`);
         await displayChapter(currentBookIndex, currentChapter, false);
     });
 
