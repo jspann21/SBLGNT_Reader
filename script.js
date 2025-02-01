@@ -27,6 +27,7 @@ let isLoading = false; // Flag to prevent multiple loads
 let verseFontSizeScale = 3; // Default font size scale for verses (1 to 5)
 let isParagraphMode = false; // Default: single-line mode
 let showVerseNumbers = true; // Default: Show verse numbers
+let lastTouch = null; // Global variable for tracking touch info for delegated events
 
 // DOM Elements
 const content = document.getElementById('content');
@@ -628,12 +629,13 @@ function addVerseContent(verseElement, verseWords) {
 
         // Ensure the verse number is extracted correctly
         const verseNumStr = verseWords[0].book_chapter_verse;
-        verseNumber.textContent = String(parseInt(verseNumStr.slice(-2), 10)); // Set as text content
+        verseNumber.textContent = String(parseInt(verseNumStr.slice(-2), 10));
         verseElement.appendChild(verseNumber);
     }
 
     verseWords.forEach(wordInfo => {
         const wordSpan = document.createElement('span');
+        // Use the first word form plus a trailing space.
         wordSpan.textContent = wordInfo.word_forms[0] + ' ';
         wordSpan.style.fontFamily = 'sbl_greek, serif';
 
@@ -642,51 +644,15 @@ function addVerseContent(verseElement, verseWords) {
         } else {
             wordSpan.classList.add('bold-word');
         }
-        // Variables to track touch position and movement
-        let touchStartX = 0;
-        let touchStartY = 0;
-        let isScrolling = false;
 
-        // Touchstart event to record initial touch position
-        wordSpan.addEventListener('touchstart', (event) => {
-            touchStartX = event.touches[0].clientX;
-            touchStartY = event.touches[0].clientY;
-            isScrolling = false; // Reset scroll detection
-        });
+        // Store the wordInfo object as a JSON string in a data attribute.
+        wordSpan.dataset.wordInfo = JSON.stringify(wordInfo);
 
-        // Touchmove event to detect if the user is scrolling
-        wordSpan.addEventListener('touchmove', (event) => {
-            const touchEndX = event.touches[0].clientX;
-            const touchEndY = event.touches[0].clientY;
-
-            // Calculate the distance moved
-            const deltaX = Math.abs(touchEndX - touchStartX);
-            const deltaY = Math.abs(touchEndY - touchStartY);
-
-            // If the movement is significant, consider it scrolling, not tapping
-            if (deltaX > 10 || deltaY > 10) {
-                isScrolling = true; // User is scrolling
-            }
-        });
-
-        // Touchend event to determine if it's a tap or scroll
-        wordSpan.addEventListener('touchend', (event) => {
-            if (!isScrolling) {
-                // If it's not scrolling, consider it a tap
-                event.stopPropagation(); // Prevent event bubbling
-                showTooltip(event, wordInfo); // Show tooltip
-            }
-        });
-
-        // For desktop clicks
-        wordSpan.addEventListener('click', (event) => {
-            event.stopPropagation(); // Prevent event bubbling
-            showTooltip(event, wordInfo); // Show tooltip
-        });
-
+        // No individual event listeners are attached here.
         verseElement.appendChild(wordSpan);
     });
 }
+
 
 function showTooltip(event, wordInfo) {
     if (!window.enableTooltips) {
@@ -1205,10 +1171,9 @@ function setupEventListeners() {
 
     // Hide tooltip when clicking outside
     document.addEventListener('click', (event) => {
-        const tooltip = document.getElementById('tooltip');
         if (
-            tooltip.classList.contains('visible') &&
-            !tooltip.contains(event.target) &&
+            tooltipElement.classList.contains('visible') &&
+            !tooltipElement.contains(event.target) &&
             !event.target.classList.contains('bold-word') &&
             !event.target.classList.contains('unbold-word')
         ) {
@@ -1218,14 +1183,67 @@ function setupEventListeners() {
 
     // Handle touch events for mobile
     document.addEventListener('touchstart', (event) => {
-        const tooltip = document.getElementById('tooltip');
         if (
-            tooltip.classList.contains('visible') &&
-            !tooltip.contains(event.target) &&
+            tooltipElement.classList.contains('visible') &&
+            !tooltipElement.contains(event.target) &&
             !event.target.classList.contains('bold-word') &&
             !event.target.classList.contains('unbold-word')
         ) {
             hideTooltip();
         }
+    });
+
+    // Delegated click event for word spans
+    content.addEventListener('click', (event) => {
+        const target = event.target;
+        if (target.classList.contains('bold-word') || target.classList.contains('unbold-word')) {
+            event.stopPropagation();
+            const wordInfoString = target.dataset.wordInfo;
+            if (wordInfoString) {
+                const wordInfo = JSON.parse(wordInfoString);
+                showTooltip(event, wordInfo);
+            }
+        }
+    });
+
+    // Delegated touch events with scroll detection
+    // touchstart: record the start coordinates if a word span is touched.
+    content.addEventListener('touchstart', (event) => {
+        const target = event.target;
+        if (target.classList.contains('bold-word') || target.classList.contains('unbold-word')) {
+            lastTouch = {
+                target: target,
+                startX: event.touches[0].clientX,
+                startY: event.touches[0].clientY,
+                isScrolling: false
+            };
+        }
+    });
+
+    // touchmove: if the touch moves more than a threshold, mark it as scrolling.
+    content.addEventListener('touchmove', (event) => {
+        if (!lastTouch) return;
+        const currentX = event.touches[0].clientX;
+        const currentY = event.touches[0].clientY;
+        const deltaX = Math.abs(currentX - lastTouch.startX);
+        const deltaY = Math.abs(currentY - lastTouch.startY);
+        if (deltaX > 10 || deltaY > 10) {
+            lastTouch.isScrolling = true;
+        }
+    });
+
+    // touchend: if the touch did not move much (i.e. it was a tap) then show the tooltip.
+    content.addEventListener('touchend', (event) => {
+        if (!lastTouch) return;
+        const target = event.target;
+        if ((target.classList.contains('bold-word') || target.classList.contains('unbold-word')) && !lastTouch.isScrolling) {
+            event.stopPropagation();
+            const wordInfoString = target.dataset.wordInfo;
+            if (wordInfoString) {
+                const wordInfo = JSON.parse(wordInfoString);
+                showTooltip(event, wordInfo);
+            }
+        }
+        lastTouch = null;
     });
 }
