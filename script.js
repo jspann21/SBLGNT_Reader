@@ -85,6 +85,9 @@ tooltip.id = 'tooltip';
 tooltip.classList.add('tooltip');
 document.body.appendChild(tooltip);
 
+// Cache the tooltip element in a variable for later use.
+const tooltipElement = document.getElementById('tooltip');
+
 // Initialize Application
 document.addEventListener('DOMContentLoaded', async () => {
     loadSettings();
@@ -690,7 +693,7 @@ function showTooltip(event, wordInfo) {
         return; // Exit early if tooltips are disabled
     }
 
-    const tooltip = document.getElementById('tooltip');
+    const tooltip = tooltipElement;
 
     // Hide any existing tooltips before showing a new one
     tooltip.classList.remove('visible');
@@ -776,7 +779,7 @@ function hideTooltip(event) {
     if (event) {
         event.preventDefault();
     }
-    const tooltip = document.getElementById('tooltip');
+    const tooltip = tooltipElement;
     tooltip.classList.remove('visible');
     tooltip.innerHTML = '';
 }
