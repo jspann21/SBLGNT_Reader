@@ -183,48 +183,40 @@ function updateVerseFontSize(scale) {
     document.documentElement.style.setProperty('--verse-font-size', fontSizeMap[scale]);
 }
 
-// Fetch Data: Mounce Vocab and Books List
 async function fetchData() {
     try {
-        // Fetch Mounce Vocab
-        const mounceResponse = await fetch('mounce_vocab.json');
+        // Fetch mounce_vocab.json and books.json concurrently
+        const [mounceResponse, booksResponse] = await Promise.all([
+            fetch('mounce_vocab.json'),
+            fetch('sblgnt_json/books.json')
+        ]);
+
         if (!mounceResponse.ok) {
             console.error(`Failed to fetch mounce_vocab.json: ${mounceResponse.statusText}`);
-            return; // Early return if data fetching fails
+            return;
         }
         mounceVocab = await mounceResponse.json();
-
-        // Populate Mounce Chapter dropdown
         populateMounceSelect();
 
-        // Fetch available books
-        await loadAvailableBooks();
-    } catch (error) {
-        console.error('Error fetching data:', error);
-    }
-}
-
-// Load Available Books and Populate Side Navigation with Accordion Chapters
-async function loadAvailableBooks() {
-    try {
-        const response = await fetch('sblgnt_json/books.json'); // Fetch English book names
-        if (!response.ok) {
-            console.error(`Failed to fetch books.json: ${response.statusText}`);
-            return; // Early return if data fetching fails
+        if (!booksResponse.ok) {
+            console.error(`Failed to fetch books.json: ${booksResponse.statusText}`);
+            return;
         }
-        booksList = await response.json();
+        booksList = await booksResponse.json();
+
+        // Build the side navigation list using the Greek names if available.
         booksList.forEach((book, index) => {
             const bookItem = document.createElement('li');
             bookItem.classList.add('book-item');
             bookItem.dataset.index = String(index);
 
-            // Book Title (use Greek name for display if available, else fallback to English)
             const bookTitle = document.createElement('div');
             bookTitle.classList.add('book-title');
-            bookTitle.textContent = bookNameMapping[book] || book; // Display Greek if available
+            // Use the Greek name mapping if available
+            bookTitle.textContent = bookNameMapping[book] || book;
             bookItem.appendChild(bookTitle);
 
-            // Chapter Grid (Accordion Content)
+            // Create a chapter grid for the accordion
             const chaptersDiv = document.createElement('div');
             chaptersDiv.classList.add('chapter-grid', 'hidden');
             bookItem.appendChild(chaptersDiv);
@@ -232,21 +224,18 @@ async function loadAvailableBooks() {
             bookListElement.appendChild(bookItem);
         });
 
+        // Set default book (using "Matthew" if available)
         const defaultBookIdx = booksList.indexOf("Matthew");
-        if (defaultBookIdx !== -1) {
-            currentBookIndex = defaultBookIdx;
-        } else {
-            currentBookIndex = 0; // Fallback to the first book if "Matthew" is not found
-        }
+        currentBookIndex = defaultBookIdx !== -1 ? defaultBookIdx : 0;
+
         highlightSelectedBook();
         await loadBookData(currentBookIndex);
         const maxChap = getMaxChapter(currentBookIndex);
         populateChaptersInBook(currentBookIndex, maxChap);
     } catch (error) {
-        console.error('Error loading available books:', error);
+        console.error('Error fetching data:', error);
     }
 }
-
 
 // Populate Chapters within a Specific Book's Chapter Grid
 function populateChaptersInBook(bookIdx, maxChap) {
