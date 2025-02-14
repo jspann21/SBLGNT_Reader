@@ -442,20 +442,26 @@ async function renderParagraphMode(chapterElement, bookName, chapter, chapterDat
 function renderNonParagraphMode(chapterElement, chapterData, chapter) {
     const combinedVerses = {};
     Object.keys(chapterData).forEach(verseNum => {
+        // Remove any trailing letter (e.g. for variants)
         const baseVerseNum = verseNum.replace(/[a-z]$/, '');
         if (!combinedVerses[baseVerseNum]) {
             combinedVerses[baseVerseNum] = [];
         }
         combinedVerses[baseVerseNum].push(...chapterData[verseNum]);
     });
-    Object.keys(combinedVerses).forEach(verseNum => {
-        const verseElement = document.createElement('div');
-        verseElement.classList.add('verse');
-        verseElement.id = `chapter-${chapter}-verse-${verseNum}`; // Now chapter is defined
-        addVerseContent(verseElement, combinedVerses[verseNum]);
-        chapterElement.appendChild(verseElement);
-    });
+
+    // Sort the keys numerically before rendering
+    Object.keys(combinedVerses)
+        .sort((a, b) => parseInt(a, 10) - parseInt(b, 10))
+        .forEach(verseNum => {
+            const verseElement = document.createElement('div');
+            verseElement.classList.add('verse');
+            verseElement.id = `chapter-${chapter}-verse-${verseNum}`;
+            addVerseContent(verseElement, combinedVerses[verseNum]);
+            chapterElement.appendChild(verseElement);
+        });
 }
+
 
 // Load Next Chapter
 async function loadNextPassage() {
